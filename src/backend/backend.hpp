@@ -50,7 +50,7 @@ namespace argo {
 		 * @todo the cache_size parameter is currently needed because cache layout
 		 *       is defined by the backend, which is wrong design-wise.
 		 */
-		void init(std::size_t argo_size, std::size_t cache_size);
+		void init(std::size_t argo_size, std::size_t cache_size, int replication_degree = 1);
 
 		/**
 		 * @brief get ArgoDSM node ID
@@ -211,7 +211,7 @@ namespace argo {
 
 			/**
 			 * @brief Backend internal type erased atomic store function
-			 * @param obj Pointer to the object whose value should be exchanged
+			 * @param obj Pointer to the object whose value should be stored
 			 * @param desired Pointer to the object that holds the desired value
 			 * @param size sizeof(*obj) == sizeof(*desired) == sizeof(output_buffer)
 			 * @sa store

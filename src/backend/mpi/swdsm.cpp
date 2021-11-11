@@ -779,13 +779,13 @@ std::size_t align_forwards(std::size_t offset, std::size_t size){
 	return (offset == 0) ? offset : (1 + ((offset-1) / size))*size;
 }
 
-void argo_initialize(std::size_t argo_size, std::size_t cache_size){
+void argo_initialize(std::size_t argo_size, std::size_t cache_size, int replication_degree){
 	int i;
 	unsigned long j;
 	initmpi();
 
 	/** Standardise the ArgoDSM memory space */
-	argo_size = std::max(argo_size, static_cast<std::size_t>(pagesize*numtasks));
+	argo_size = std::max(argo_size*replication_degree, static_cast<std::size_t>(pagesize*numtasks));
 	argo_size = align_forwards(argo_size, pagesize*CACHELINE*numtasks*dd::policy_padding());
 
 	startAddr = vm::start_address();
