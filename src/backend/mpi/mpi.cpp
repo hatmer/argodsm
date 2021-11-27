@@ -172,6 +172,10 @@ namespace argo {
 			return static_cast<char*>(argo_get_global_base());
 		}
 
+    std::size_t chunk_size() {
+      return argo_get_chunk_size();
+    }
+
 		std::size_t global_size() {
 			return argo_get_global_size();
 		}
@@ -223,9 +227,29 @@ namespace argo {
 				sem_wait(&ibsem);
 				MPI_Datatype t_type = fitting_mpi_int(size);
 				// Perform the store operation
-				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
-				MPI_Put(desired, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
-				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
+				
+        int node = obj.node();
+				MPI_Win_set_errhandler(globalDataWindow[0], MPI_ERRORS_RETURN);
+
+				int err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
+        int replica = 0; // primary node is replica 0
+        // temporary: swap to other node (degree=2)
+        // todo: limit to at most degree-1 failovers
+        // Failover to next node to access replicated memory
+        if (err != 0) {
+          //for (int i = 0; i < degree; i++) {
+            node = (node + 1) % number_of_nodes();
+            err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
+            if (err != 0) {
+             // todo raise error: no more replicas
+            } else { 
+              replica += 1;
+            }
+        }
+        
+        MPI_Put(desired, 1, t_type, node, (replica * chunk_size()) + obj.offset(), 1, t_type, globalDataWindow[0]);
+				MPI_Win_unlock(node, globalDataWindow[0]);
+				
 				// Cleanup
 				sem_post(&ibsem);
 			}
@@ -260,11 +284,31 @@ namespace argo {
 					void* output_buffer) {
 				sem_wait(&ibsem);
 				MPI_Datatype t_type = fitting_mpi_int(size);
-				// Perform the store operation
-				MPI_Win_lock(MPI_LOCK_SHARED, obj.node(), 0, globalDataWindow[0]);
-				MPI_Get(output_buffer, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
-				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
-				// Cleanup
+				// Perform the load operation
+        MPI_Win_set_errhandler(globalDataWindow[0], MPI_ERRORS_RETURN);
+
+        int node = obj.node(); 
+				int err = MPI_Win_lock(MPI_LOCK_SHARED, node, 0, globalDataWindow[0]);
+				
+        int replica = 0; // primary node is replica 0
+        // temporary: swap to other node (degree=2)
+        // todo: limit to at most degree-1 failovers
+        // Failover to next node to access replicated memory
+        if (err != 0) {
+          //for (int i = 0; i < degree; i++) {
+            node = (node + 1) % number_of_nodes();
+            err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
+            if (err != 0) {
+             // todo raise error: no more replicas
+            } else {
+              replica += 1;
+            }
+        }
+        
+        MPI_Get(output_buffer, 1, t_type, node, (replica * chunk_size()) + obj.offset(), 1, t_type, globalDataWindow[0]);
+        MPI_Win_unlock(node, globalDataWindow[0]);
+				
+        // Cleanup
 				sem_post(&ibsem);
 			}
 

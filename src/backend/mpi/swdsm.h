@@ -240,6 +240,13 @@ argo::node_id_t argo_get_nid();
  */
 unsigned int argo_get_nodes();
 
+
+/**
+* @brief Gives number of ArgoDSM nodes
+* @return Number of ArgoDSM nodes
+*/
+size_t argo_get_chunk_size();
+
 /**
  * @brief returns the maximum number of threads per ArgoDSM node (defined by NUM_THREADS)
  * @return NUM_THREADS 

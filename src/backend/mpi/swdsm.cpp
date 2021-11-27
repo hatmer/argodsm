@@ -730,6 +730,9 @@ unsigned int argo_get_nodes(){
 unsigned int getThreadCount(){
 	return NUM_THREADS;
 }
+size_t argo_get_chunk_size() {
+  return size_of_chunk;
+}
 
 //My sort of allocatefunction now since parmacs macros had this design
 void * argo_gmalloc(unsigned long size){
@@ -785,7 +788,7 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, int replicat
 	initmpi();
 
 	/** Standardise the ArgoDSM memory space */
-	argo_size = std::max(argo_size*replication_degree, static_cast<std::size_t>(pagesize*numtasks));
+	argo_size = std::max(argo_size, static_cast<std::size_t>(pagesize*numtasks));
 	argo_size = align_forwards(argo_size, pagesize*CACHELINE*numtasks*dd::policy_padding());
 
 	startAddr = vm::start_address();
@@ -853,7 +856,7 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, int replicat
 
 	cacheoffset = pagesize*cachesize+cacheControlSize;
 
-	globalData = static_cast<char*>(vm::allocate_mappable(pagesize, size_of_chunk));
+	globalData = static_cast<char*>(vm::allocate_mappable(pagesize, size_of_chunk*replication_degree)); // allocates memory for replicas too
 	cacheData = static_cast<char*>(vm::allocate_mappable(pagesize, cachesize*pagesize));
 	cacheControl = static_cast<control_data*>(vm::allocate_mappable(pagesize, cacheControlSize));
 

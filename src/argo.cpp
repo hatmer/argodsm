@@ -74,6 +74,10 @@ namespace argo {
 	std::size_t get_block_size() {
 		return dd::policy_block_size();
 	}
+
+  std::size_t chunk_size() {
+    return argo::backend::chunk_size();
+  }
 } // namespace argo
 
 extern "C" {
@@ -118,4 +122,8 @@ extern "C" {
 	size_t argo_get_block_size() {
 		return static_cast<size_t>(argo::get_block_size());
 	}
+
+  size_t argo_chunk_size() {
+    return argo::chunk_size();
+  }
 }

@@ -72,6 +72,13 @@ namespace argo {
 		 */
 		char* global_base();
 
+
+    /**
+     * @brief get the size of the portion of global memory managed by this (any) node
+     * @return the size of the memory chunk
+     */
+    std::size_t chunk_size();
+
 		/**
 		 * @brief get the total amount of global memory
 		 * @return the size of the global memory
