@@ -229,15 +229,15 @@ namespace argo {
 				// Perform the store operation
 				
         int node = obj.node();
-				MPI_Win_set_errhandler(globalDataWindow[0], MPI_ERRORS_RETURN);
-        int err;
-        int replication_degree = number_of_nodes(); // TODO temporary for simple replication on two nodes
+				//MPI_Win_set_errhandler(globalDataWindow[0], MPI_ERRORS_RETURN);
+        //int err;
+        int replication_degree = 2; //number_of_nodes(); // TODO temporary for simple replication on two nodes
         for (int replica = 0; replica < replication_degree; replica++) {
-		  	    err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
-            if (err != 0) { // skip any crashed nodes since they are never coming back up anyway
+		  	    /*err =*/ MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
+         //   if (err != 0) { // skip any crashed nodes since they are never coming back up anyway
               MPI_Put(desired, 1, t_type, node, (replica * chunk_size()) + obj.offset(), 1, t_type, globalDataWindow[0]); 
               MPI_Win_unlock(node, globalDataWindow[0]);
-            }
+          //  }
             node = (node + 1) % number_of_nodes();
         }
         
@@ -279,22 +279,22 @@ namespace argo {
         MPI_Win_set_errhandler(globalDataWindow[0], MPI_ERRORS_RETURN);
 
         int node = obj.node(); 
-				int err = MPI_Win_lock(MPI_LOCK_SHARED, node, 0, globalDataWindow[0]);
+				/*int err =*/ MPI_Win_lock(MPI_LOCK_SHARED, node, 0, globalDataWindow[0]);
 				
         int replica = 0; // primary node is replica 0
         // temporary: swap to other node (degree=2)
         // todo: limit to at most degree-1 failovers
         // Failover to next node to access replicated memory
-        if (err != 0) {
+     //   if (err != 0) {
           //for (int i = 0; i < degree; i++) {
-            node = (node + 1) % number_of_nodes();
-            err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
-            if (err != 0) {
+     //       node = (node + 1) % number_of_nodes();
+     //       err = MPI_Win_lock(MPI_LOCK_EXCLUSIVE, node, 0, globalDataWindow[0]);
+     //       if (err != 0) {
              // todo raise error: no more replicas
-            } else {
-              replica += 1;
-            }
-        }
+     //       } else {
+     //         replica += 1;
+     //       }
+     //   }
         
         MPI_Get(output_buffer, 1, t_type, node, (replica * chunk_size()) + obj.offset(), 1, t_type, globalDataWindow[0]);
         MPI_Win_unlock(node, globalDataWindow[0]);

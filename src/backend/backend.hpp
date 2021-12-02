@@ -50,7 +50,7 @@ namespace argo {
 		 * @todo the cache_size parameter is currently needed because cache layout
 		 *       is defined by the backend, which is wrong design-wise.
 		 */
-		void init(std::size_t argo_size, std::size_t cache_size, int replication_degree = 1);
+		void init(std::size_t argo_size, std::size_t cache_size, int replication_degree = 2);
 
 		/**
 		 * @brief get ArgoDSM node ID

@@ -146,7 +146,7 @@ void set_sighandler();
  * @param argo_size Size of wanted global address space in bytes
  * @param cache_size Size in bytes of your cache, will be rounded to nearest multiple of cacheline size (in bytes)
  */
-void argo_initialize(std::size_t argo_size, std::size_t cache_size, int replication_degree = 1);
+void argo_initialize(std::size_t argo_size, std::size_t cache_size, int replication_degree = 2);
 
 /**
  * @brief Shutting down ArgoDSM runtime

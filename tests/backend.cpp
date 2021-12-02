@@ -566,6 +566,50 @@ TEST_F(backendTest, writeBufferLoad) {
 }
 
 /**
+ * @brief Test that replicated argo node failovers to replica after node failure
+ */
+TEST_F(backendTest, replicationFailoverTest) {
+
+  global_int counter(argo::conew_<int>(0));
+
+  const std::size_t array_size = 1;
+  int* array = argo::conew_array<int>(array_size);
+
+  // Initialize write buffer
+  if(argo::node_id() == 0){
+    for(std::size_t i=0; i<array_size; i++){
+      array[i] = 42;
+    }
+  }
+  argo::barrier();
+
+  // TODO network fails
+
+
+  int expected = argo::number_of_nodes(); // TODO replication degree - 1?
+
+  // Each node checks if it can access the shared data
+  for(int i=0; i<argo::number_of_nodes(); i++){
+    if(i == argo::node_id()){
+      try {
+        // attempt to get data value
+        if (array[0] == 42) {
+          // increment counter
+          argo::backend::atomic::fetch_add(counter, 1);
+        }
+      } catch (int e) {
+        // mpi failure
+      }
+    }
+    argo::barrier();
+  }
+  // check that the correct number of nodes still had access to a copy of the data
+  ASSERT_EQ(expected, *counter);
+  argo::codelete_array(array);
+}
+
+
+/**
  * @brief The main function that runs the tests
  * @param argc Number of command line arguments
  * @param argv Command line arguments
