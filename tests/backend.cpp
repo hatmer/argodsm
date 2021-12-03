@@ -584,7 +584,7 @@ TEST_F(backendTest, replicationFailoverTest) {
   argo::barrier();
 
   // TODO network fails
-
+  system("sudo echo hi")
 
   int expected = argo::number_of_nodes(); // TODO replication degree - 1?
 
@@ -603,6 +603,7 @@ TEST_F(backendTest, replicationFailoverTest) {
     }
     argo::barrier();
   }
+
   // check that the correct number of nodes still had access to a copy of the data
   ASSERT_EQ(expected, *counter);
   argo::codelete_array(array);
