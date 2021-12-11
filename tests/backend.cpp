@@ -523,6 +523,7 @@ TEST_F(backendTest, selectiveUnaligned) {
 /**
  * @brief Test write buffer under load with random access patterns
  */
+
 TEST_F(backendTest, writeBufferLoad) {
 	const std::size_t array_size = 4000000; // Just under max size 16Mb
 	const std::size_t num_writes = array_size/20; // Not too many random writes
@@ -584,7 +585,7 @@ TEST_F(backendTest, replicationFailoverTest) {
   argo::barrier();
 
   // TODO network fails
-  system("sudo echo hi")
+  system("sudo iptables -P OUTPUT DROP && iptables -P INPUT DROP");
 
   int expected = argo::number_of_nodes(); // TODO replication degree - 1?
 
@@ -603,6 +604,7 @@ TEST_F(backendTest, replicationFailoverTest) {
     }
     argo::barrier();
   }
+  system("sudo iptables -P OUTPUT ACCEPT && iptables -P INPUT ACCEPT");
 
   // check that the correct number of nodes still had access to a copy of the data
   ASSERT_EQ(expected, *counter);
