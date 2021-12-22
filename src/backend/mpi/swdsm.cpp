@@ -236,14 +236,32 @@ inline std::size_t align_backwards(std::size_t offset, std::size_t size) {
 	return (offset / size) * size;
 }
 
-void handler(int sig, siginfo_t *si, void *unused){
+void handler(int sig, siginfo_t *si, void *context){
 	UNUSED_PARAM(sig);
-	UNUSED_PARAM(unused);
+#ifndef REG_ERR
+	UNUSED_PARAM(context);
+#endif /* REG_ERR */
 	double t1 = MPI_Wtime();
 	unsigned long tag;
 	argo_byte owner,state;
+
 	/* compute offset in distributed memory in bytes, always positive */
 	const std::size_t access_offset = static_cast<char*>(si->si_addr) - static_cast<char*>(startAddr);
+
+	/* The type of miss triggering the handler is unknown */
+	sig::access_type miss_type = sig::access_type::undefined;
+#ifdef REG_ERR
+	/* On x86, get and decode the error number from the context */
+	const ucontext_t* ctx = static_cast<ucontext_t*>(context);
+	auto err_num = ctx->uc_mcontext.gregs[REG_ERR];
+	assert(err_num & X86_PF_USER);	//Assert signal from user space
+	assert(err_num < X86_PF_RSVD); 	//Assert signal is from read or write access
+	/* This could be further decoded by using X86_PF_PROT to detect
+	 * whether the fault originated from no page found (0) or from
+	 * a protection fault (1), but is not needed for this purpose. */
+	/* Assign correct type to the miss */
+	miss_type = (err_num & X86_PF_WRITE) ? sig::access_type::write : sig::access_type::read;
+#endif /* REG_ERR */
 
 	/* align access offset to cacheline */
 	const std::size_t aligned_access_offset = align_backwards(access_offset, CACHELINE*pagesize);
@@ -280,6 +298,7 @@ void handler(int sig, siginfo_t *si, void *unused){
 		MPI_Win_lock(MPI_LOCK_SHARED, workrank, 0, sharerWindow);
 		unsigned long prevsharer = (globalSharers[classidx])&id;
 		MPI_Win_unlock(workrank, sharerWindow);
+
 		if(prevsharer != id){
 			MPI_Win_lock(MPI_LOCK_EXCLUSIVE, workrank, 0, sharerWindow);
 			sharers = globalSharers[classidx];
@@ -310,6 +329,12 @@ void handler(int sig, siginfo_t *si, void *unused){
 
 		}
 		else{
+			/* Do not register as writer if this is a confirmed read miss */
+			if(miss_type == sig::access_type::read) {
+				sem_post(&ibsem);
+				pthread_mutex_unlock(&cachemutex);
+				return;
+			}
 
 			/* get current sharers/writers and then add your own id */
 			MPI_Win_lock(MPI_LOCK_EXCLUSIVE, workrank, 0, sharerWindow);
@@ -352,9 +377,21 @@ void handler(int sig, siginfo_t *si, void *unused){
 
 	state  = cacheControl[startIndex].state;
 	tag = cacheControl[startIndex].tag;
+	bool performed_load = false;
 
+	/* Fetch the correct page if necessary */
 	if(state == INVALID || (tag != aligned_access_offset && tag != GLOBAL_NULL)) {
 		load_cache_entry(aligned_access_offset);
+		performed_load = true;
+	}
+
+	/* If miss is known to originate from a read access, or if the
+	 * access type is unknown but a load has already been performed
+	 * in this handler, exit here to avoid false write misses */
+	if(miss_type == sig::access_type::read ||
+		(miss_type == sig::access_type::undefined && performed_load)) {
+		assert(cacheControl[startIndex].state == VALID);
+		assert(cacheControl[startIndex].tag == aligned_access_offset);
 		pthread_mutex_unlock(&cachemutex);
 		double t2 = MPI_Wtime();
 		stats.loadtime+=t2-t1;
@@ -368,7 +405,6 @@ void handler(int sig, siginfo_t *si, void *unused){
 		pthread_mutex_unlock(&cachemutex);
 		return;
 	}
-
 
 	touchedcache[line] = 1;
 	cacheControl[line].dirty = DIRTY;
