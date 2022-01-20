@@ -713,6 +713,7 @@ void initmpi(){
 
 	MPI_Comm_size(MPI_COMM_WORLD,&numtasks);
 	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
+	//MPI_Comm_set_errhandler(MPI_COMM_WORLD,MPI_ERRORS_RETURN);
 	init_mpi_struct();
 	init_mpi_cacheblock();
 }

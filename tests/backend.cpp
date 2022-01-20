@@ -570,24 +570,28 @@ TEST_F(backendTest, writeBufferLoad) {
  * @brief Test that replicated argo node failovers to replica after node failure
  */
 TEST_F(backendTest, replicationFailoverTest) {
-
+  // create a shared counter
   global_int counter(argo::conew_<int>(0));
 
-  const std::size_t array_size = 1;
+  // create a shared array
+  const std::size_t array_size = 2;
   int* array = argo::conew_array<int>(array_size);
 
-  // Initialize write buffer
+  // node 0 sets the first element in array
   if(argo::node_id() == 0){
     for(std::size_t i=0; i<array_size; i++){
       array[i] = 42;
     }
   }
+  // ensure written
   argo::barrier();
+  int expected = argo::number_of_nodes(); // TODO replication degree - 1?
+  //ASSERT_EQ(expected, 2);
 
   // TODO network fails
-  system("sudo iptables -P OUTPUT DROP && iptables -P INPUT DROP");
-
-  int expected = argo::number_of_nodes(); // TODO replication degree - 1?
+  //system("sudo iptables -P OUTPUT DROP");
+  //system("sudo iptables -P INPUT DROP");
+  //system("sudo iptables -S");
 
   // Each node checks if it can access the shared data
   for(int i=0; i<argo::number_of_nodes(); i++){
@@ -596,7 +600,10 @@ TEST_F(backendTest, replicationFailoverTest) {
         // attempt to get data value
         if (array[0] == 42) {
           // increment counter
-          argo::backend::atomic::fetch_add(counter, 1);
+         // argo::backend::atomic::fetch_add(counter, 1);
+        //}
+	  // set flag for this node
+	  array[argo::node_id() + 1] = 1; 
         }
       } catch (int e) {
         // mpi failure
@@ -604,10 +611,13 @@ TEST_F(backendTest, replicationFailoverTest) {
     }
     argo::barrier();
   }
-  system("sudo iptables -P OUTPUT ACCEPT && iptables -P INPUT ACCEPT");
+  //system("sudo iptables -P OUTPUT ACCEPT");
+  //system("sudo iptables -P INPUT ACCEPT");
 
   // check that the correct number of nodes still had access to a copy of the data
-  ASSERT_EQ(expected, *counter);
+  //ASSERT_EQ(expected, *counter);
+  ASSERT_EQ(array[1], 1);
+  ASSERT_EQ(array[2], 1);
   argo::codelete_array(array);
 }
 
