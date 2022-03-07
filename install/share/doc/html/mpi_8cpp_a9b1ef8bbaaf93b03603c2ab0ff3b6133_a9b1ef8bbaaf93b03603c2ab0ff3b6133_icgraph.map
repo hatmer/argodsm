@@ -1,0 +1,5 @@
+<map id="argo::backend::atomic::_fetch_add" name="argo::backend::atomic::_fetch_add">
+<area shape="rect" id="node2" href="$backend_8hpp_a42d4f07adf3b439564928f89022b74b5.html#a42d4f07adf3b439564928f89022b74b5" title="Backend internal type erased atomic (post)increment function for signed integers. ..." alt="" coords="220,29,387,71"/>
+<area shape="rect" id="node3" href="$backend_8hpp_ab1a86cdd5235a54afdf0ac3d9f9f6f9c.html#ab1a86cdd5235a54afdf0ac3d9f9f6f9c" title="Backend internal type erased atomic (post)increment function for unsigned integers. " alt="" coords="220,119,387,160"/>
+<area shape="rect" id="node4" href="$backend_8hpp_a62d5f2da9f560d2d8a956be88861af7b.html#a62d5f2da9f560d2d8a956be88861af7b" title="Backend internal type erased atomic (post)increment function for floating point numbers. " alt="" coords="220,208,387,249"/>
+</map>

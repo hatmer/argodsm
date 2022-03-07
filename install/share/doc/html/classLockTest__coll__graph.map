@@ -1,0 +1,13 @@
+<map id="LockTest" name="LockTest">
+<area shape="rect" id="node3" href="$classargo_1_1locallock_1_1ticket__lock.html" title="a global test&#45;and&#45;set lock " alt="" coords="1141,71,1337,97"/>
+<area shape="rect" id="node4" href="$classargo_1_1globallock_1_1cohort__lock.html" title="a global &#39;cohort&#39; lock &#45; needs to be called collectively " alt="" coords="1464,149,1673,176"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="573,131,702,157"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="368,181,503,208"/>
+<area shape="rect" id="node8" href="$classargo_1_1globallock_1_1global__tas__lock.html" title="a global test&#45;and&#45;set lock " alt="" coords="1152,286,1327,327"/>
+<area shape="rect" id="node9" href="$classargo_1_1data__distribution_1_1global__ptr.html" title="argo::data_distribution\l::global_ptr\&lt; std::size_t \&gt;" alt="" coords="757,298,947,339"/>
+<area shape="rect" id="node10" href="$classargo_1_1data__distribution_1_1base__distribution.html" title="argo::data_distribution\l::base_distribution\&lt; 0 \&gt;" alt="" coords="345,298,525,339"/>
+<area shape="rect" id="node11" href="$classargo_1_1data__distribution_1_1base__distribution.html" title="the base data distribution class " alt="" coords="5,298,232,339"/>
+<area shape="rect" id="node12" href="$classargo_1_1data__distribution_1_1global__ptr.html" title="smart pointers for global memory addresses " alt="" coords="351,363,520,405"/>
+<area shape="rect" id="node13" href="$classargo_1_1locallock_1_1mcs__lock.html" title="MCS mutual exclusion lock (intranode) " alt="" coords="1146,207,1333,233"/>
+<area shape="rect" id="node15" href="$structargo_1_1locallock_1_1mcs__lock_1_1mcs__node.html" title="Thread nodes for the lock. " alt="" coords="359,233,511,274"/>
+</map>

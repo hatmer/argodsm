@@ -1,0 +1,10 @@
+<map id="argo::globallock::global_tas_lock::try_lock" name="argo::globallock::global_tas_lock::try_lock">
+<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1global__tas__lock_ae1a2cc75c9371ed191ac68f4e72f227e.html#ae1a2cc75c9371ed191ac68f4e72f227e" title="take the lock " alt="" coords="228,104,403,145"/>
+<area shape="rect" id="node9" href="$lock_8cpp_a7f9fec9adf3c86b1db45340c27c6c89f.html#a7f9fec9adf3c86b1db45340c27c6c89f" title="Tests trylock functionality. " alt="" coords="281,170,349,197"/>
+<area shape="rect" id="node3" href="$classargo_1_1mempools_1_1global__memory__pool_af2ce384d7ee177371521c875045c565c.html#af2ce384d7ee177371521c875045c565c" title="Reserve more memory. " alt="" coords="456,5,632,47"/>
+<area shape="rect" id="node4" href="$classargo_1_1mempools_1_1global__memory__pool_ac37f5714010e1f4b482e6c6a8a246c05.html#ac37f5714010e1f4b482e6c6a8a246c05" title="check remaining available memory in pool " alt="" coords="451,71,637,112"/>
+<area shape="rect" id="node6" href="$classargo_1_1globallock_1_1cohort__lock_ae6e70438d85a8ae5698d198ce11d9a89.html#ae6e70438d85a8ae5698d198ce11d9a89" title="Acquire the lock. " alt="" coords="457,136,631,177"/>
+<area shape="rect" id="node8" href="$lock_8cpp_a9442277381b3576227a7eec86626d5de.html#a9442277381b3576227a7eec86626d5de" title="Checks locking is working by implementing a custom barrier. " alt="" coords="510,202,578,229"/>
+<area shape="rect" id="node5" href="$tests_2allocators_8cpp_ab6f86a07c7fdc11016618b4a93bd5045.html#ab6f86a07c7fdc11016618b4a93bd5045" title="Unittest that checks that the global address space is at least as large as requested. " alt="" coords="731,78,799,105"/>
+<area shape="rect" id="node7" href="$cohort__lock_8h_a3518d9666b8fe266f34c7aea2b4a583e.html#a3518d9666b8fe266f34c7aea2b4a583e" title="lock a cohort lock " alt="" coords="685,143,845,170"/>
+</map>

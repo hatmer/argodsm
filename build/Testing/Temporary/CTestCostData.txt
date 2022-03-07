@@ -1,0 +1,21 @@
+trivialTests-mpi 0 0
+allocatorsTests-mpi 0 0
+prefetchTests-mpi 0 0
+apiTests-mpi 0 0
+ompTests-mpi 0 0
+cppSTLTests-mpi 0 0
+barrierTests-mpi 0 0
+uninitializedTests-mpi 0 0
+lockTests-mpi 0 0
+backendTests-mpi 0 0
+---
+trivialTests-mpi
+allocatorsTests-mpi
+prefetchTests-mpi
+apiTests-mpi
+ompTests-mpi
+cppSTLTests-mpi
+barrierTests-mpi
+uninitializedTests-mpi
+lockTests-mpi
+backendTests-mpi

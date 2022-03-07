@@ -1,0 +1,7 @@
+<map id="collective_free" name="collective_free">
+<area shape="rect" id="node2" href="$tests_2allocators_8cpp_a13fc720238a04e385587d7b2cef0f3bc.html#a13fc720238a04e385587d7b2cef0f3bc" title="Test if it is possible to delete a null pointer with no errors. " alt="" coords="429,5,497,32"/>
+<area shape="rect" id="node3" href="$namespaceargo_a09ca0ec2df9dbed721fb14b26cfa39a3.html#a09ca0ec2df9dbed721fb14b26cfa39a3" title="template function to delete objects that were allocated using collective_new " alt="" coords="189,63,311,89"/>
+<area shape="rect" id="node5" href="$namespaceargo_aa7e8ddf5784dd37c965cfd43cd65a330.html#aa7e8ddf5784dd37c965cfd43cd65a330" title="Delete a globally collectively allocated array of objects. " alt="" coords="172,117,328,144"/>
+<area shape="rect" id="node4" href="$classargo_1_1globallock_1_1cohort__lock_a48e63a5ba24a93d3799a3993c663a30b.html#a48e63a5ba24a93d3799a3993c663a30b" title="argo::globallock::cohort\l_lock::~cohort_lock" alt="" coords="376,57,551,98"/>
+<area shape="rect" id="node6" href="$tests_2allocators_8cpp_a0571f7229f019db2f46d8f56bebd01d0.html#a0571f7229f019db2f46d8f56bebd01d0" title="mixes dynamic and collective allocation and stores dynamic arrays in a collective arrays to communica..." alt="" coords="429,123,497,149"/>
+</map>

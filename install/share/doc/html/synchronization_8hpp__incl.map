@@ -1,0 +1,15 @@
+<map id="/home/atmerhannah/argodsm/src/synchronization/synchronization.hpp" name="/home/atmerhannah/argodsm/src/synchronization/synchronization.hpp">
+<area shape="rect" id="node3" href="$broadcast_8hpp.html" title="This file provides a broadcasting facility for a single value. " alt="" coords="691,95,806,121"/>
+<area shape="rect" id="node23" href="$synchronization_8h.html" title="This file provides C bindings for some ArgoDSM synchronization primitives. " alt="" coords="1189,95,1327,121"/>
+<area shape="rect" id="node4" href="$backend_8hpp.html" title="This file provides the backend interface. " alt="" coords="482,169,658,196"/>
+<area shape="rect" id="node16" href="$types_8hpp.html" title="This file defines common types used in ArgoDSM. " alt="" coords="1174,557,1313,584"/>
+<area shape="rect" id="node8" href="$global__ptr_8hpp.html" title="This file provides the global pointer for ArgoDSM. " alt="" coords="569,244,713,285"/>
+<area shape="rect" id="node10" href="$env_8hpp.html" title="This file provides facilities for handling environment variables. " alt="" coords="423,333,536,360"/>
+<area shape="rect" id="node11" href="$data__distribution_8hpp.html" title="This file provides an abstraction layer for distributing the shared memory space. ..." alt="" coords="561,333,721,360"/>
+<area shape="rect" id="node12" href="$base__distribution_8hpp.html" title="This file implements the base distribution class for all the policies to derive from. " alt="" coords="559,483,722,509"/>
+<area shape="rect" id="node17" href="$naive__distribution_8hpp.html" title="This file implements the naive data distribution. " alt="" coords="152,408,319,435"/>
+<area shape="rect" id="node18" href="$cyclic__distribution_8hpp.html" title="This file implements the cyclic data distribution. " alt="" coords="343,408,511,435"/>
+<area shape="rect" id="node19" href="$skew__mapp__distribution_8hpp.html" title="This file implements the skew&#45;mapp data distribution. " alt="" coords="536,408,745,435"/>
+<area shape="rect" id="node20" href="$prime__mapp__distribution_8hpp.html" title="This file implements the prime&#45;mapp data distribution. " alt="" coords="770,408,983,435"/>
+<area shape="rect" id="node21" href="$first__touch__distribution_8hpp.html" title="This file implements the first&#45;touch data distribution. " alt="" coords="1008,408,1207,435"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="argo::data_distribution::cyclic_distribution::peek_local_offset" name="argo::data_distribution::cyclic_distribution::peek_local_offset">
+<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1cyclic__distribution_aae8dc4332dfd2b61cb3fddfffcacc327.html#aae8dc4332dfd2b61cb3fddfffcacc327" title="compute the offset of ptr in the backing store on ptr&#39;s homenode " alt="" coords="223,5,392,61"/>
+<area shape="rect" id="node3" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="440,13,595,54"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="argo::data_distribution::cyclic_distribution::peek_homenode" name="argo::data_distribution::cyclic_distribution::peek_homenode">
+<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1cyclic__distribution_a42b5c46f432ea91c6942d4126d94d284.html#a42b5c46f432ea91c6942d4126d94d284" title="compute home node of an address " alt="" coords="223,5,392,61"/>
+<area shape="rect" id="node3" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="440,13,595,54"/>
+</map>

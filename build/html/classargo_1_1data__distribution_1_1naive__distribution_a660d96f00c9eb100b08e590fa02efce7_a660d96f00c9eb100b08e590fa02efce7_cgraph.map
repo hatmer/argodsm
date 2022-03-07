@@ -1,0 +1,4 @@
+<map id="argo::data_distribution::naive_distribution::peek_local_offset" name="argo::data_distribution::naive_distribution::peek_local_offset">
+<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1naive__distribution_a619080ce7c979d6dfcf18872dd8f6f25.html#a619080ce7c979d6dfcf18872dd8f6f25" title="compute the offset of ptr in the backing store on ptr&#39;s homenode " alt="" coords="223,5,392,61"/>
+<area shape="rect" id="node3" href="$classargo_1_1data__distribution_1_1naive__distribution_aae672c2bddd64b841835afda7fab7ccc.html#aae672c2bddd64b841835afda7fab7ccc" title="compute home node of an address " alt="" coords="440,5,609,61"/>
+</map>

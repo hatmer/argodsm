@@ -1,0 +1,11 @@
+<map id="getCacheIndex" name="getCacheIndex">
+<area shape="rect" id="node2" href="$backend_8hpp_a0fb29a8253f0d9aefc999d93414b1758.html#a0fb29a8253f0d9aefc999d93414b1758" title="backend internal type erased function for selective acquire " alt="" coords="408,105,596,146"/>
+<area shape="rect" id="node4" href="$backend_8hpp_ac3350bde3c8baf64753e515336fad3be.html#ac3350bde3c8baf64753e515336fad3be" title="backend internal type erased function for selective release " alt="" coords="172,163,360,205"/>
+<area shape="rect" id="node5" href="$swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="467,255,537,281"/>
+<area shape="rect" id="node8" href="$swdsm_8cpp_a97adb774a1a5a7a3505416a171c570e9.html#a97adb774a1a5a7a3505416a171c570e9" title="load into cache helper function " alt="" coords="198,280,334,307"/>
+<area shape="rect" id="node9" href="$swdsm_8h_a1696e0fe6cc8d073536dbce9b6fb8b1b.html#a1696e0fe6cc8d073536dbce9b6fb8b1b" title="Check whether a page is either cached on the node or locally backed. " alt="" coords="219,33,313,60"/>
+<area shape="rect" id="node3" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="644,112,787,139"/>
+<area shape="rect" id="node6" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="658,255,773,281"/>
+<area shape="rect" id="node7" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="835,255,977,281"/>
+<area shape="rect" id="node10" href="$backend_8hpp_a8189df2ded0e8e6b64477a53f80d67e8.html#a8189df2ded0e8e6b64477a53f80d67e8" title="Check if a an address is cached or node local. " alt="" coords="409,29,595,56"/>
+</map>

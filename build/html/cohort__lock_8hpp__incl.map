@@ -1,0 +1,26 @@
+<map id="/home/atmerhannah/argodsm/src/synchronization/cohort_lock.hpp" name="/home/atmerhannah/argodsm/src/synchronization/cohort_lock.hpp">
+<area shape="rect" id="node2" href="$collective__allocator_8hpp.html" title="This file provides the collective allocator for ArgoDSM. " alt="" coords="613,109,778,151"/>
+<area shape="rect" id="node7" href="$backend_8hpp.html" title="This file provides the backend interface. " alt="" coords="274,452,450,479"/>
+<area shape="rect" id="node15" href="$data__distribution_8hpp.html" title="This file provides an abstraction layer for distributing the shared memory space. ..." alt="" coords="1173,616,1333,643"/>
+<area shape="rect" id="node29" href="$global__tas__lock_8hpp.html" title="This file provides a tas lock for the ArgoDSM system based on the TAS lock made by David Klaftenegger..." alt="" coords="1322,363,1477,404"/>
+<area shape="rect" id="node39" href="$mcs__lock_8hpp.html" title="MCS lock for local use. " alt="" coords="923,117,1100,143"/>
+<area shape="rect" id="node41" href="$ticket__lock_8hpp.html" title="This file provides a (local) ticket lock for intranode locking in the ArgoDSM system. " alt="" coords="1125,117,1312,143"/>
+<area shape="rect" id="node45" href="$cohort__lock_8h.html" title="This file provides a C interface for ArgoDSM&#45;based cohort locks. " alt="" coords="1770,117,1880,143"/>
+<area shape="rect" id="node6" href="$dynamic__mempool_8hpp.html" title="This file provides a dynamically growing memory pool for ArgoDSM. " alt="" coords="30,273,193,315"/>
+<area shape="rect" id="node28" href="$global__mempool_8hpp.html" title="This file provides a dynamically growing memory pool for ArgoDSM. " alt="" coords="1018,273,1165,315"/>
+<area shape="rect" id="node34" href="$dynamic__allocator_8hpp.html" title="This file provides the dynamic allocator for ArgoDSM. " alt="" coords="611,199,780,225"/>
+<area shape="rect" id="node35" href="$generic__allocator_8hpp.html" title="This file provides a generic allocator template for ArgoDSM. " alt="" coords="268,281,430,307"/>
+<area shape="rect" id="node36" href="$null__lock_8hpp.html" title="dummy lock, not intended for public use " alt="" coords="784,281,892,307"/>
+<area shape="rect" id="node38" href="$collective__allocator_8h.html" title="This file provides the collective allocator for ArgoDSM. " alt="" coords="376,199,536,225"/>
+<area shape="rect" id="node27" href="$broadcast_8hpp.html" title="This file provides a broadcasting facility for a single value. " alt="" coords="128,363,266,404"/>
+<area shape="rect" id="node11" href="$global__ptr_8hpp.html" title="This file provides the global pointer for ArgoDSM. " alt="" coords="1010,527,1154,568"/>
+<area shape="rect" id="node20" href="$types_8hpp.html" title="This file defines common types used in ArgoDSM. " alt="" coords="201,840,340,867"/>
+<area shape="rect" id="node13" href="$env_8hpp.html" title="This file provides facilities for handling environment variables. " alt="" coords="1026,616,1139,643"/>
+<area shape="rect" id="node16" href="$base__distribution_8hpp.html" title="This file implements the base distribution class for all the policies to derive from. " alt="" coords="1172,765,1334,792"/>
+<area shape="rect" id="node21" href="$naive__distribution_8hpp.html" title="This file implements the naive data distribution. " alt="" coords="871,691,1038,717"/>
+<area shape="rect" id="node22" href="$cyclic__distribution_8hpp.html" title="This file implements the cyclic data distribution. " alt="" coords="1062,691,1230,717"/>
+<area shape="rect" id="node23" href="$skew__mapp__distribution_8hpp.html" title="This file implements the skew&#45;mapp data distribution. " alt="" coords="1255,691,1464,717"/>
+<area shape="rect" id="node24" href="$prime__mapp__distribution_8hpp.html" title="This file implements the prime&#45;mapp data distribution. " alt="" coords="1489,691,1702,717"/>
+<area shape="rect" id="node25" href="$first__touch__distribution_8hpp.html" title="This file implements the first&#45;touch data distribution. " alt="" coords="648,691,847,717"/>
+<area shape="rect" id="node37" href="$dynamic__allocator_8h.html" title="This file provides the dynamic allocator for ArgoDSM. " alt="" coords="454,281,607,307"/>
+</map>

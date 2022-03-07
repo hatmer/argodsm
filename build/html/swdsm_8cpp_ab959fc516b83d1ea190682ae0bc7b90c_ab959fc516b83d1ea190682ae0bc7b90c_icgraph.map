@@ -1,0 +1,5 @@
+<map id="init_mpi_struct" name="init_mpi_struct">
+<area shape="rect" id="node2" href="$swdsm_8h_a986edbd6f804f61cd8c58dcaa51025e8.html#a986edbd6f804f61cd8c58dcaa51025e8" title="Initializes the MPI environment. " alt="" coords="172,5,240,32"/>
+<area shape="rect" id="node3" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="288,5,403,32"/>
+<area shape="rect" id="node4" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="451,5,593,32"/>
+</map>

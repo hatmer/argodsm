@@ -1,0 +1,13 @@
+<map id="/home/atmerhannah/argodsm/src/synchronization/synchronization.cpp" name="/home/atmerhannah/argodsm/src/synchronization/synchronization.cpp">
+<area shape="rect" id="node2" href="$backend_8hpp.html" title="This file provides the backend interface. " alt="" coords="226,95,402,121"/>
+<area shape="rect" id="node6" href="$global__ptr_8hpp.html" title="This file provides the global pointer for ArgoDSM. " alt="" coords="382,169,526,211"/>
+<area shape="rect" id="node15" href="$types_8hpp.html" title="This file defines common types used in ArgoDSM. " alt="" coords="1006,483,1145,509"/>
+<area shape="rect" id="node8" href="$env_8hpp.html" title="This file provides facilities for handling environment variables. " alt="" coords="316,259,429,285"/>
+<area shape="rect" id="node10" href="$data__distribution_8hpp.html" title="This file provides an abstraction layer for distributing the shared memory space. ..." alt="" coords="454,259,614,285"/>
+<area shape="rect" id="node11" href="$base__distribution_8hpp.html" title="This file implements the base distribution class for all the policies to derive from. " alt="" coords="559,408,722,435"/>
+<area shape="rect" id="node16" href="$naive__distribution_8hpp.html" title="This file implements the naive data distribution. " alt="" coords="152,333,319,360"/>
+<area shape="rect" id="node17" href="$cyclic__distribution_8hpp.html" title="This file implements the cyclic data distribution. " alt="" coords="343,333,511,360"/>
+<area shape="rect" id="node18" href="$skew__mapp__distribution_8hpp.html" title="This file implements the skew&#45;mapp data distribution. " alt="" coords="536,333,745,360"/>
+<area shape="rect" id="node19" href="$prime__mapp__distribution_8hpp.html" title="This file implements the prime&#45;mapp data distribution. " alt="" coords="770,333,983,360"/>
+<area shape="rect" id="node20" href="$first__touch__distribution_8hpp.html" title="This file implements the first&#45;touch data distribution. " alt="" coords="1008,333,1207,360"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="write_buffer::erase" name="write_buffer::erase">
+<area shape="rect" id="node2" href="$backend_8hpp_a0fb29a8253f0d9aefc999d93414b1758.html#a0fb29a8253f0d9aefc999d93414b1758" title="backend internal type erased function for selective acquire " alt="" coords="197,29,385,71"/>
+<area shape="rect" id="node4" href="$backend_8hpp_ac3350bde3c8baf64753e515336fad3be.html#ac3350bde3c8baf64753e515336fad3be" title="backend internal type erased function for selective release " alt="" coords="197,119,385,160"/>
+<area shape="rect" id="node5" href="$swdsm_8cpp_a97adb774a1a5a7a3505416a171c570e9.html#a97adb774a1a5a7a3505416a171c570e9" title="load into cache helper function " alt="" coords="223,185,359,211"/>
+<area shape="rect" id="node3" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="433,82,576,109"/>
+<area shape="rect" id="node6" href="$swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="469,185,540,211"/>
+<area shape="rect" id="node7" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="624,185,739,211"/>
+<area shape="rect" id="node8" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="787,185,929,211"/>
+</map>

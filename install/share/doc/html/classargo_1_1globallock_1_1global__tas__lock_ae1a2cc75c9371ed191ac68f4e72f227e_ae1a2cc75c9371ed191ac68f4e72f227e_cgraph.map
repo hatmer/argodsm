@@ -1,0 +1,4 @@
+<map id="argo::globallock::global_tas_lock::lock" name="argo::globallock::global_tas_lock::lock">
+<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1global__tas__lock_a89bbe556d8a271dd64d65b421993da00.html#a89bbe556d8a271dd64d65b421993da00" title="try to lock " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="451,13,561,39"/>
+</map>

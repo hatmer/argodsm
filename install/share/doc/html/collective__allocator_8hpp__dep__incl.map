@@ -1,0 +1,18 @@
+<map id="/home/atmerhannah/argodsm/src/allocators/collective_allocator.hpp" name="/home/atmerhannah/argodsm/src/allocators/collective_allocator.hpp">
+<area shape="rect" id="node2" href="$src_2allocators_2allocators_8cpp.html" title="This file provides the default allocators. " alt="" coords="824,117,1039,158"/>
+<area shape="rect" id="node3" href="$allocators_8hpp.html" title="This file provides all C++ allocators for ArgoDSM. " alt="" coords="1216,117,1431,158"/>
+<area shape="rect" id="node5" href="$argo_8cpp.html" title="This file implements some of the basic ArgoDSM calls. " alt="" coords="5,317,220,359"/>
+<area shape="rect" id="node6" href="$tests_2allocators_8cpp.html" title="This file provides unit tests for the ArgoDSM allocators and memory pools. " alt="" coords="244,317,459,359"/>
+<area shape="rect" id="node7" href="$api_8cpp.html" title="This file provides unit tests for the ArgoDSM API functions. " alt="" coords="483,317,697,359"/>
+<area shape="rect" id="node10" href="$lock_8cpp.html" title="This file provides unit tests for the ArgoDSM locks. " alt="" coords="2392,317,2607,359"/>
+<area shape="rect" id="node11" href="$omp_8cpp.html" title="This file provides tests using OpenMP in ArgoDSM. " alt="" coords="1915,317,2129,359"/>
+<area shape="rect" id="node12" href="$prefetch_8cpp.html" title="This file provides unit tests for the ArgoDSM prefetch mechanism. " alt="" coords="2153,317,2368,359"/>
+<area shape="rect" id="node16" href="$cohort__lock_8hpp.html" title="This file provides a cohort lock for the ArgoDSM system. " alt="" coords="1943,109,2157,165"/>
+<area shape="rect" id="node4" href="$argo_8hpp.html" title="This file provides the full C++ interface to ArgoDSM. " alt="" coords="1216,221,1431,262"/>
+<area shape="rect" id="node8" href="$backend_8cpp.html" title="This file provides tests for the backends. " alt="" coords="1199,317,1413,359"/>
+<area shape="rect" id="node9" href="$barrier_8cpp.html" title="This file provides tests for the barrier synchronization. " alt="" coords="1437,317,1652,359"/>
+<area shape="rect" id="node13" href="$stlallocation_8cpp.html" title="This file provides tests using C++ interfaces in ArgoDSM. " alt="" coords="1676,317,1891,359"/>
+<area shape="rect" id="node14" href="$trivial_8cpp.html" title="This file provides unit tests for trivial sanity checks when using ArgoDSM. " alt="" coords="721,317,936,359"/>
+<area shape="rect" id="node15" href="$uninitialized_8cpp.html" title="This file provides unit tests for accessing ArgoDSM memory in various ways. " alt="" coords="960,317,1175,359"/>
+<area shape="rect" id="node17" href="$cohort__lock_8cpp_source.html" title="/home/atmerhannah/argodsm\l/src/synchronization/cohort\l_lock.cpp" alt="" coords="2088,213,2303,269"/>
+</map>

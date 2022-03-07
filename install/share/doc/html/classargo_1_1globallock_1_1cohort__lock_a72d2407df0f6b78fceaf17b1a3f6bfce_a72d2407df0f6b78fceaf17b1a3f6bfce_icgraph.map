@@ -1,0 +1,4 @@
+<map id="argo::globallock::cohort_lock::numa_node" name="argo::globallock::cohort_lock::numa_node">
+<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1cohort__lock_ae6e70438d85a8ae5698d198ce11d9a89.html#ae6e70438d85a8ae5698d198ce11d9a89" title="Acquire the lock. " alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$cohort__lock_8h_a3518d9666b8fe266f34c7aea2b4a583e.html#a3518d9666b8fe266f34c7aea2b4a583e" title="lock a cohort lock " alt="" coords="451,13,611,39"/>
+</map>

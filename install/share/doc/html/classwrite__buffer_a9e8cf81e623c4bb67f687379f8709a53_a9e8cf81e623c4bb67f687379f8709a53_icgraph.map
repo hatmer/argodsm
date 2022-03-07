@@ -1,0 +1,7 @@
+<map id="write_buffer::sort_first" name="write_buffer::sort_first">
+<area shape="rect" id="node2" href="$classwrite__buffer_aa6a1c2c3aa3a7cde744bbca3b14f599a.html#aa6a1c2c3aa3a7cde744bbca3b14f599a" title="Flushes first _write_back_size elements of the ArgoDSM write buffer to memory. " alt="" coords="187,5,325,47"/>
+<area shape="rect" id="node3" href="$classwrite__buffer_a23b0dbc463111cacbbf83b267e76ac9f.html#a23b0dbc463111cacbbf83b267e76ac9f" title="Adds a new element to the write buffer. " alt="" coords="373,13,505,39"/>
+<area shape="rect" id="node4" href="$swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="553,13,624,39"/>
+<area shape="rect" id="node5" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="672,13,787,39"/>
+<area shape="rect" id="node6" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="835,13,977,39"/>
+</map>

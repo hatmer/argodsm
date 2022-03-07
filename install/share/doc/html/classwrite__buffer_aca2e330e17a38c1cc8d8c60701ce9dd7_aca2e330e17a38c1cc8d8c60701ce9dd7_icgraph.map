@@ -1,0 +1,17 @@
+<map id="write_buffer::flush" name="write_buffer::flush">
+<area shape="rect" id="node2" href="$swdsm_8h_aa7c3a2de6bbafdaf68fe6ceb6110ab97.html#aa7c3a2de6bbafdaf68fe6ceb6110ab97" title="Self&#45;Invalidates all memory that has potential writers. " alt="" coords="192,220,323,247"/>
+<area shape="rect" id="node3" href="$swdsm_8h_ad3f5bdae81c60ac704dda7372792427d.html#ad3f5bdae81c60ac704dda7372792427d" title="Global barrier for ArgoDSM &#45; needs to be called by every thread in the system that need coherent view..." alt="" coords="371,132,525,159"/>
+<area shape="rect" id="node15" href="$swdsm_8h_ad390eb58e1be03ed6a0939fae7ebd20a.html#ad390eb58e1be03ed6a0939fae7ebd20a" title="Release function for ArgoDSM (Release according to Release Consistency) " alt="" coords="395,283,501,309"/>
+<area shape="rect" id="node11" href="$swdsm_8h_a44b8bb7a3c8b47b4f9552c8e10b25e4b.html#a44b8bb7a3c8b47b4f9552c8e10b25e4b" title="acquire function for ArgoDSM (Acquire according to Release Consistency) " alt="" coords="395,232,501,259"/>
+<area shape="rect" id="node4" href="$backend_8hpp_af1a647431651556204709451bebb5a42.html#af1a647431651556204709451bebb5a42" title="a simple collective barrier " alt="" coords="576,5,741,32"/>
+<area shape="rect" id="node5" href="$swdsm_8h_acd175d6d8efa5cce6963bae64891a490.html#acd175d6d8efa5cce6963bae64891a490" title="Allocates memory in global address space. " alt="" coords="603,56,714,83"/>
+<area shape="rect" id="node6" href="$swdsm_8cpp_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" title="shut down ArgoDSM system " alt="" coords="606,107,711,133"/>
+<area shape="rect" id="node8" href="$swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" title="Resets current coherence. Collective function called by all threads on all nodes. ..." alt="" coords="576,157,741,184"/>
+<area shape="rect" id="node7" href="$swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" title="Pins and registers the local thread. " alt="" coords="796,107,931,133"/>
+<area shape="rect" id="node9" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="806,157,921,184"/>
+<area shape="rect" id="node10" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="983,157,1125,184"/>
+<area shape="rect" id="node12" href="$backend_8hpp_a1032f833666c3f810ac1c6210197d426.html#a1032f833666c3f810ac1c6210197d426" title="causes a node to self&#45;invalidate its cache, and thus getting any updated values on subsequent accesse..." alt="" coords="573,232,744,259"/>
+<area shape="rect" id="node14" href="$swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ..." alt="" coords="606,283,711,309"/>
+<area shape="rect" id="node13" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="792,295,935,321"/>
+<area shape="rect" id="node16" href="$backend_8hpp_a8953c9cd9d3c56306740b6c9b97513a2.html#a8953c9cd9d3c56306740b6c9b97513a2" title="causes a node to self&#45;downgrade its cache, making all previous writes to be propagated to the homenod..." alt="" coords="573,357,744,384"/>
+</map>

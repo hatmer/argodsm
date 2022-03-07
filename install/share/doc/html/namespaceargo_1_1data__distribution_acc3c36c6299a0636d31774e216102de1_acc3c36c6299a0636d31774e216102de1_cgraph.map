@@ -1,0 +1,7 @@
+<map id="argo::data_distribution::policy_padding" name="argo::data_distribution::policy_padding">
+<area shape="rect" id="node2" href="$namespaceargo_1_1data__distribution_a1bb3f2dcecd237990e6dc67764f06860.html#a1bb3f2dcecd237990e6dc67764f06860" title="identifies if we distribute data using a cyclic memory policy " alt="" coords="225,5,395,47"/>
+<area shape="rect" id="node4" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="233,71,387,112"/>
+<area shape="rect" id="node5" href="$namespaceargo_1_1data__distribution_abb2c51a38640b8b83cab348e7d796fe5.html#abb2c51a38640b8b83cab348e7d796fe5" title="identifies if we distribute data using the prime&#45;mapp memory policy " alt="" coords="225,136,395,177"/>
+<area shape="rect" id="node6" href="$namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" title="Number of ArgoDSM nodes being run. " alt="" coords="223,202,397,229"/>
+<area shape="rect" id="node3" href="$namespaceargo_1_1env_a25a08cb2d0d11432d640ec7173063339.html#a25a08cb2d0d11432d640ec7173063339" title="get the allocation policy requested by environment variable " alt="" coords="445,71,600,112"/>
+</map>

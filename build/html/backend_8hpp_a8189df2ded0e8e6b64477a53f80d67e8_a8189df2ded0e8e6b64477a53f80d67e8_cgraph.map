@@ -1,0 +1,8 @@
+<map id="argo::backend::is_cached" name="argo::backend::is_cached">
+<area shape="rect" id="node2" href="$swdsm_8cpp_a1696e0fe6cc8d073536dbce9b6fb8b1b.html#a1696e0fe6cc8d073536dbce9b6fb8b1b" title="Check whether a page is either cached on the node or locally backed. " alt="" coords="240,81,333,108"/>
+<area shape="rect" id="node3" href="$swdsm_8cpp_ad56e0108259917bf97090212b3927f55.html#ad56e0108259917bf97090212b3927f55" title="align an offset into a memory region to the beginning of its size block " alt="" coords="381,5,512,32"/>
+<area shape="rect" id="node4" href="$swdsm_8cpp_a4c0ee0be20a4d5b19eef1a568e6ce084.html#a4c0ee0be20a4d5b19eef1a568e6ce084" title="Gives homenode for a given address. " alt="" coords="381,56,512,83"/>
+<area shape="rect" id="node6" href="$swdsm_8cpp_acf216cf340937a920846c9a5c1bf3b0b.html#acf216cf340937a920846c9a5c1bf3b0b" title="Gets cacheindex for a given address. " alt="" coords="387,107,506,133"/>
+<area shape="rect" id="node7" href="$swdsm_8cpp_af770e3f703653ddb0967b85d88881ab7.html#af770e3f703653ddb0967b85d88881ab7" title="Gives the ArgoDSM node id for the local process. " alt="" coords="418,157,475,184"/>
+<area shape="rect" id="node5" href="$classargo_1_1data__distribution_1_1global__ptr_a3e2cdd4d323ef91174615e27ab94e342.html#a3e2cdd4d323ef91174615e27ab94e342" title="return the home node of the value pointed to, or a default value if the page has not yet been first&#45;t..." alt="" coords="560,49,735,90"/>
+</map>

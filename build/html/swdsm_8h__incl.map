@@ -1,0 +1,7 @@
+<map id="/home/atmerhannah/argodsm/src/backend/mpi/swdsm.h" name="/home/atmerhannah/argodsm/src/backend/mpi/swdsm.h">
+<area shape="rect" id="node22" href="$argo_8h.html" title="This file provides the full C interface to ArgoDSM. " alt="" coords="2019,95,2082,121"/>
+<area shape="rect" id="node24" href="$allocators_8h.html" title="This file provides all C allocators for ArgoDSM. " alt="" coords="2197,169,2363,196"/>
+<area shape="rect" id="node27" href="$synchronization_8h.html" title="This file provides C bindings for some ArgoDSM synchronization primitives. " alt="" coords="1929,169,2173,196"/>
+<area shape="rect" id="node25" href="$collective__allocator_8h.html" title="This file provides the collective allocator for ArgoDSM. " alt="" coords="2081,244,2241,271"/>
+<area shape="rect" id="node26" href="$dynamic__allocator_8h.html" title="This file provides the dynamic allocator for ArgoDSM. " alt="" coords="2266,244,2419,271"/>
+</map>

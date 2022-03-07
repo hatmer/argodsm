@@ -1,0 +1,6 @@
+<map id="argo::signal::signal_handler::argo_signal_handler" name="argo::signal::signal_handler::argo_signal_handler">
+<area shape="rect" id="node2" href="$classargo_1_1signal_1_1signal__handler_a07112cd878d25cae303dc9a65c73d059.html#a07112cd878d25cae303dc9a65c73d059" title="install a signal handler for ArgoDSM " alt="" coords="215,16,377,72"/>
+<area shape="rect" id="node3" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="439,5,554,32"/>
+<area shape="rect" id="node5" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="425,56,568,83"/>
+<area shape="rect" id="node4" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="616,5,759,32"/>
+</map>

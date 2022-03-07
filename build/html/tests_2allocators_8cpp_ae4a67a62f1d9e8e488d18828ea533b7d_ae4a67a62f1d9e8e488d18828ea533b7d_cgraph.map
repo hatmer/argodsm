@@ -1,0 +1,8 @@
+<map id="TEST_F" name="TEST_F">
+<area shape="rect" id="node2" href="$namespaceargo_a084a7639e719e866e4f0e88af71f6dff.html#a084a7639e719e866e4f0e88af71f6dff" title="template function to delete objects that were allocated using dynamic_new " alt="" coords="129,5,236,32"/>
+<area shape="rect" id="node5" href="$namespaceargo_a09ca0ec2df9dbed721fb14b26cfa39a3.html#a09ca0ec2df9dbed721fb14b26cfa39a3" title="template function to delete objects that were allocated using collective_new " alt="" coords="121,56,244,83"/>
+<area shape="rect" id="node3" href="$src_2allocators_2allocators_8cpp_aedf7f793412ce612ef67c33098b25a8e.html#aedf7f793412ce612ef67c33098b25a8e" title="basic free function for dynamic allocations, for C interface " alt="" coords="296,5,407,32"/>
+<area shape="rect" id="node4" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="459,49,637,90"/>
+<area shape="rect" id="node6" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="296,56,407,83"/>
+<area shape="rect" id="node7" href="$src_2allocators_2allocators_8cpp_a215edf4fe9276398650302b518c52baf.html#a215edf4fe9276398650302b518c52baf" title="basic free function for collective allocations, for C interface " alt="" coords="292,107,411,133"/>
+</map>

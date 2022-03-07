@@ -1,0 +1,5 @@
+<map id="argo::data_distribution::is_prime_policy" name="argo::data_distribution::is_prime_policy">
+<area shape="rect" id="node2" href="$namespaceargo_1_1data__distribution_acc3c36c6299a0636d31774e216102de1.html#acc3c36c6299a0636d31774e216102de1" title="based on the chosen policy, gets the required size we need to add to the standardisation of the ArgoD..." alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node3" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="440,13,555,39"/>
+<area shape="rect" id="node4" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="603,13,745,39"/>
+</map>

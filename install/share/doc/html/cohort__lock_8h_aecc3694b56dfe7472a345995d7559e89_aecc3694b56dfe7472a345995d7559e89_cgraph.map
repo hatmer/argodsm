@@ -1,0 +1,8 @@
+<map id="argo_cohortlock_unlock" name="argo_cohortlock_unlock">
+<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1cohort__lock_ac937f13d00780ca9ff8f4dd826c6c12b.html#ac937f13d00780ca9ff8f4dd826c6c12b" title="Release the lock. " alt="" coords="229,104,404,145"/>
+<area shape="rect" id="node3" href="$classargo_1_1locallock_1_1ticket__lock_a3ba3f8383bdfe989c4f2e4f00636b431.html#a3ba3f8383bdfe989c4f2e4f00636b431" title="Checks if the lock is contended by comparing in vs out counters. " alt="" coords="458,5,621,47"/>
+<area shape="rect" id="node4" href="$classargo_1_1globallock_1_1global__tas__lock_a55bd610c8555b8d986541c3f669789a2.html#a55bd610c8555b8d986541c3f669789a2" title="release the lock " alt="" coords="452,71,627,112"/>
+<area shape="rect" id="node6" href="$classargo_1_1locallock_1_1ticket__lock_acd35e341f8d1c0919ff9782d685ecd4a.html#acd35e341f8d1c0919ff9782d685ecd4a" title="release the lock " alt="" coords="458,136,621,177"/>
+<area shape="rect" id="node7" href="$classargo_1_1locallock_1_1mcs__lock_adf8ad5e4d2ebfbc0bf88b6dd31afe40d.html#adf8ad5e4d2ebfbc0bf88b6dd31afe40d" title="Release the MCS lock. " alt="" coords="463,201,615,243"/>
+<area shape="rect" id="node5" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="675,78,785,105"/>
+</map>

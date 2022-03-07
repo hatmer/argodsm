@@ -1,0 +1,5 @@
+<map id="collective_alloc" name="collective_alloc">
+<area shape="rect" id="node2" href="$tests_2allocators_8cpp_a1837b5eb3f1a85c0c59ad6405738e398.html#a1837b5eb3f1a85c0c59ad6405738e398" title="Unittest that checks that allocating 0 bytes collectively is allowed. " alt="" coords="213,5,281,32"/>
+<area shape="rect" id="node3" href="$namespaceargo_a43db7086bc5f4070897fc687ea7e950c.html#a43db7086bc5f4070897fc687ea7e950c" title="template function to construct new objects using collective allocation " alt="" coords="193,56,301,83"/>
+<area shape="rect" id="node4" href="$namespaceargo_a532a530aefb04b559d017b8ac402feb5.html#a532a530aefb04b559d017b8ac402feb5" title="Collectively construct a new array of objects in the global memory. " alt="" coords="176,107,319,133"/>
+</map>

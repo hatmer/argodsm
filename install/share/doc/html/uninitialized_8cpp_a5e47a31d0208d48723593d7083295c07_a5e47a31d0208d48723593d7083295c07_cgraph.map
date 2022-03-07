@@ -1,0 +1,9 @@
+<map id="TEST_F" name="TEST_F">
+<area shape="rect" id="node2" href="$classargo_1_1mempools_1_1global__memory__pool_ac37f5714010e1f4b482e6c6a8a246c05.html#ac37f5714010e1f4b482e6c6a8a246c05" title="check remaining available memory in pool " alt="" coords="121,71,308,112"/>
+<area shape="rect" id="node5" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="805,78,916,105"/>
+<area shape="rect" id="node7" href="$src_2allocators_2allocators_8cpp_a4e8d23563c42daa5dfce669293d7e389.html#a4e8d23563c42daa5dfce669293d7e389" title="basic collective allocation function, for C interface " alt="" coords="153,191,276,218"/>
+<area shape="rect" id="node3" href="$classargo_1_1globallock_1_1global__tas__lock_ae1a2cc75c9371ed191ac68f4e72f227e.html#ae1a2cc75c9371ed191ac68f4e72f227e" title="take the lock " alt="" coords="358,8,533,49"/>
+<area shape="rect" id="node6" href="$classargo_1_1globallock_1_1global__tas__lock_a55bd610c8555b8d986541c3f669789a2.html#a55bd610c8555b8d986541c3f669789a2" title="release the lock " alt="" coords="583,71,757,112"/>
+<area shape="rect" id="node4" href="$classargo_1_1globallock_1_1global__tas__lock_a89bbe556d8a271dd64d65b421993da00.html#a89bbe556d8a271dd64d65b421993da00" title="try to lock " alt="" coords="583,5,757,47"/>
+<area shape="rect" id="node8" href="$classargo_1_1allocators_1_1generic__allocator_ae0df0734076478aeaeb689cdb902497a.html#ae0df0734076478aeaeb689cdb902497a" title="Allocate memory. " alt="" coords="356,188,535,229"/>
+</map>
