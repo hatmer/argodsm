@@ -36,7 +36,11 @@
  * @envvar{ARGO_ALLOCATION_POLICY} request a specific allocation policy with a number
  * @details This environment variable can be accessed through
  *          @ref argo::env::allocation_policy() after argo::env::init() has been called.
- * 
+ *
+ * @envvar{ARGO_REPLICATION_DEGREE} request a specific replication degree with a number
+ * @details This environment variable can be accessed through
+ *          @ref argo::env::replication_degree() after argo::env::init() has been called.
+ *
  * @envvar{ARGO_ALLOCATION_BLOCK_SIZE} request a specific allocation block size in number of pages
  * @details This environment variable can be accessed through
  *          @ref argo::env::allocation_block_size() after argo::env::init() has been called.
@@ -110,6 +114,13 @@ namespace argo {
 		 * @see @ref ARGO_LOAD_SIZE
 		 */
 		std::size_t load_size();
+
+    /**
+     * @brief get the replication degree requested by environment variable
+     * @return the requested replication degree as a number
+     */
+    std::size_t replication_degree();
+
 	} // namespace env
 } // namespace argo
 

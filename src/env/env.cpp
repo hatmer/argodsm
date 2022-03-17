@@ -57,6 +57,12 @@ namespace {
 	 */
 	const std::size_t default_load_size = 8;
 
+  /**
+   * @brief default requested replication degree (if environment variable is unset)
+   * @see @ref ARGO_REPLICATION_DEGREE
+   */
+  const std::size_t default_replication_degree = 1;
+
 	/**
 	 * @brief environment variable used for requesting memory size
 	 * @see @ref ARGO_MEMORY_SIZE
@@ -92,6 +98,12 @@ namespace {
 	 * @see @ref ARGO_ALLOCATION_BLOCK_SIZE
 	 */
 	const std::string env_allocation_block_size = "ARGO_ALLOCATION_BLOCK_SIZE";
+
+  /** 
+   * @brief environment variable used for requesting replication degree
+   * @see @ref ARGO_REPLICATION_DEGREE
+   */    
+  const std::string env_replication_degree = "ARGO_REPLICATION_DEGREE";
 
 	/**
 	 * @brief environment variable used for requesting load size
@@ -136,6 +148,11 @@ namespace {
 	 * @brief allocation block size requested through the environment variable @ref ARGO_ALLOCATION_BLOCK_SIZE
 	 */
 	std::size_t value_allocation_block_size;
+
+  /**
+   * @brief replication degree requested through the environment variable @ref ARGO_REPLICATION_DEGREE
+   */
+  std::size_t value_replication_degree;
 
 	/**
 	 * @brief load size requested through the environment variable @ref ARGO_LOAD_SIZE
@@ -203,12 +220,18 @@ namespace argo {
 				value_write_buffer_write_back_size = value_write_buffer_size;
 			}
 
+      value_replication_degree = parse_env<std::size_t>(env_replication_degree, default_replication_degree).second;
 			value_allocation_policy = parse_env<std::size_t>(env_allocation_policy, default_allocation_policy).second;
 			value_allocation_block_size = parse_env<std::size_t>(env_allocation_block_size, default_allocation_block_size).second;
 			value_load_size = parse_env<std::size_t>(env_load_size, default_load_size).second;
 
 			is_initialized = true;
 		}
+
+    std::size_t replication_degree() {
+      assert_initialized();
+      return value_replication_degree;
+    }
 
 		std::size_t memory_size() {
 			assert_initialized();
