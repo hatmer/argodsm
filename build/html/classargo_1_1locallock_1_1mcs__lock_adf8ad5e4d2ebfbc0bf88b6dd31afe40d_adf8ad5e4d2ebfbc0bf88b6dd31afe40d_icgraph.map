@@ -1,5 +1,0 @@
-<map id="argo::locallock::mcs_lock::unlock" name="argo::locallock::mcs_lock::unlock">
-<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1cohort__lock_ac937f13d00780ca9ff8f4dd826c6c12b.html#ac937f13d00780ca9ff8f4dd826c6c12b" title="Release the lock. " alt="" coords="205,5,380,47"/>
-<area shape="rect" id="node4" href="$classargo_1_1locallock_1_1mcs__lock_a6747b1e5a3cf8db9bda7049d6fdb5dc1.html#a6747b1e5a3cf8db9bda7049d6fdb5dc1" title="Construct an MCS lock. " alt="" coords="217,71,369,112"/>
-<area shape="rect" id="node3" href="$cohort__lock_8h_aecc3694b56dfe7472a345995d7559e89.html#aecc3694b56dfe7472a345995d7559e89" title="unlock a cohort lock " alt="" coords="428,13,604,39"/>
-</map>

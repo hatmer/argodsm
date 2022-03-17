@@ -1,6 +1,0 @@
-<map id="/home/atmerhannah/argodsm/src/backend/mpi/swdsm.h" name="/home/atmerhannah/argodsm/src/backend/mpi/swdsm.h">
-<area shape="rect" id="node2" href="$coherence_8cpp.html" title="This file implements selective coherence mechanisms for ArgoDSM. " alt="" coords="5,199,236,240"/>
-<area shape="rect" id="node3" href="$write__buffer_8hpp.html" title="This file provides an interface for the ArgoDSM write buffer. " alt="" coords="137,95,352,151"/>
-<area shape="rect" id="node4" href="$swdsm_8cpp.html" title="This file implements the MPI&#45;backend of ArgoDSM. " alt="" coords="271,199,485,240"/>
-<area shape="rect" id="node5" href="$mpi_8cpp.html" title="MPI backend implementation. " alt="" coords="428,102,643,143"/>
-</map>

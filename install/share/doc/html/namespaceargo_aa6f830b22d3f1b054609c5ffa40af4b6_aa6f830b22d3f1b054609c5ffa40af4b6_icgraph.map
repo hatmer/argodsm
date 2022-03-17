@@ -1,8 +1,0 @@
-<map id="argo::finalize" name="argo::finalize">
-<area shape="rect" id="node2" href="$tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" title="The main function that runs the tests. " alt="" coords="222,5,277,32"/>
-<area shape="rect" id="node3" href="$swdsm_8h_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" title="Shutting down ArgoDSM runtime. " alt="" coords="197,56,302,83"/>
-<area shape="rect" id="node6" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="178,107,321,133"/>
-<area shape="rect" id="node7" href="$classargo_1_1mempools_1_1global__memory__pool_a2adeebf07ab9ba9ec2956dcf37f3abc3.html#a2adeebf07ab9ba9ec2956dcf37f3abc3" title="argo::mempools::global\l_memory_pool::~global\l_memory_pool" alt="" coords="160,157,339,213"/>
-<area shape="rect" id="node4" href="$backend_8hpp_a2f1a764c586ff7c03530e974dcd2d59c.html#a2f1a764c586ff7c03530e974dcd2d59c" title="global memory space address " alt="" coords="387,31,556,57"/>
-<area shape="rect" id="node5" href="$swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" title="Pins and registers the local thread. " alt="" coords="404,81,539,108"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="argo::locallock::mcs_lock::mcs_lock" name="argo::locallock::mcs_lock::mcs_lock">
-<area shape="rect" id="node2" href="$classargo_1_1locallock_1_1mcs__lock_ab9dea14c529f5aa40bd13f4a250f82b8.html#ab9dea14c529f5aa40bd13f4a250f82b8" title="Acquire the MCS lock. " alt="" coords="205,5,357,47"/>
-<area shape="rect" id="node3" href="$classargo_1_1locallock_1_1mcs__lock_a84906675136894a2c157beee7f0299de.html#a84906675136894a2c157beee7f0299de" title="Try to acquire the lock, but do not block. " alt="" coords="205,71,357,112"/>
-<area shape="rect" id="node4" href="$classargo_1_1locallock_1_1mcs__lock_adf8ad5e4d2ebfbc0bf88b6dd31afe40d.html#adf8ad5e4d2ebfbc0bf88b6dd31afe40d" title="Release the MCS lock. " alt="" coords="205,136,357,177"/>
-<area shape="rect" id="node5" href="$classargo_1_1locallock_1_1mcs__lock_a93a76eb58e6bf70f8852a895301cc308.html#a93a76eb58e6bf70f8852a895301cc308" title="Check if the lock is contented. " alt="" coords="205,201,357,243"/>
-</map>

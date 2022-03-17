@@ -1,5 +1,0 @@
-<map id="argo::data_distribution::prime_mapp_distribution::peek_local_offset" name="argo::data_distribution::prime_mapp_distribution::peek_local_offset">
-<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1prime__mapp__distribution_a253fb788715eda52fd5f52c26c02b444.html#a253fb788715eda52fd5f52c26c02b444" title="compute the offset of ptr in the backing store on ptr&#39;s homenode " alt="" coords="247,5,440,61"/>
-<area shape="rect" id="node3" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="729,13,884,54"/>
-<area shape="rect" id="node4" href="$classargo_1_1data__distribution_1_1prime__mapp__distribution_ad1e401583e34588a77b0634758fa1f75.html#ad1e401583e34588a77b0634758fa1f75" title="compute home node of an address " alt="" coords="488,37,681,93"/>
-</map>

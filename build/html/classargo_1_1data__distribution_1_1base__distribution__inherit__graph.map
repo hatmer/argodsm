@@ -1,8 +1,0 @@
-<map id="argo::data_distribution::base_distribution&lt; instance &gt;" name="argo::data_distribution::base_distribution&lt; instance &gt;">
-<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1cyclic__distribution.html" title="the cyclic data distribution " alt="" coords="335,5,504,61"/>
-<area shape="rect" id="node3" href="$classargo_1_1data__distribution_1_1first__touch__distribution.html" title="the first&#45;touch data distribution " alt="" coords="330,85,509,141"/>
-<area shape="rect" id="node4" href="$classargo_1_1data__distribution_1_1naive__distribution.html" title="the naive data distribution " alt="" coords="335,165,504,221"/>
-<area shape="rect" id="node5" href="$classargo_1_1data__distribution_1_1prime__mapp__distribution.html" title="the prime&#45;mapp data distribution " alt="" coords="323,245,516,301"/>
-<area shape="rect" id="node6" href="$classargo_1_1data__distribution_1_1skew__mapp__distribution.html" title="the skew&#45;mapp data distribution " alt="" coords="325,325,514,381"/>
-<area shape="rect" id="node7" href="$classargo_1_1data__distribution_1_1base__distribution.html" title="argo::data_distribution\l::base_distribution\&lt; 0 \&gt;" alt="" coords="329,406,509,447"/>
-</map>

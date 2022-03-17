@@ -1,6 +1,0 @@
-<map id="argo::mempools::global_memory_pool::reserve" name="argo::mempools::global_memory_pool::reserve">
-<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1global__tas__lock_ae1a2cc75c9371ed191ac68f4e72f227e.html#ae1a2cc75c9371ed191ac68f4e72f227e" title="take the lock " alt="" coords="229,8,404,49"/>
-<area shape="rect" id="node5" href="$classargo_1_1globallock_1_1global__tas__lock_a55bd610c8555b8d986541c3f669789a2.html#a55bd610c8555b8d986541c3f669789a2" title="release the lock " alt="" coords="452,71,627,112"/>
-<area shape="rect" id="node3" href="$classargo_1_1globallock_1_1global__tas__lock_a89bbe556d8a271dd64d65b421993da00.html#a89bbe556d8a271dd64d65b421993da00" title="try to lock " alt="" coords="452,5,627,47"/>
-<area shape="rect" id="node4" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="675,46,785,73"/>
-</map>

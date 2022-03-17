@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classargo_1_1data__distribution_1_1base__distribution.html" title="the base data distribution class " alt="" coords="5,173,232,214"/>
-<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1cyclic__distribution.html" title="the cyclic data distribution " alt="" coords="292,5,461,61"/>
-<area shape="rect" id="node3" href="$classargo_1_1data__distribution_1_1first__touch__distribution.html" title="the first&#45;touch data distribution " alt="" coords="287,85,466,141"/>
-<area shape="rect" id="node4" href="$classargo_1_1data__distribution_1_1naive__distribution.html" title="the naive data distribution " alt="" coords="292,165,461,221"/>
-<area shape="rect" id="node5" href="$classargo_1_1data__distribution_1_1prime__mapp__distribution.html" title="the prime&#45;mapp data distribution " alt="" coords="280,245,473,301"/>
-<area shape="rect" id="node6" href="$classargo_1_1data__distribution_1_1skew__mapp__distribution.html" title="the skew&#45;mapp data distribution " alt="" coords="282,325,471,381"/>
-</map>

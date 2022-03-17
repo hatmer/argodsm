@@ -1,5 +1,0 @@
-<map id="argo_acquire" name="argo_acquire">
-<area shape="rect" id="node2" href="$backend_8hpp_a1032f833666c3f810ac1c6210197d426.html#a1032f833666c3f810ac1c6210197d426" title="causes a node to self&#45;invalidate its cache, and thus getting any updated values on subsequent accesse..." alt="" coords="160,29,331,56"/>
-<area shape="rect" id="node4" href="$swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ..." alt="" coords="193,80,298,107"/>
-<area shape="rect" id="node3" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="379,29,521,56"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="argo_reset" name="argo_reset">
-<area shape="rect" id="node2" href="$classargo_1_1mempools_1_1global__memory__pool_a382544f1b6de66b437e8034097313cc8.html#a382544f1b6de66b437e8034097313cc8" title="Resets the memory pool to the initial state instead of de&#45;allocating and (re)allocating all buffers a..." alt="" coords="147,5,323,47"/>
-<area shape="rect" id="node4" href="$classargo_1_1allocators_1_1generic__allocator_af7bba2f941e23af3efd7b06a7feeb296.html#af7bba2f941e23af3efd7b06a7feeb296" title="set memory pool " alt="" coords="144,71,327,112"/>
-<area shape="rect" id="node3" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="375,13,485,39"/>
-</map>

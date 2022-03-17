@@ -1,1 +1,0 @@
-/home/atmerhannah/ompi5/bin/mpic++   -std=c++11 -pthread -DOMPI_SKIP_MPICXX=1 -O0 -g -Wall -Wextra -Werror    -g -Wall -Wextra -Werror -rdynamic CMakeFiles/apiTests-mpi.dir/api.cpp.o  -o ../bin/mpi/apiTests -Wl,-rpath,/home/atmerhannah/argodsm/build/lib ../lib/libargo.so ../lib/libargobackend-mpi.so ../lib/libgtest.a -lnuma -lrt 

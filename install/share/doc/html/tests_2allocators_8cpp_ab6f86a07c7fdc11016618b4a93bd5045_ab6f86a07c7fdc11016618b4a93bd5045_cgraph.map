@@ -1,7 +1,0 @@
-<map id="TEST_F" name="TEST_F">
-<area shape="rect" id="node2" href="$classargo_1_1mempools_1_1global__memory__pool_ac37f5714010e1f4b482e6c6a8a246c05.html#ac37f5714010e1f4b482e6c6a8a246c05" title="check remaining available memory in pool " alt="" coords="121,39,308,80"/>
-<area shape="rect" id="node3" href="$classargo_1_1globallock_1_1global__tas__lock_ae1a2cc75c9371ed191ac68f4e72f227e.html#ae1a2cc75c9371ed191ac68f4e72f227e" title="take the lock " alt="" coords="356,8,531,49"/>
-<area shape="rect" id="node6" href="$classargo_1_1globallock_1_1global__tas__lock_a55bd610c8555b8d986541c3f669789a2.html#a55bd610c8555b8d986541c3f669789a2" title="release the lock " alt="" coords="579,71,753,112"/>
-<area shape="rect" id="node4" href="$classargo_1_1globallock_1_1global__tas__lock_a89bbe556d8a271dd64d65b421993da00.html#a89bbe556d8a271dd64d65b421993da00" title="try to lock " alt="" coords="579,5,753,47"/>
-<area shape="rect" id="node5" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="801,46,912,73"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="clearStatistics" name="clearStatistics">
-<area shape="rect" id="node2" href="$swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" title="Resets current coherence. Collective function called by all threads on all nodes. ..." alt="" coords="168,5,333,32"/>
-<area shape="rect" id="node3" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="381,5,496,32"/>
-<area shape="rect" id="node4" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="544,5,687,32"/>
-</map>

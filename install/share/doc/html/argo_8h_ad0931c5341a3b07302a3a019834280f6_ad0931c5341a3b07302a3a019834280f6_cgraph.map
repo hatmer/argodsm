@@ -1,8 +1,0 @@
-<map id="argo_get_block_size" name="argo_get_block_size">
-<area shape="rect" id="node2" href="$namespaceargo_a2f35b6b6e0af76fb8fb47f2031d6f58e.html#a2f35b6b6e0af76fb8fb47f2031d6f58e" title="Get the block size of the current allocation policy. " alt="" coords="208,78,363,105"/>
-<area shape="rect" id="node3" href="$namespaceargo_1_1data__distribution_a2a70ed49553953957c3a28aa755d7ac8.html#a2a70ed49553953957c3a28aa755d7ac8" title="based on the chosen policy, gets the policy block size " alt="" coords="411,71,580,112"/>
-<area shape="rect" id="node4" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="635,5,790,47"/>
-<area shape="rect" id="node5" href="$namespaceargo_1_1data__distribution_a1bb3f2dcecd237990e6dc67764f06860.html#a1bb3f2dcecd237990e6dc67764f06860" title="identifies if we distribute data using a cyclic memory policy " alt="" coords="628,71,797,112"/>
-<area shape="rect" id="node7" href="$namespaceargo_1_1data__distribution_a58576657391f45caf61bf0748a23b098.html#a58576657391f45caf61bf0748a23b098" title="identifies if we distribute data using the first&#45;touch memory policy " alt="" coords="628,136,797,177"/>
-<area shape="rect" id="node6" href="$namespaceargo_1_1env_a25a08cb2d0d11432d640ec7173063339.html#a25a08cb2d0d11432d640ec7173063339" title="get the allocation policy requested by environment variable " alt="" coords="845,104,1000,145"/>
-</map>
