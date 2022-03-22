@@ -6,9 +6,9 @@ var searchData=
   ['cachecontrol',['cacheControl',['../coherence_8cpp_a47bd1cf6b67fdc3919a12b2c622b0ae9.html#a47bd1cf6b67fdc3919a12b2c622b0ae9',1,'cacheControl():&#160;swdsm.cpp'],['../swdsm_8cpp_a47bd1cf6b67fdc3919a12b2c622b0ae9.html#a47bd1cf6b67fdc3919a12b2c622b0ae9',1,'cacheControl():&#160;swdsm.cpp'],['../write__buffer_8hpp_a47bd1cf6b67fdc3919a12b2c622b0ae9.html#a47bd1cf6b67fdc3919a12b2c622b0ae9',1,'cacheControl():&#160;swdsm.cpp']]],
   ['cachedata',['cacheData',['../swdsm_8cpp_a5197c22f0bb159043f3f496ca270215f.html#a5197c22f0bb159043f3f496ca270215f',1,'swdsm.cpp']]],
   ['cachemutex',['cachemutex',['../coherence_8cpp_a2827de70f5388ba0f94110dccfde2f6e.html#a2827de70f5388ba0f94110dccfde2f6e',1,'cachemutex():&#160;swdsm.cpp'],['../swdsm_8cpp_a2827de70f5388ba0f94110dccfde2f6e.html#a2827de70f5388ba0f94110dccfde2f6e',1,'cachemutex():&#160;swdsm.cpp']]],
-  ['cacheoffset',['cacheoffset',['../swdsm_8cpp_adaf2346005296a03b0e5333c5562ecaa.html#adaf2346005296a03b0e5333c5562ecaa',1,'swdsm.cpp']]],
-  ['cachesize',['cachesize',['../swdsm_8cpp_a46f3f13bef935f8e1d4f96e29d874bef.html#a46f3f13bef935f8e1d4f96e29d874bef',1,'swdsm.cpp']]],
-  ['classificationsize',['classificationSize',['../swdsm_8cpp_a073264aa2649f858203365e991489b24.html#a073264aa2649f858203365e991489b24',1,'swdsm.cpp']]],
+  ['cacheoffset',['cacheoffset',['../swdsm_8cpp_a91536343ad6813c4139e549c20c75314.html#a91536343ad6813c4139e549c20c75314',1,'swdsm.cpp']]],
+  ['cachesize',['cachesize',['../swdsm_8cpp_a8fcb42f8a4344e7e1968508bcc1649ac.html#a8fcb42f8a4344e7e1968508bcc1649ac',1,'swdsm.cpp']]],
+  ['classificationsize',['classificationSize',['../swdsm_8cpp_af5fc5b37632b856de5658e934228fd1b.html#af5fc5b37632b856de5658e934228fd1b',1,'swdsm.cpp']]],
   ['clean',['CLEAN',['../swdsm_8h_a2315af8277ada7b9534af936c69891ce.html#a2315af8277ada7b9534af936c69891ce',1,'swdsm.h']]],
   ['cohort_5flock',['cohort_lock',['../classLockTest_afb9005e872dabb38bd6bf431a9790098.html#afb9005e872dabb38bd6bf431a9790098',1,'LockTest']]],
   ['counter',['counter',['../classLockTest_ab5487dc85453adf2f32e35931f9d1ae8.html#ab5487dc85453adf2f32e35931f9d1ae8',1,'LockTest']]]

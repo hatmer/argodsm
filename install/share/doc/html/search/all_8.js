@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['handler',['handler',['../swdsm_8cpp_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd',1,'handler(int sig, siginfo_t *si, void *unused):&#160;swdsm.cpp'],['../swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd',1,'handler(int sig, siginfo_t *si, void *unused):&#160;swdsm.cpp']]],
+  ['handler',['handler',['../swdsm_8cpp_adb24c11067d42b9bc8515a78a524e2c7.html#adb24c11067d42b9bc8515a78a524e2c7',1,'handler(int sig, siginfo_t *si, void *context):&#160;swdsm.cpp'],['../swdsm_8h_adb24c11067d42b9bc8515a78a524e2c7.html#adb24c11067d42b9bc8515a78a524e2c7',1,'handler(int sig, siginfo_t *si, void *context):&#160;swdsm.cpp']]],
   ['handovers',['handovers',['../classargo_1_1globallock_1_1cohort__lock_a310a3884e724189a107bec28a899e53a.html#a310a3884e724189a107bec28a899e53a',1,'argo::globallock::cohort_lock']]],
   ['has',['has',['../classwrite__buffer_a6103a2e16740ac4064c5936dbe5ea06d.html#a6103a2e16740ac4064c5936dbe5ea06d',1,'write_buffer']]],
   ['has_5fglobal_5flock',['has_global_lock',['../classargo_1_1globallock_1_1cohort__lock_a609003fe372c1de038d8501f78b1a928.html#a609003fe372c1de038d8501f78b1a928',1,'argo::globallock::cohort_lock']]],

@@ -270,12 +270,6 @@ chrono
 thread
 -
 
-/home/atmerhannah/argodsm/src/synchronization/intranode/mcs_lock.cpp
-thread
--
-mcs_lock.hpp
-/home/atmerhannah/argodsm/src/synchronization/intranode/mcs_lock.hpp
-
 /home/atmerhannah/argodsm/src/synchronization/intranode/mcs_lock.hpp
 atomic
 -
@@ -303,34 +297,6 @@ synchronization.h
 /home/atmerhannah/argodsm/src/synchronization/synchronization.h
 
 /home/atmerhannah/argodsm/src/types/types.hpp
-
-/home/atmerhannah/argodsm/src/virtual_memory/shm.cpp
-cerrno
--
-cstddef
--
-cstdlib
--
-fcntl.h
--
-iostream
--
-string
--
-sys/mman.h
--
-sys/stat.h
--
-sys/statvfs.h
--
-sys/types.h
--
-system_error
--
-unistd.h
--
-virtual_memory.hpp
-/home/atmerhannah/argodsm/src/virtual_memory/virtual_memory.hpp
 
 /home/atmerhannah/argodsm/src/virtual_memory/virtual_memory.hpp
 utility

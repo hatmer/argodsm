@@ -9,54 +9,54 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>write_buffer::add</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-24 457,-24 457,4 -4,4"/>
-<!-- Node22 -->
+<!-- Node21 -->
 <g id="node1" class="node">
-<title>Node22</title>
+<title>Node21</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-19.5 99,-19.5 99,-.5 0,-.5"/>
 <text text-anchor="middle" x="49.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::add</text>
 </g>
-<!-- Node23 -->
+<!-- Node22 -->
 <g id="node2" class="node">
-<title>Node23</title>
-<g id="a_node2"><a xlink:href="swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" target="_top" xlink:title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ...">
+<title>Node22</title>
+<g id="a_node2"><a xlink:href="swdsm_8h_adb24c11067d42b9bc8515a78a524e2c7.html#adb24c11067d42b9bc8515a78a524e2c7" target="_top" xlink:title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ...">
 <polygon fill="#ffffff" stroke="#000000" points="135,-.5 135,-19.5 188,-19.5 188,-.5 135,-.5"/>
 <text text-anchor="middle" x="161.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">handler</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
+<!-- Node21&#45;&gt;Node22 -->
 <g id="edge1" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="#191970" d="M109.3828,-10C118.3271,-10 127.1386,-10 134.8988,-10"/>
 <polygon fill="#191970" stroke="#191970" points="109.2771,-6.5001 99.2771,-10 109.277,-13.5001 109.2771,-6.5001"/>
 </g>
-<!-- Node24 -->
+<!-- Node23 -->
 <g id="node3" class="node">
-<title>Node24</title>
-<g id="a_node3"><a xlink:href="swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
+<title>Node23</title>
+<g id="a_node3"><a xlink:href="swdsm_8h_a31ba60e8ddccfa922da8d7e6a10f7b1d.html#a31ba60e8ddccfa922da8d7e6a10f7b1d" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
 <polygon fill="#ffffff" stroke="#000000" points="224,-.5 224,-19.5 310,-19.5 310,-.5 224,-.5"/>
 <text text-anchor="middle" x="267" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_initialize</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node22&#45;&gt;Node23 -->
 <g id="edge2" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node22&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M198.252,-10C206.5512,-10 215.4339,-10 223.9655,-10"/>
 <polygon fill="#191970" stroke="#191970" points="198.1221,-6.5001 188.1221,-10 198.1221,-13.5001 198.1221,-6.5001"/>
 </g>
-<!-- Node25 -->
+<!-- Node24 -->
 <g id="node4" class="node">
-<title>Node25</title>
-<g id="a_node4"><a xlink:href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" target="_top" xlink:title="initialize backend ">
+<title>Node24</title>
+<g id="a_node4"><a xlink:href="backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" xlink:title="initialize backend ">
 <polygon fill="#ffffff" stroke="#000000" points="346,-.5 346,-19.5 453,-19.5 453,-.5 346,-.5"/>
 <text text-anchor="middle" x="399.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node25 -->
+<!-- Node23&#45;&gt;Node24 -->
 <g id="edge3" class="edge">
-<title>Node24&#45;&gt;Node25</title>
+<title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="#191970" d="M320.0705,-10C328.4617,-10 337.147,-10 345.5579,-10"/>
 <polygon fill="#191970" stroke="#191970" points="320.019,-6.5001 310.019,-10 320.0189,-13.5001 320.019,-6.5001"/>
 </g>

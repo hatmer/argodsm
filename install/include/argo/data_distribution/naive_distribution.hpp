@@ -14,7 +14,7 @@ namespace argo {
 		/**
 		 * @brief the naive data distribution
 		 * @details each ArgoDSM node provides an equally-sized chunk of global
-		 *          memory, and these chunks are simply concatenated in order of
+		 *          memory, and these chunks are simply concatenated in order or
 		 *          ArgoDSM ids to form the global address space.
 		 */
 		template<int instance>

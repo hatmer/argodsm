@@ -58,23 +58,23 @@ var sectionId = 'dynsection-0';
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-55 0,-74 116,-74 116,-55 0,-55"/>
-<text text-anchor="middle" x="58" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_get_homenode</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-77 0,-96 116,-96 116,-77 0,-77"/>
+<text text-anchor="middle" x="58" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_get_homenode</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="namespaceargo_a48dc17c94275df10a8e7f3959cbf0191.html#a48dc17c94275df10a8e7f3959cbf0191" target="_top" xlink:title="Get the ArgoDSM node id where addr is physically backed. ">
-<polygon fill="#ffffff" stroke="#000000" points="152,-55 152,-74 269,-74 269,-55 152,-55"/>
-<text text-anchor="middle" x="210.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::get_homenode</text>
+<polygon fill="#ffffff" stroke="#000000" points="152,-77 152,-96 269,-96 269,-77 152,-77"/>
+<text text-anchor="middle" x="210.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::get_homenode</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M116.0887,-64.5C124.4981,-64.5 133.2204,-64.5 141.8133,-64.5"/>
-<polygon fill="#191970" stroke="#191970" points="141.8148,-68.0001 151.8147,-64.5 141.8147,-61.0001 141.8148,-68.0001"/>
+<path fill="none" stroke="#191970" d="M116.0887,-86.5C124.4981,-86.5 133.2204,-86.5 141.8133,-86.5"/>
+<polygon fill="#191970" stroke="#191970" points="141.8148,-90.0001 151.8147,-86.5 141.8147,-83.0001 141.8148,-90.0001"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
@@ -89,8 +89,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M245.2176,-74.0473C262.9905,-78.9349 285.2093,-85.0451 305.9805,-90.7571"/>
-<polygon fill="#191970" stroke="#191970" points="305.1467,-94.1577 315.7169,-93.4346 307.0029,-87.4083 305.1467,-94.1577"/>
+<path fill="none" stroke="#191970" d="M269.1696,-94.5671C277.503,-95.7129 286.1696,-96.9046 294.7702,-98.0871"/>
+<polygon fill="#191970" stroke="#191970" points="294.4287,-101.573 304.8123,-99.4679 295.3823,-94.6383 294.4287,-101.573"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">
@@ -104,23 +104,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M269.1696,-64.5C279.9585,-64.5 291.3057,-64.5 302.3452,-64.5"/>
-<polygon fill="#191970" stroke="#191970" points="302.3722,-68.0001 312.3722,-64.5 302.3721,-61.0001 302.3722,-68.0001"/>
-</g>
-<!-- Node9 -->
-<g id="node10" class="node">
-<title>Node9</title>
-<g id="a_node10"><a xlink:href="namespaceargo_a2b6b342c320b2a608d317a328fc46d83.html#a2b6b342c320b2a608d317a328fc46d83" target="_top" xlink:title="Size of memory which is the portion of memory owned by this node. ">
-<polygon fill="#ffffff" stroke="#000000" points="321.5,-17 321.5,-36 419.5,-36 419.5,-17 321.5,-17"/>
-<text text-anchor="middle" x="370.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::chunk_size</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge10" class="edge">
-<title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M250.8748,-54.911C271.9885,-49.8965 298.0287,-43.7119 320.4169,-38.3947"/>
-<polygon fill="#191970" stroke="#191970" points="321.495,-41.7361 330.4156,-36.0201 319.8774,-34.9256 321.495,-41.7361"/>
+<path fill="none" stroke="#191970" d="M269.1696,-78.4329C279.9585,-76.9495 291.3057,-75.3892 302.3452,-73.8713"/>
+<polygon fill="#191970" stroke="#191970" points="302.9422,-77.3222 312.3722,-72.4926 301.9886,-70.3875 302.9422,-77.3222"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">

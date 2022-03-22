@@ -1,5 +1,4 @@
 <map id="argo_release" name="argo_release">
 <area shape="rect" id="node2" href="$backend_8hpp_a8953c9cd9d3c56306740b6c9b97513a2.html#a8953c9cd9d3c56306740b6c9b97513a2" title="causes a node to self&#45;downgrade its cache, making all previous writes to be propagated to the homenod..." alt="" coords="160,29,331,56"/>
-<area shape="rect" id="node4" href="$swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ..." alt="" coords="193,80,298,107"/>
-<area shape="rect" id="node3" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="379,29,521,56"/>
+<area shape="rect" id="node3" href="$swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ..." alt="" coords="193,80,298,107"/>
 </map>

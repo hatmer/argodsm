@@ -24,13 +24,13 @@ if (edges && edges.length) {
                 <circle id="rim" cx="0" cy="0" r="7"/>
                 <circle id="rim2" cx="0" cy="0" r="3.5"/>
                 <g id="zoomPlus">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomplus.mouseover" end="zoomplus.mouseout"/>
                         </use>
                         <path d="M-4,0h8M0,-4v8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
                 </g>
                 <g id="zoomMin">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomminus.mouseover" end="zoomminus.mouseout"/>
                         </use>
                         <path d="M-4,0h8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
@@ -39,7 +39,7 @@ if (edges && edges.length) {
                         <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
                <g id="resetDef">
-                       <use xlink:href="#rim2" fill="#404040">
+                       <use xlink:href="#rim2" target="_top" fill="#404040">
                                <set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/>
                        </use>
                </g>
@@ -50,7 +50,7 @@ var viewWidth = 1719;
 var viewHeight = 564;
 var sectionId = 'dynsection-0';
 </script>
-<script xlink:href="svgpan.js"/>
+<script xlink:href="svgpan.js" target="_top"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>argo::env::allocation_block_size</title>
@@ -65,7 +65,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="namespaceargo_a31330d8b35bd7f9ef9880eec82339c54.html#a31330d8b35bd7f9ef9880eec82339c54" target="_top" xlink:title="initialize ArgoDSM system ">
+<g id="a_node2"><a xlink:href="namespaceargo_a31330d8b35bd7f9ef9880eec82339c54.html#a31330d8b35bd7f9ef9880eec82339c54" target="_top" target="_top" xlink:title="initialize ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="194.5,-498.5 194.5,-517.5 254.5,-517.5 254.5,-498.5 194.5,-498.5"/>
 <text text-anchor="middle" x="224.5" y="-505.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::init</text>
 </a>
@@ -80,7 +80,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a42b5c46f432ea91c6942d4126d94d284.html#a42b5c46f432ea91c6942d4126d94d284" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node5"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a42b5c46f432ea91c6942d4126d94d284.html#a42b5c46f432ea91c6942d4126d94d284" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="161,-438.5 161,-479.5 288,-479.5 288,-438.5 161,-438.5"/>
 <text text-anchor="start" x="169" y="-467.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="169" y="-456.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cyclic_distribution</text>
@@ -97,7 +97,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_aae8dc4332dfd2b61cb3fddfffcacc327.html#aae8dc4332dfd2b61cb3fddfffcacc327" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node7"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_aae8dc4332dfd2b61cb3fddfffcacc327.html#aae8dc4332dfd2b61cb3fddfffcacc327" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="161,-378.5 161,-419.5 288,-419.5 288,-378.5 161,-378.5"/>
 <text text-anchor="start" x="169" y="-407.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="169" y="-396.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cyclic_distribution</text>
@@ -114,7 +114,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="namespaceargo_1_1data__distribution_acc3c36c6299a0636d31774e216102de1.html#acc3c36c6299a0636d31774e216102de1" target="_top" xlink:title="based on the chosen policy, gets the required size we need to add to the standardisation of the ArgoD...">
+<g id="a_node9"><a xlink:href="namespaceargo_1_1data__distribution_acc3c36c6299a0636d31774e216102de1.html#acc3c36c6299a0636d31774e216102de1" target="_top" target="_top" xlink:title="based on the chosen policy, gets the required size we need to add to the standardisation of the ArgoD...">
 <polygon fill="#ffffff" stroke="#000000" points="847,-335 847,-365 974,-365 974,-335 847,-335"/>
 <text text-anchor="start" x="855" y="-353" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="middle" x="910.5" y="-342" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::policy_padding</text>
@@ -130,7 +130,7 @@ var sectionId = 'dynsection-0';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="namespaceargo_1_1data__distribution_a2a70ed49553953957c3a28aa755d7ac8.html#a2a70ed49553953957c3a28aa755d7ac8" target="_top" xlink:title="based on the chosen policy, gets the policy block size ">
+<g id="a_node12"><a xlink:href="namespaceargo_1_1data__distribution_a2a70ed49553953957c3a28aa755d7ac8.html#a2a70ed49553953957c3a28aa755d7ac8" target="_top" target="_top" xlink:title="based on the chosen policy, gets the policy block size ">
 <polygon fill="#ffffff" stroke="#000000" points="161,-291 161,-321 288,-321 288,-291 161,-291"/>
 <text text-anchor="start" x="169" y="-309" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="middle" x="224.5" y="-298" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::policy_block_size</text>
@@ -146,7 +146,7 @@ var sectionId = 'dynsection-0';
 <!-- Node37 -->
 <g id="node37" class="node">
 <title>Node37</title>
-<g id="a_node37"><a xlink:href="api_8cpp_a42290e9787e669eb9618124225ff8010.html#a42290e9787e669eb9618124225ff8010" target="_top" xlink:title="Unittest that checks that argo::get_block_size() is consistent with argo::env::block_size() for all c...">
+<g id="a_node37"><a xlink:href="api_8cpp_a42290e9787e669eb9618124225ff8010.html#a42290e9787e669eb9618124225ff8010" target="_top" target="_top" xlink:title="Unittest that checks that argo::get_block_size() is consistent with argo::env::block_size() for all c...">
 <polygon fill="#ffffff" stroke="#000000" points="561,-222.5 561,-241.5 612,-241.5 612,-222.5 561,-222.5"/>
 <text text-anchor="middle" x="586.5" y="-229.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TEST_F</text>
 </a>
@@ -161,7 +161,7 @@ var sectionId = 'dynsection-0';
 <!-- Node38 -->
 <g id="node38" class="node">
 <title>Node38</title>
-<g id="a_node38"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_ad1e401583e34588a77b0634758fa1f75.html#ad1e401583e34588a77b0634758fa1f75" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node38"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_ad1e401583e34588a77b0634758fa1f75.html#ad1e401583e34588a77b0634758fa1f75" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="152,-192.5 152,-233.5 297,-233.5 297,-192.5 152,-192.5"/>
 <text text-anchor="start" x="160" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="160" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prime_mapp_distribution</text>
@@ -178,7 +178,7 @@ var sectionId = 'dynsection-0';
 <!-- Node40 -->
 <g id="node40" class="node">
 <title>Node40</title>
-<g id="a_node40"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_a253fb788715eda52fd5f52c26c02b444.html#a253fb788715eda52fd5f52c26c02b444" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node40"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_a253fb788715eda52fd5f52c26c02b444.html#a253fb788715eda52fd5f52c26c02b444" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="333,-132.5 333,-173.5 478,-173.5 478,-132.5 333,-132.5"/>
 <text text-anchor="start" x="341" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="341" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prime_mapp_distribution</text>
@@ -195,7 +195,7 @@ var sectionId = 'dynsection-0';
 <!-- Node42 -->
 <g id="node42" class="node">
 <title>Node42</title>
-<g id="a_node42"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_a118db7aca997733eda1069fef6e696ad.html#a118db7aca997733eda1069fef6e696ad" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node42"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_a118db7aca997733eda1069fef6e696ad.html#a118db7aca997733eda1069fef6e696ad" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="153.5,-86.5 153.5,-127.5 295.5,-127.5 295.5,-86.5 153.5,-86.5"/>
 <text text-anchor="start" x="161.5" y="-115.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="161.5" y="-104.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::skew_mapp_distribution</text>
@@ -212,7 +212,7 @@ var sectionId = 'dynsection-0';
 <!-- Node44 -->
 <g id="node44" class="node">
 <title>Node44</title>
-<g id="a_node44"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_aa92e600a1e5813de3e0da1f016b7edd7.html#aa92e600a1e5813de3e0da1f016b7edd7" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node44"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_aa92e600a1e5813de3e0da1f016b7edd7.html#aa92e600a1e5813de3e0da1f016b7edd7" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="153.5,-15.5 153.5,-56.5 295.5,-56.5 295.5,-15.5 153.5,-15.5"/>
 <text text-anchor="start" x="161.5" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="161.5" y="-33.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::skew_mapp_distribution</text>
@@ -229,7 +229,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="The main function that runs the tests. ">
+<g id="a_node3"><a xlink:href="tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" target="_top" xlink:title="The main function that runs the tests. ">
 <polygon fill="#ffffff" stroke="#000000" points="385,-498.5 385,-517.5 426,-517.5 426,-498.5 385,-498.5"/>
 <text text-anchor="middle" x="405.5" y="-505.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
@@ -244,7 +244,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="argo_8h_aa84680ad78c3598c30a482ff71ec6bbc.html#aa84680ad78c3598c30a482ff71ec6bbc" target="_top" xlink:title="initialize ArgoDSM system ">
+<g id="a_node4"><a xlink:href="argo_8h_aa84680ad78c3598c30a482ff71ec6bbc.html#aa84680ad78c3598c30a482ff71ec6bbc" target="_top" target="_top" xlink:title="initialize ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="376,-536.5 376,-555.5 435,-555.5 435,-536.5 376,-536.5"/>
 <text text-anchor="middle" x="405.5" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_init</text>
 </a>
@@ -259,7 +259,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a4fe675567906294a1a5223587a19c07c.html#a4fe675567906294a1a5223587a19c07c" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node6"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a4fe675567906294a1a5223587a19c07c.html#a4fe675567906294a1a5223587a19c07c" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="342,-438.5 342,-479.5 469,-479.5 469,-438.5 342,-438.5"/>
 <text text-anchor="start" x="350" y="-467.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="350" y="-456.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cyclic_distribution</text>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a1a93f8dae949a63b29ebc7833edeba15.html#a1a93f8dae949a63b29ebc7833edeba15" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node8"><a xlink:href="classargo_1_1data__distribution_1_1cyclic__distribution_a1a93f8dae949a63b29ebc7833edeba15.html#a1a93f8dae949a63b29ebc7833edeba15" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="342,-378.5 342,-419.5 469,-419.5 469,-378.5 342,-378.5"/>
 <text text-anchor="start" x="350" y="-407.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="350" y="-396.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cyclic_distribution</text>
@@ -293,7 +293,7 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
+<g id="a_node10"><a xlink:href="swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" target="_top" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
 <polygon fill="#ffffff" stroke="#000000" points="1471.5,-302.5 1471.5,-321.5 1557.5,-321.5 1557.5,-302.5 1471.5,-302.5"/>
 <text text-anchor="middle" x="1514.5" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_initialize</text>
 </a>
@@ -308,7 +308,7 @@ var sectionId = 'dynsection-0';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" target="_top" xlink:title="initialize backend ">
+<g id="a_node11"><a xlink:href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" target="_top" target="_top" xlink:title="initialize backend ">
 <polygon fill="#ffffff" stroke="#000000" points="1604,-302.5 1604,-321.5 1711,-321.5 1711,-302.5 1604,-302.5"/>
 <text text-anchor="middle" x="1657.5" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>
@@ -323,7 +323,7 @@ var sectionId = 'dynsection-0';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="namespaceargo_a2f35b6b6e0af76fb8fb47f2031d6f58e.html#a2f35b6b6e0af76fb8fb47f2031d6f58e" target="_top" xlink:title="Get the block size of the current allocation policy. ">
+<g id="a_node13"><a xlink:href="namespaceargo_a2f35b6b6e0af76fb8fb47f2031d6f58e.html#a2f35b6b6e0af76fb8fb47f2031d6f58e" target="_top" target="_top" xlink:title="Get the block size of the current allocation policy. ">
 <polygon fill="#ffffff" stroke="#000000" points="347.5,-293.5 347.5,-312.5 463.5,-312.5 463.5,-293.5 347.5,-293.5"/>
 <text text-anchor="middle" x="405.5" y="-300.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::get_block_size</text>
 </a>
@@ -338,7 +338,7 @@ var sectionId = 'dynsection-0';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="argo_8h_ad0931c5341a3b07302a3a019834280f6.html#ad0931c5341a3b07302a3a019834280f6" target="_top" xlink:title="Get the block size of the current allocation policy. ">
+<g id="a_node14"><a xlink:href="argo_8h_ad0931c5341a3b07302a3a019834280f6.html#ad0931c5341a3b07302a3a019834280f6" target="_top" target="_top" xlink:title="Get the block size of the current allocation policy. ">
 <polygon fill="#ffffff" stroke="#000000" points="528.5,-260.5 528.5,-279.5 644.5,-279.5 644.5,-260.5 528.5,-260.5"/>
 <text text-anchor="middle" x="586.5" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_get_block_size</text>
 </a>
@@ -353,7 +353,7 @@ var sectionId = 'dynsection-0';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="namespaceargo_a48dc17c94275df10a8e7f3959cbf0191.html#a48dc17c94275df10a8e7f3959cbf0191" target="_top" xlink:title="Get the ArgoDSM node id where addr is physically backed. ">
+<g id="a_node15"><a xlink:href="namespaceargo_a48dc17c94275df10a8e7f3959cbf0191.html#a48dc17c94275df10a8e7f3959cbf0191" target="_top" target="_top" xlink:title="Get the ArgoDSM node id where addr is physically backed. ">
 <polygon fill="#ffffff" stroke="#000000" points="528,-298.5 528,-317.5 645,-317.5 645,-298.5 528,-298.5"/>
 <text text-anchor="middle" x="586.5" y="-305.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::get_homenode</text>
 </a>
@@ -374,7 +374,7 @@ var sectionId = 'dynsection-0';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="argo_8h_aa4a06a633ece5fbb94b9d8f0a6479e4c.html#aa4a06a633ece5fbb94b9d8f0a6479e4c" target="_top" xlink:title="Get the ArgoDSM node id where addr is physically backed. ">
+<g id="a_node16"><a xlink:href="argo_8h_aa4a06a633ece5fbb94b9d8f0a6479e4c.html#aa4a06a633ece5fbb94b9d8f0a6479e4c" target="_top" target="_top" xlink:title="Get the ArgoDSM node id where addr is physically backed. ">
 <polygon fill="#ffffff" stroke="#000000" points="695,-264.5 695,-283.5 811,-283.5 811,-264.5 695,-264.5"/>
 <text text-anchor="middle" x="753" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_get_homenode</text>
 </a>
@@ -389,7 +389,7 @@ var sectionId = 'dynsection-0';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classwrite__buffer_aa2325346aceb3e7ffdbdbdc8e8682147.html#aa2325346aceb3e7ffdbdbdc8e8682147" target="_top" xlink:title="Sorts all elements by home node id in ascending order. ">
+<g id="a_node17"><a xlink:href="classwrite__buffer_aa2325346aceb3e7ffdbdbdc8e8682147.html#aa2325346aceb3e7ffdbdbdc8e8682147" target="_top" target="_top" xlink:title="Sorts all elements by home node id in ascending order. ">
 <polygon fill="#ffffff" stroke="#000000" points="703,-169.5 703,-188.5 803,-188.5 803,-169.5 703,-169.5"/>
 <text text-anchor="middle" x="753" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::sort</text>
 </a>
@@ -404,7 +404,7 @@ var sectionId = 'dynsection-0';
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="classwrite__buffer_a9e8cf81e623c4bb67f687379f8709a53.html#a9e8cf81e623c4bb67f687379f8709a53" target="_top" xlink:title="Sorts the first _write_back_size elements by home node id in ascending order. ">
+<g id="a_node32"><a xlink:href="classwrite__buffer_a9e8cf81e623c4bb67f687379f8709a53.html#a9e8cf81e623c4bb67f687379f8709a53" target="_top" target="_top" xlink:title="Sorts the first _write_back_size elements by home node id in ascending order. ">
 <polygon fill="#ffffff" stroke="#000000" points="703,-215 703,-245 803,-245 803,-215 703,-215"/>
 <text text-anchor="start" x="711" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::sort</text>
 <text text-anchor="middle" x="753" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_first</text>
@@ -420,7 +420,7 @@ var sectionId = 'dynsection-0';
 <!-- Node36 -->
 <g id="node36" class="node">
 <title>Node36</title>
-<g id="a_node36"><a xlink:href="api_8cpp_a6255f7c304a854275724ca1df48fab28.html#a6255f7c304a854275724ca1df48fab28" target="_top" xlink:title="Unittest that checks correctness of the argo::get_homenode(T* addr) API function. ...">
+<g id="a_node36"><a xlink:href="api_8cpp_a6255f7c304a854275724ca1df48fab28.html#a6255f7c304a854275724ca1df48fab28" target="_top" target="_top" xlink:title="Unittest that checks correctness of the argo::get_homenode(T* addr) API function. ...">
 <polygon fill="#ffffff" stroke="#000000" points="727.5,-302.5 727.5,-321.5 778.5,-321.5 778.5,-302.5 727.5,-302.5"/>
 <text text-anchor="middle" x="753" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TEST_F</text>
 </a>
@@ -435,7 +435,7 @@ var sectionId = 'dynsection-0';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="classwrite__buffer_aca2e330e17a38c1cc8d8c60701ce9dd7.html#aca2e330e17a38c1cc8d8c60701ce9dd7" target="_top" xlink:title="Flushes the ArgoDSM write buffer to memory. ">
+<g id="a_node18"><a xlink:href="classwrite__buffer_aca2e330e17a38c1cc8d8c60701ce9dd7.html#aca2e330e17a38c1cc8d8c60701ce9dd7" target="_top" target="_top" xlink:title="Flushes the ArgoDSM write buffer to memory. ">
 <polygon fill="#ffffff" stroke="#000000" points="858.5,-169.5 858.5,-188.5 962.5,-188.5 962.5,-169.5 858.5,-169.5"/>
 <text text-anchor="middle" x="910.5" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::flush</text>
 </a>
@@ -450,7 +450,7 @@ var sectionId = 'dynsection-0';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="swdsm_8h_aa7c3a2de6bbafdaf68fe6ceb6110ab97.html#aa7c3a2de6bbafdaf68fe6ceb6110ab97" target="_top" xlink:title="Self&#45;Invalidates all memory that has potential writers. ">
+<g id="a_node19"><a xlink:href="swdsm_8h_aa7c3a2de6bbafdaf68fe6ceb6110ab97.html#aa7c3a2de6bbafdaf68fe6ceb6110ab97" target="_top" target="_top" xlink:title="Self&#45;Invalidates all memory that has potential writers. ">
 <polygon fill="#ffffff" stroke="#000000" points="1010.5,-150.5 1010.5,-169.5 1108.5,-169.5 1108.5,-150.5 1010.5,-150.5"/>
 <text text-anchor="middle" x="1059.5" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">self_invalidation</text>
 </a>
@@ -465,7 +465,7 @@ var sectionId = 'dynsection-0';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="swdsm_8h_ad3f5bdae81c60ac704dda7372792427d.html#ad3f5bdae81c60ac704dda7372792427d" target="_top" xlink:title="Global barrier for ArgoDSM &#45; needs to be called by every thread in the system that need coherent view...">
+<g id="a_node20"><a xlink:href="swdsm_8h_ad3f5bdae81c60ac704dda7372792427d.html#ad3f5bdae81c60ac704dda7372792427d" target="_top" target="_top" xlink:title="Global barrier for ArgoDSM &#45; needs to be called by every thread in the system that need coherent view...">
 <polygon fill="#ffffff" stroke="#000000" points="1145,-188.5 1145,-207.5 1261,-207.5 1261,-188.5 1145,-188.5"/>
 <text text-anchor="middle" x="1203" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">swdsm_argo_barrier</text>
 </a>
@@ -480,7 +480,7 @@ var sectionId = 'dynsection-0';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="swdsm_8h_ad390eb58e1be03ed6a0939fae7ebd20a.html#ad390eb58e1be03ed6a0939fae7ebd20a" target="_top" xlink:title="Release function for ArgoDSM (Release according to Release Consistency) ">
+<g id="a_node30"><a xlink:href="swdsm_8h_ad390eb58e1be03ed6a0939fae7ebd20a.html#ad390eb58e1be03ed6a0939fae7ebd20a" target="_top" target="_top" xlink:title="Release function for ArgoDSM (Release according to Release Consistency) ">
 <polygon fill="#ffffff" stroke="#000000" points="1163,-56.5 1163,-75.5 1243,-75.5 1243,-56.5 1163,-56.5"/>
 <text text-anchor="middle" x="1203" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_release</text>
 </a>
@@ -501,7 +501,7 @@ var sectionId = 'dynsection-0';
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="swdsm_8h_a44b8bb7a3c8b47b4f9552c8e10b25e4b.html#a44b8bb7a3c8b47b4f9552c8e10b25e4b" target="_top" xlink:title="acquire function for ArgoDSM (Acquire according to Release Consistency) ">
+<g id="a_node26"><a xlink:href="swdsm_8h_a44b8bb7a3c8b47b4f9552c8e10b25e4b.html#a44b8bb7a3c8b47b4f9552c8e10b25e4b" target="_top" target="_top" xlink:title="acquire function for ArgoDSM (Acquire according to Release Consistency) ">
 <polygon fill="#ffffff" stroke="#000000" points="1163,-94.5 1163,-113.5 1243,-113.5 1243,-94.5 1163,-94.5"/>
 <text text-anchor="middle" x="1203" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_acquire</text>
 </a>
@@ -516,7 +516,7 @@ var sectionId = 'dynsection-0';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="backend_8hpp_af1a647431651556204709451bebb5a42.html#af1a647431651556204709451bebb5a42" target="_top" xlink:title="a simple collective barrier ">
+<g id="a_node21"><a xlink:href="backend_8hpp_af1a647431651556204709451bebb5a42.html#af1a647431651556204709451bebb5a42" target="_top" target="_top" xlink:title="a simple collective barrier ">
 <polygon fill="#ffffff" stroke="#000000" points="1299,-188.5 1299,-207.5 1423,-207.5 1423,-188.5 1299,-188.5"/>
 <text text-anchor="middle" x="1361" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::barrier</text>
 </a>
@@ -531,7 +531,7 @@ var sectionId = 'dynsection-0';
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="swdsm_8h_acd175d6d8efa5cce6963bae64891a490.html#acd175d6d8efa5cce6963bae64891a490" target="_top" xlink:title="Allocates memory in global address space. ">
+<g id="a_node22"><a xlink:href="swdsm_8h_acd175d6d8efa5cce6963bae64891a490.html#acd175d6d8efa5cce6963bae64891a490" target="_top" target="_top" xlink:title="Allocates memory in global address space. ">
 <polygon fill="#ffffff" stroke="#000000" points="1319.5,-150.5 1319.5,-169.5 1402.5,-169.5 1402.5,-150.5 1319.5,-150.5"/>
 <text text-anchor="middle" x="1361" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_gmalloc</text>
 </a>
@@ -546,7 +546,7 @@ var sectionId = 'dynsection-0';
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="swdsm_8cpp_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" target="_top" xlink:title="shut down ArgoDSM system ">
+<g id="a_node23"><a xlink:href="swdsm_8cpp_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" target="_top" target="_top" xlink:title="shut down ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="1321.5,-226.5 1321.5,-245.5 1400.5,-245.5 1400.5,-226.5 1321.5,-226.5"/>
 <text text-anchor="middle" x="1361" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_finalize</text>
 </a>
@@ -561,7 +561,7 @@ var sectionId = 'dynsection-0';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" target="_top" xlink:title="Resets current coherence. Collective function called by all threads on all nodes. ...">
+<g id="a_node25"><a xlink:href="swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" target="_top" target="_top" xlink:title="Resets current coherence. Collective function called by all threads on all nodes. ...">
 <polygon fill="#ffffff" stroke="#000000" points="1299,-264.5 1299,-283.5 1423,-283.5 1423,-264.5 1299,-264.5"/>
 <text text-anchor="middle" x="1361" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_reset_coherence</text>
 </a>
@@ -576,7 +576,7 @@ var sectionId = 'dynsection-0';
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" target="_top" xlink:title="Pins and registers the local thread. ">
+<g id="a_node24"><a xlink:href="swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" target="_top" target="_top" xlink:title="Pins and registers the local thread. ">
 <polygon fill="#ffffff" stroke="#000000" points="1464,-226.5 1464,-245.5 1565,-245.5 1565,-226.5 1464,-226.5"/>
 <text text-anchor="middle" x="1514.5" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_pin_threads</text>
 </a>
@@ -597,7 +597,7 @@ var sectionId = 'dynsection-0';
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="backend_8hpp_a1032f833666c3f810ac1c6210197d426.html#a1032f833666c3f810ac1c6210197d426" target="_top" xlink:title="causes a node to self&#45;invalidate its cache, and thus getting any updated values on subsequent accesse...">
+<g id="a_node27"><a xlink:href="backend_8hpp_a1032f833666c3f810ac1c6210197d426.html#a1032f833666c3f810ac1c6210197d426" target="_top" target="_top" xlink:title="causes a node to self&#45;invalidate its cache, and thus getting any updated values on subsequent accesse...">
 <polygon fill="#ffffff" stroke="#000000" points="1297,-94.5 1297,-113.5 1425,-113.5 1425,-94.5 1297,-94.5"/>
 <text text-anchor="middle" x="1361" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::acquire</text>
 </a>
@@ -612,7 +612,7 @@ var sectionId = 'dynsection-0';
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" target="_top" xlink:title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ...">
+<g id="a_node29"><a xlink:href="swdsm_8h_ac0b665f72bc2a28dc663ed204c526e1b.html#ac0b665f72bc2a28dc663ed204c526e1b" target="_top" target="_top" xlink:title="acquire&#45;release function for ArgoDSM (Both acquire and release according to Release Consistency) ...">
 <polygon fill="#ffffff" stroke="#000000" points="1321.5,-56.5 1321.5,-75.5 1400.5,-75.5 1400.5,-56.5 1321.5,-56.5"/>
 <text text-anchor="middle" x="1361" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_acq_rel</text>
 </a>
@@ -633,7 +633,7 @@ var sectionId = 'dynsection-0';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" xlink:title="argo::backend::init">
+<g id="a_node28"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" target="_top" xlink:title="argo::backend::init">
 <polygon fill="#ffffff" stroke="#000000" points="1461,-47.5 1461,-66.5 1568,-66.5 1568,-47.5 1461,-47.5"/>
 <text text-anchor="middle" x="1514.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>
@@ -654,7 +654,7 @@ var sectionId = 'dynsection-0';
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="backend_8hpp_a8953c9cd9d3c56306740b6c9b97513a2.html#a8953c9cd9d3c56306740b6c9b97513a2" target="_top" xlink:title="causes a node to self&#45;downgrade its cache, making all previous writes to be propagated to the homenod...">
+<g id="a_node31"><a xlink:href="backend_8hpp_a8953c9cd9d3c56306740b6c9b97513a2.html#a8953c9cd9d3c56306740b6c9b97513a2" target="_top" target="_top" xlink:title="causes a node to self&#45;downgrade its cache, making all previous writes to be propagated to the homenod...">
 <polygon fill="#ffffff" stroke="#000000" points="1297,-.5 1297,-19.5 1425,-19.5 1425,-.5 1297,-.5"/>
 <text text-anchor="middle" x="1361" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::release</text>
 </a>
@@ -681,7 +681,7 @@ var sectionId = 'dynsection-0';
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="classwrite__buffer_aa6a1c2c3aa3a7cde744bbca3b14f599a.html#aa6a1c2c3aa3a7cde744bbca3b14f599a" target="_top" xlink:title="Flushes first _write_back_size elements of the ArgoDSM write buffer to memory. ">
+<g id="a_node33"><a xlink:href="classwrite__buffer_aa6a1c2c3aa3a7cde744bbca3b14f599a.html#aa6a1c2c3aa3a7cde744bbca3b14f599a" target="_top" target="_top" xlink:title="Flushes first _write_back_size elements of the ArgoDSM write buffer to memory. ">
 <polygon fill="#ffffff" stroke="#000000" points="858.5,-221 858.5,-251 962.5,-251 962.5,-221 858.5,-221"/>
 <text text-anchor="start" x="866.5" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::flush</text>
 <text text-anchor="middle" x="910.5" y="-228" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_partial</text>
@@ -697,7 +697,7 @@ var sectionId = 'dynsection-0';
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="classwrite__buffer_a23b0dbc463111cacbbf83b267e76ac9f.html#a23b0dbc463111cacbbf83b267e76ac9f" target="_top" xlink:title="Adds a new element to the write buffer. ">
+<g id="a_node34"><a xlink:href="classwrite__buffer_a23b0dbc463111cacbbf83b267e76ac9f.html#a23b0dbc463111cacbbf83b267e76ac9f" target="_top" target="_top" xlink:title="Adds a new element to the write buffer. ">
 <polygon fill="#ffffff" stroke="#000000" points="1010,-245.5 1010,-264.5 1109,-264.5 1109,-245.5 1010,-245.5"/>
 <text text-anchor="middle" x="1059.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::add</text>
 </a>
@@ -712,7 +712,7 @@ var sectionId = 'dynsection-0';
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" target="_top" xlink:title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ...">
+<g id="a_node35"><a xlink:href="swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" target="_top" target="_top" xlink:title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ...">
 <polygon fill="#ffffff" stroke="#000000" points="1176.5,-264.5 1176.5,-283.5 1229.5,-283.5 1229.5,-264.5 1176.5,-264.5"/>
 <text text-anchor="middle" x="1203" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">handler</text>
 </a>
@@ -733,7 +733,7 @@ var sectionId = 'dynsection-0';
 <!-- Node39 -->
 <g id="node39" class="node">
 <title>Node39</title>
-<g id="a_node39"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_ac3a060772fce13bb7925d01c40ff30eb.html#ac3a060772fce13bb7925d01c40ff30eb" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node39"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_ac3a060772fce13bb7925d01c40ff30eb.html#ac3a060772fce13bb7925d01c40ff30eb" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="333,-192.5 333,-233.5 478,-233.5 478,-192.5 333,-192.5"/>
 <text text-anchor="start" x="341" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="341" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prime_mapp_distribution</text>
@@ -756,7 +756,7 @@ var sectionId = 'dynsection-0';
 <!-- Node41 -->
 <g id="node41" class="node">
 <title>Node41</title>
-<g id="a_node41"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_a6bb902ae385e53f0f93da022338d19d6.html#a6bb902ae385e53f0f93da022338d19d6" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node41"><a xlink:href="classargo_1_1data__distribution_1_1prime__mapp__distribution_a6bb902ae385e53f0f93da022338d19d6.html#a6bb902ae385e53f0f93da022338d19d6" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="514,-132.5 514,-173.5 659,-173.5 659,-132.5 514,-132.5"/>
 <text text-anchor="start" x="522" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="522" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prime_mapp_distribution</text>
@@ -773,7 +773,7 @@ var sectionId = 'dynsection-0';
 <!-- Node43 -->
 <g id="node43" class="node">
 <title>Node43</title>
-<g id="a_node43"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_acf1e91b02698596d4bd80bc7a43c3915.html#acf1e91b02698596d4bd80bc7a43c3915" target="_top" xlink:title="compute home node of an address ">
+<g id="a_node43"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_acf1e91b02698596d4bd80bc7a43c3915.html#acf1e91b02698596d4bd80bc7a43c3915" target="_top" target="_top" xlink:title="compute home node of an address ">
 <polygon fill="#ffffff" stroke="#000000" points="334.5,-72.5 334.5,-113.5 476.5,-113.5 476.5,-72.5 334.5,-72.5"/>
 <text text-anchor="start" x="342.5" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="342.5" y="-90.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::skew_mapp_distribution</text>
@@ -790,7 +790,7 @@ var sectionId = 'dynsection-0';
 <!-- Node45 -->
 <g id="node45" class="node">
 <title>Node45</title>
-<g id="a_node45"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_af72fc446aeabab59b8195cc647b74386.html#af72fc446aeabab59b8195cc647b74386" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
+<g id="a_node45"><a xlink:href="classargo_1_1data__distribution_1_1skew__mapp__distribution_af72fc446aeabab59b8195cc647b74386.html#af72fc446aeabab59b8195cc647b74386" target="_top" target="_top" xlink:title="compute the offset of ptr in the backing store on ptr&#39;s homenode ">
 <polygon fill="#ffffff" stroke="#000000" points="334.5,-12.5 334.5,-53.5 476.5,-53.5 476.5,-12.5 334.5,-12.5"/>
 <text text-anchor="start" x="342.5" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="start" x="342.5" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::skew_mapp_distribution</text>
@@ -808,29 +808,29 @@ var sectionId = 'dynsection-0';
 </svg>
         <g id="navigator" transform="translate(0 0)" fill="#404254">
                 <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
-                <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
-                <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
-                <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
-                <g id="arrowUp" xlink:href="#dirArrow" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <use id="zoomplus" xlink:href="#zoomPlus" target="_top" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
+                <use id="zoomminus" xlink:href="#zoomMin" target="_top" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
+                <use id="reset" xlink:href="#resetDef" target="_top" x="30" y="36" onmousedown="handleReset()"/>
+                <g id="arrowUp" xlink:href="#dirArrow" target="_top" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowUp.mouseover" end="arrowUp.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowRight" xlink:href="#dirArrow" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowRight" xlink:href="#dirArrow" target="_top" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowRight.mouseover" end="arrowRight.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowDown" xlink:href="#dirArrow" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowDown" xlink:href="#dirArrow" target="_top" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowDown.mouseover" end="arrowDown.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowLeft" xlink:href="#dirArrow" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowLeft" xlink:href="#dirArrow" target="_top" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowLeft.mouseover" end="arrowLeft.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
@@ -838,7 +838,7 @@ var sectionId = 'dynsection-0';
         </g>
         <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
          <g id="arrow_out" transform="scale(0.3 0.3)">
-          <a xlink:href="namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa_a30775a9aa41b956df7474a2c0cc317aa_icgraph_org.svg" target="_base">
+          <a xlink:href="namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa_a30775a9aa41b956df7474a2c0cc317aa_icgraph_org.svg" target="_top" target="_base">
            <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
                 fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
            <path id="arrow"

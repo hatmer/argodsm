@@ -177,9 +177,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a88adc4cce625d56b56b5bda696ddbded"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="backend_8hpp_a88adc4cce625d56b56b5bda696ddbded.html#a88adc4cce625d56b56b5bda696ddbded">argo::backend::broadcast</a> (<a class="el" href="namespaceargo_a0ca3d380462ccf3759360b320a5efd33.html#a0ca3d380462ccf3759360b320a5efd33">node_id_t</a> source, T *ptr)</td></tr>
 <tr class="memdesc:a88adc4cce625d56b56b5bda696ddbded"><td class="mdescLeft">&#160;</td><td class="mdescRight">broadcast-style collective synchronization  <a href="backend_8hpp_a88adc4cce625d56b56b5bda696ddbded.html#a88adc4cce625d56b56b5bda696ddbded">More...</a><br /></td></tr>
 <tr class="separator:a88adc4cce625d56b56b5bda696ddbded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac540364bf07e03b2133d4d957142a38e"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend_8hpp_ac540364bf07e03b2133d4d957142a38e.html#ac540364bf07e03b2133d4d957142a38e">argo::backend::chunk_size</a> ()</td></tr>
-<tr class="memdesc:ac540364bf07e03b2133d4d957142a38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the size of the portion of global memory managed by this (any) node  <a href="backend_8hpp_ac540364bf07e03b2133d4d957142a38e.html#ac540364bf07e03b2133d4d957142a38e">More...</a><br /></td></tr>
-<tr class="separator:ac540364bf07e03b2133d4d957142a38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e7144eaa88e3a94eb4e5fb8efb423a4"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , typename V &gt; </td></tr>
 <tr class="memitem:a8e7144eaa88e3a94eb4e5fb8efb423a4"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="backend_8hpp_a8e7144eaa88e3a94eb4e5fb8efb423a4.html#a8e7144eaa88e3a94eb4e5fb8efb423a4">argo::backend::atomic::compare_exchange</a> (global_ptr&lt; T &gt; obj, U expected, V desired, <a class="el" href="namespaceargo_1_1atomic_ad515345a57856ad725b9b398cc25739c.html#ad515345a57856ad725b9b398cc25739c">memory_order</a> order=memory_order::acq_rel)</td></tr>
 <tr class="memdesc:a8e7144eaa88e3a94eb4e5fb8efb423a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic CAS operation on a global address.  <a href="backend_8hpp_a8e7144eaa88e3a94eb4e5fb8efb423a4.html#a8e7144eaa88e3a94eb4e5fb8efb423a4">More...</a><br /></td></tr>
@@ -205,9 +202,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d87d94211c0eee4eea358b90f375ca6"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend_8hpp_a0d87d94211c0eee4eea358b90f375ca6.html#a0d87d94211c0eee4eea358b90f375ca6">argo::backend::global_size</a> ()</td></tr>
 <tr class="memdesc:a0d87d94211c0eee4eea358b90f375ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the total amount of global memory  <a href="backend_8hpp_a0d87d94211c0eee4eea358b90f375ca6.html#a0d87d94211c0eee4eea358b90f375ca6">More...</a><br /></td></tr>
 <tr class="separator:a0d87d94211c0eee4eea358b90f375ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d80a03a17a374c10d9635ddf81e261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261">argo::backend::init</a> (std::size_t argo_size, std::size_t <a class="el" href="uninitialized_8cpp_aafacc50d0766f864fc99c74905e09936.html#aafacc50d0766f864fc99c74905e09936">cache_size</a>, int replication_degree=2)</td></tr>
-<tr class="memdesc:af0d80a03a17a374c10d9635ddf81e261"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize backend  <a href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261">More...</a><br /></td></tr>
-<tr class="separator:af0d80a03a17a374c10d9635ddf81e261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3cabb3e1c0b9696b339416b684f78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c">argo::backend::init</a> (std::size_t argo_size, std::size_t <a class="el" href="uninitialized_8cpp_aafacc50d0766f864fc99c74905e09936.html#aafacc50d0766f864fc99c74905e09936">cache_size</a>)</td></tr>
+<tr class="memdesc:aab3cabb3e1c0b9696b339416b684f78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize backend  <a href="backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c">More...</a><br /></td></tr>
+<tr class="separator:aab3cabb3e1c0b9696b339416b684f78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8189df2ded0e8e6b64477a53f80d67e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="backend_8hpp_a8189df2ded0e8e6b64477a53f80d67e8.html#a8189df2ded0e8e6b64477a53f80d67e8">argo::backend::is_cached</a> (void *addr)</td></tr>
 <tr class="memdesc:a8189df2ded0e8e6b64477a53f80d67e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a an address is cached or node local.  <a href="backend_8hpp_a8189df2ded0e8e6b64477a53f80d67e8.html#a8189df2ded0e8e6b64477a53f80d67e8">More...</a><br /></td></tr>
 <tr class="separator:a8189df2ded0e8e6b64477a53f80d67e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,7 +242,7 @@ Functions</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 7 2022 14:33:42 for ArgoDSM - Software Distributed Shared Memory by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 21 2022 15:09:31 for ArgoDSM - Software Distributed Shared Memory by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

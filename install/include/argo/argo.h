@@ -71,10 +71,4 @@ int argo_get_homenode(void* addr);
  */
 size_t argo_get_block_size();
 
-/**
- * @brief Get the size of memory which is the portion of memory owned by this node // TODO improve
- * @return The chunk size in bytes
- */
-size_t argo_chunk_size();
-
 #endif /* argo_argo_h */

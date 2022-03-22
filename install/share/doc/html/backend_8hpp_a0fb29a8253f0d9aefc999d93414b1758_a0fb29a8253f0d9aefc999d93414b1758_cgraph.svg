@@ -24,13 +24,13 @@ if (edges && edges.length) {
                 <circle id="rim" cx="0" cy="0" r="7"/>
                 <circle id="rim2" cx="0" cy="0" r="3.5"/>
                 <g id="zoomPlus">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomplus.mouseover" end="zoomplus.mouseout"/>
                         </use>
                         <path d="M-4,0h8M0,-4v8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
                 </g>
                 <g id="zoomMin">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomminus.mouseover" end="zoomminus.mouseout"/>
                         </use>
                         <path d="M-4,0h8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
@@ -39,7 +39,7 @@ if (edges && edges.length) {
                         <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
                <g id="resetDef">
-                       <use xlink:href="#rim2" fill="#404040">
+                       <use xlink:href="#rim2" target="_top" fill="#404040">
                                <set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/>
                        </use>
                </g>
@@ -50,7 +50,7 @@ var viewWidth = 604;
 var viewHeight = 230;
 var sectionId = 'dynsection-0';
 </script>
-<script xlink:href="svgpan.js"/>
+<script xlink:href="svgpan.js" target="_top"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>argo::backend::_selective_acquire</title>
@@ -71,7 +71,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" target="_top" xlink:title="A unique ArgoDSM node identifier. Counting starts from 0. ">
+<g id="a_node2"><a xlink:href="namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" target="_top" target="_top" xlink:title="A unique ArgoDSM node identifier. Counting starts from 0. ">
 <polygon fill="#ffffff" stroke="#000000" points="201,-202.5 201,-221.5 284,-221.5 284,-202.5 201,-202.5"/>
 <text text-anchor="middle" x="242.5" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::node_id</text>
 </a>
@@ -86,7 +86,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="swdsm_8cpp_acf216cf340937a920846c9a5c1bf3b0b.html#acf216cf340937a920846c9a5c1bf3b0b" target="_top" xlink:title="Gets cacheindex for a given address. ">
+<g id="a_node3"><a xlink:href="swdsm_8cpp_acf216cf340937a920846c9a5c1bf3b0b.html#acf216cf340937a920846c9a5c1bf3b0b" target="_top" target="_top" xlink:title="Gets cacheindex for a given address. ">
 <polygon fill="#ffffff" stroke="#000000" points="198,-164.5 198,-183.5 287,-183.5 287,-164.5 198,-164.5"/>
 <text text-anchor="middle" x="242.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">getCacheIndex</text>
 </a>
@@ -101,7 +101,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<g id="a_node4"><a xlink:href="swdsm_8cpp_adfcbbdedcad0833d49e3111447061689.html#adfcbbdedcad0833d49e3111447061689" target="_top" xlink:title="Gives an index to the sharer/writer vector depending on the address. ">
+<g id="a_node4"><a xlink:href="swdsm_8cpp_adfcbbdedcad0833d49e3111447061689.html#adfcbbdedcad0833d49e3111447061689" target="_top" target="_top" xlink:title="Gives an index to the sharer/writer vector depending on the address. ">
 <polygon fill="#ffffff" stroke="#000000" points="192,-115 192,-145 293,-145 293,-115 192,-115"/>
 <text text-anchor="start" x="200" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">get_classification</text>
 <text text-anchor="middle" x="242.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_index</text>
@@ -117,7 +117,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<g id="a_node5"><a xlink:href="swdsm_8cpp_ae0f2d0961e80b2903b3f54c9e6c68658.html#ae0f2d0961e80b2903b3f54c9e6c68658" target="_top" xlink:title="stores a page remotely &#45; only writing back what has been written locally since last synchronization p...">
+<g id="a_node5"><a xlink:href="swdsm_8cpp_ae0f2d0961e80b2903b3f54c9e6c68658.html#ae0f2d0961e80b2903b3f54c9e6c68658" target="_top" target="_top" xlink:title="stores a page remotely &#45; only writing back what has been written locally since last synchronization p...">
 <polygon fill="#ffffff" stroke="#000000" points="199.5,-76.5 199.5,-95.5 285.5,-95.5 285.5,-76.5 199.5,-76.5"/>
 <text text-anchor="middle" x="242.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">storepageDIFF</text>
 </a>
@@ -132,7 +132,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node10" class="node">
 <title>Node9</title>
-<g id="a_node10"><a xlink:href="classwrite__buffer_a1fe5684a5d07bd1418b0d66663f9bfdf.html#a1fe5684a5d07bd1418b0d66663f9bfdf" target="_top" xlink:title="If val exists in buffer, delete it. Else, do nothing. ">
+<g id="a_node10"><a xlink:href="classwrite__buffer_a1fe5684a5d07bd1418b0d66663f9bfdf.html#a1fe5684a5d07bd1418b0d66663f9bfdf" target="_top" target="_top" xlink:title="If val exists in buffer, delete it. Else, do nothing. ">
 <polygon fill="#ffffff" stroke="#000000" points="188.5,-38.5 188.5,-57.5 296.5,-57.5 296.5,-38.5 188.5,-38.5"/>
 <text text-anchor="middle" x="242.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">write_buffer::erase</text>
 </a>
@@ -147,7 +147,7 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="node11" class="node">
 <title>Node10</title>
-<g id="a_node11"><a xlink:href="namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" target="_top" xlink:title="Number of ArgoDSM nodes being run. ">
+<g id="a_node11"><a xlink:href="namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" target="_top" target="_top" xlink:title="Number of ArgoDSM nodes being run. ">
 <polygon fill="#ffffff" stroke="#000000" points="177,-.5 177,-19.5 308,-19.5 308,-.5 177,-.5"/>
 <text text-anchor="middle" x="242.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::number_of_nodes</text>
 </a>
@@ -162,7 +162,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node6" class="node">
 <title>Node5</title>
-<g id="a_node6"><a xlink:href="swdsm_8cpp_a0edf823a78daed8888e8e18468460617.html#a0edf823a78daed8888e8e18468460617" target="_top" xlink:title="Gives homenode for a given address. ">
+<g id="a_node6"><a xlink:href="swdsm_8cpp_a0edf823a78daed8888e8e18468460617.html#a0edf823a78daed8888e8e18468460617" target="_top" target="_top" xlink:title="Gives homenode for a given address. ">
 <polygon fill="#ffffff" stroke="#000000" points="344,-96.5 344,-115.5 433,-115.5 433,-96.5 344,-96.5"/>
 <text text-anchor="middle" x="388.5" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">get_homenode</text>
 </a>
@@ -177,7 +177,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node8" class="node">
 <title>Node7</title>
-<g id="a_node8"><a xlink:href="swdsm_8cpp_ab58b1f9fa1b59d3060f241994979e18f.html#ab58b1f9fa1b59d3060f241994979e18f" target="_top" xlink:title="Gets the offset of an address on the local nodes part of the global memory. ">
+<g id="a_node8"><a xlink:href="swdsm_8cpp_ab58b1f9fa1b59d3060f241994979e18f.html#ab58b1f9fa1b59d3060f241994979e18f" target="_top" target="_top" xlink:title="Gets the offset of an address on the local nodes part of the global memory. ">
 <polygon fill="#ffffff" stroke="#000000" points="356,-55.5 356,-74.5 421,-74.5 421,-55.5 356,-55.5"/>
 <text text-anchor="middle" x="388.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">get_offset</text>
 </a>
@@ -192,7 +192,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node7" class="node">
 <title>Node6</title>
-<g id="a_node7"><a xlink:href="classargo_1_1data__distribution_1_1global__ptr_ac7d651586337d08cda18ef26ffcd34a0.html#ac7d651586337d08cda18ef26ffcd34a0" target="_top" xlink:title="return the home node of the value pointed to ">
+<g id="a_node7"><a xlink:href="classargo_1_1data__distribution_1_1global__ptr_ac7d651586337d08cda18ef26ffcd34a0.html#ac7d651586337d08cda18ef26ffcd34a0" target="_top" target="_top" xlink:title="return the home node of the value pointed to ">
 <polygon fill="#ffffff" stroke="#000000" points="469,-94 469,-124 596,-124 596,-94 469,-94"/>
 <text text-anchor="start" x="477" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="middle" x="532.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::global_ptr::node</text>
@@ -208,7 +208,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="node9" class="node">
 <title>Node8</title>
-<g id="a_node9"><a xlink:href="classargo_1_1data__distribution_1_1global__ptr_ad8c21c408fa2b926cfd9acfd87e8e4e6.html#ad8c21c408fa2b926cfd9acfd87e8e4e6" target="_top" xlink:title="return the offset on the home node&#39;s local memory share ">
+<g id="a_node9"><a xlink:href="classargo_1_1data__distribution_1_1global__ptr_ad8c21c408fa2b926cfd9acfd87e8e4e6.html#ad8c21c408fa2b926cfd9acfd87e8e4e6" target="_top" target="_top" xlink:title="return the offset on the home node&#39;s local memory share ">
 <polygon fill="#ffffff" stroke="#000000" points="469,-45 469,-75 596,-75 596,-45 469,-45"/>
 <text text-anchor="start" x="477" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::data_distribution</text>
 <text text-anchor="middle" x="532.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::global_ptr::offset</text>
@@ -225,29 +225,29 @@ var sectionId = 'dynsection-0';
 </svg>
         <g id="navigator" transform="translate(0 0)" fill="#404254">
                 <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
-                <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
-                <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
-                <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
-                <g id="arrowUp" xlink:href="#dirArrow" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <use id="zoomplus" xlink:href="#zoomPlus" target="_top" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
+                <use id="zoomminus" xlink:href="#zoomMin" target="_top" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
+                <use id="reset" xlink:href="#resetDef" target="_top" x="30" y="36" onmousedown="handleReset()"/>
+                <g id="arrowUp" xlink:href="#dirArrow" target="_top" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowUp.mouseover" end="arrowUp.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowRight" xlink:href="#dirArrow" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowRight" xlink:href="#dirArrow" target="_top" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowRight.mouseover" end="arrowRight.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowDown" xlink:href="#dirArrow" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowDown" xlink:href="#dirArrow" target="_top" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowDown.mouseover" end="arrowDown.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowLeft" xlink:href="#dirArrow" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowLeft" xlink:href="#dirArrow" target="_top" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowLeft.mouseover" end="arrowLeft.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
@@ -255,7 +255,7 @@ var sectionId = 'dynsection-0';
         </g>
         <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
          <g id="arrow_out" transform="scale(0.3 0.3)">
-          <a xlink:href="backend_8hpp_a0fb29a8253f0d9aefc999d93414b1758_a0fb29a8253f0d9aefc999d93414b1758_cgraph_org.svg" target="_base">
+          <a xlink:href="backend_8hpp_a0fb29a8253f0d9aefc999d93414b1758_a0fb29a8253f0d9aefc999d93414b1758_cgraph_org.svg" target="_top" target="_base">
            <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
                 fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
            <path id="arrow"

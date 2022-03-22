@@ -1,6 +1,6 @@
 <map id="write_buffer::flush_partial" name="write_buffer::flush_partial">
 <area shape="rect" id="node2" href="$classwrite__buffer_a23b0dbc463111cacbbf83b267e76ac9f.html#a23b0dbc463111cacbbf83b267e76ac9f" title="Adds a new element to the write buffer. " alt="" coords="192,13,324,39"/>
-<area shape="rect" id="node3" href="$swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="372,13,443,39"/>
-<area shape="rect" id="node4" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="491,13,605,39"/>
-<area shape="rect" id="node5" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="653,13,796,39"/>
+<area shape="rect" id="node3" href="$swdsm_8h_adb24c11067d42b9bc8515a78a524e2c7.html#adb24c11067d42b9bc8515a78a524e2c7" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="372,13,443,39"/>
+<area shape="rect" id="node4" href="$swdsm_8h_a31ba60e8ddccfa922da8d7e6a10f7b1d.html#a31ba60e8ddccfa922da8d7e6a10f7b1d" title="Initializes ArgoDSM runtime. " alt="" coords="491,13,605,39"/>
+<area shape="rect" id="node5" href="$backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="initialize backend " alt="" coords="653,13,796,39"/>
 </map>

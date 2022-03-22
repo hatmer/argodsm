@@ -18,7 +18,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="tests_2allocators_8cpp_ae126220d4ebd940b8dcc827b3c74ceda.html#ae126220d4ebd940b8dcc827b3c74ceda" target="_top" xlink:title="Unittest that checks that node 0 allocating the whole requested memory space dynamically &#45; also check...">
+<g id="a_node2"><a xlink:href="tests_2allocators_8cpp_ae126220d4ebd940b8dcc827b3c74ceda.html#ae126220d4ebd940b8dcc827b3c74ceda" target="_top" target="_top" xlink:title="Unittest that checks that node 0 allocating the whole requested memory space dynamically &#45; also check...">
 <polygon fill="#ffffff" stroke="#000000" points="141,-114.5 141,-133.5 192,-133.5 192,-114.5 141,-114.5"/>
 <text text-anchor="middle" x="166.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TEST_F</text>
 </a>
@@ -33,7 +33,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" xlink:title="argo::backend::init">
+<g id="a_node3"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" target="_top" xlink:title="argo::backend::init">
 <polygon fill="#ffffff" stroke="#000000" points="113,-76.5 113,-95.5 220,-95.5 220,-76.5 113,-76.5"/>
 <text text-anchor="middle" x="166.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>
@@ -48,7 +48,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="synchronization_8h_a8807b352403d7158771b83cbbe48ad0f.html#a8807b352403d7158771b83cbbe48ad0f" target="_top" xlink:title="a barrier for threads ">
+<g id="a_node4"><a xlink:href="synchronization_8h_a8807b352403d7158771b83cbbe48ad0f.html#a8807b352403d7158771b83cbbe48ad0f" target="_top" target="_top" xlink:title="a barrier for threads ">
 <polygon fill="#ffffff" stroke="#000000" points="128.5,-38.5 128.5,-57.5 204.5,-57.5 204.5,-38.5 128.5,-38.5"/>
 <text text-anchor="middle" x="166.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_barrier</text>
 </a>
@@ -63,7 +63,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="barrier_8cpp_a03ef2b2b4275df192876f1fc8943aadf.html#a03ef2b2b4275df192876f1fc8943aadf" target="_top" xlink:title="Unittest that checks that the barrier call works with multiple threads. ">
+<g id="a_node5"><a xlink:href="barrier_8cpp_a03ef2b2b4275df192876f1fc8943aadf.html#a03ef2b2b4275df192876f1fc8943aadf" target="_top" target="_top" xlink:title="Unittest that checks that the barrier call works with multiple threads. ">
 <polygon fill="#ffffff" stroke="#000000" points="140.5,-.5 140.5,-19.5 192.5,-19.5 192.5,-.5 140.5,-.5"/>
 <text text-anchor="middle" x="166.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">TEST_P</text>
 </a>

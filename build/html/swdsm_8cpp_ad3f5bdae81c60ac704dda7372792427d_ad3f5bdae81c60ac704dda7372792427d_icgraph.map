@@ -1,9 +1,8 @@
 <map id="swdsm_argo_barrier" name="swdsm_argo_barrier">
 <area shape="rect" id="node2" href="$backend_8hpp_af1a647431651556204709451bebb5a42.html#af1a647431651556204709451bebb5a42" title="a simple collective barrier " alt="" coords="208,5,373,32"/>
-<area shape="rect" id="node3" href="$swdsm_8h_acd175d6d8efa5cce6963bae64891a490.html#acd175d6d8efa5cce6963bae64891a490" title="Allocates memory in global address space. " alt="" coords="235,56,346,83"/>
-<area shape="rect" id="node4" href="$swdsm_8cpp_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" title="shut down ArgoDSM system " alt="" coords="238,107,343,133"/>
-<area shape="rect" id="node6" href="$swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" title="Resets current coherence. Collective function called by all threads on all nodes. ..." alt="" coords="208,157,373,184"/>
-<area shape="rect" id="node5" href="$swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" title="Pins and registers the local thread. " alt="" coords="421,107,556,133"/>
-<area shape="rect" id="node7" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="431,157,546,184"/>
-<area shape="rect" id="node8" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="604,157,747,184"/>
+<area shape="rect" id="node3" href="$swdsm_8cpp_aa954d5e0bcaee69ff6e03e697bcaf68b.html#aa954d5e0bcaee69ff6e03e697bcaf68b" title="shut down ArgoDSM system " alt="" coords="238,56,343,83"/>
+<area shape="rect" id="node5" href="$swdsm_8h_a0c6b51af2b87ddf7eb04aa7d4e0e836e.html#a0c6b51af2b87ddf7eb04aa7d4e0e836e" title="Resets current coherence. Collective function called by all threads on all nodes. ..." alt="" coords="208,107,373,133"/>
+<area shape="rect" id="node4" href="$swdsm_8h_a18cc89a7368e30281ea4b1d214a1b1ff.html#a18cc89a7368e30281ea4b1d214a1b1ff" title="Pins and registers the local thread. " alt="" coords="421,56,556,83"/>
+<area shape="rect" id="node6" href="$swdsm_8h_a31ba60e8ddccfa922da8d7e6a10f7b1d.html#a31ba60e8ddccfa922da8d7e6a10f7b1d" title="Initializes ArgoDSM runtime. " alt="" coords="431,107,546,133"/>
+<area shape="rect" id="node7" href="$backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="initialize backend " alt="" coords="604,107,747,133"/>
 </map>

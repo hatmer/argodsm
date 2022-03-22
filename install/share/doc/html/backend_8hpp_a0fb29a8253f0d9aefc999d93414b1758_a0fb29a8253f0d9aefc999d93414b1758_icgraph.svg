@@ -25,7 +25,7 @@
 <!-- Node12 -->
 <g id="node2" class="node">
 <title>Node12</title>
-<g id="a_node2"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" xlink:title="argo::backend::init">
+<g id="a_node2"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" target="_top" xlink:title="argo::backend::init">
 <polygon fill="#ffffff" stroke="#000000" points="177,-6 177,-25 284,-25 284,-6 177,-6"/>
 <text text-anchor="middle" x="230.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>

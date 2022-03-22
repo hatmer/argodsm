@@ -104,12 +104,6 @@ namespace argo {
 	 * @return The block size of the current allocation policy in bytes
 	 */
 	std::size_t get_block_size();
-
-  /**
-  * @brief Size of memory which is the portion of memory owned by this node
-  * @return The chunk size in bytes
-  */
-  std::size_t chunk_size();
 } // namespace argo
 
 #endif /* argo_argo_hpp */

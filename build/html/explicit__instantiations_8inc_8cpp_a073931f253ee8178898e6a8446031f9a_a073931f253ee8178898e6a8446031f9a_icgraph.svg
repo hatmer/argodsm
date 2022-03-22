@@ -18,9 +18,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" target="_top" xlink:title="argo::backend::init">
-<polygon fill="#ffffff" stroke="#000000" points="128,-99 128,-118 235,-118 235,-99 128,-99"/>
-<text text-anchor="middle" x="181.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
+<g id="a_node2"><a xlink:href="singlenode_8cpp_aa85919231c2adb5cad84c6707cb19f1c.html#aa85919231c2adb5cad84c6707cb19f1c" target="_top" xlink:title="a dummy signal handler function ">
+<polygon fill="#ffffff" stroke="#000000" points="125.5,-99 125.5,-118 237.5,-118 237.5,-99 125.5,-99"/>
+<text text-anchor="middle" x="181.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">singlenode_handler</text>
 </a>
 </g>
 </g>

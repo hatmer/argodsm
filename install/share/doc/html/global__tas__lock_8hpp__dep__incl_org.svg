@@ -9,17 +9,17 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 503)">
 <title>/home/atmerhannah/argodsm/src/synchronization/global_tas_lock.hpp</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-503 2053,-503 2053,4 -4,4"/>
-<!-- Node23 -->
+<!-- Node24 -->
 <g id="node1" class="node">
-<title>Node23</title>
+<title>Node24</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="1746,-457.5 1746,-498.5 1907,-498.5 1907,-457.5 1746,-457.5"/>
 <text text-anchor="start" x="1754" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
 <text text-anchor="start" x="1754" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/src/synchronization/global</text>
 <text text-anchor="middle" x="1826.5" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_tas_lock.hpp</text>
 </g>
-<!-- Node24 -->
+<!-- Node25 -->
 <g id="node2" class="node">
-<title>Node24</title>
+<title>Node25</title>
 <g id="a_node2"><a xlink:href="global__mempool_8hpp.html" target="_top" xlink:title="This file provides a dynamically growing memory pool for ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1217.5,-385 1217.5,-415 1411.5,-415 1411.5,-385 1217.5,-385"/>
 <text text-anchor="start" x="1225.5" y="-403" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -27,15 +27,15 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node24&#45;&gt;Node25 -->
 <g id="edge1" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node24&#45;&gt;Node25</title>
 <path fill="none" stroke="#191970" d="M1735.9066,-464.1987C1644.8441,-450.3259 1504.9512,-429.0141 1411.633,-414.7976"/>
 <polygon fill="#191970" stroke="#191970" points="1735.5237,-467.6806 1745.9368,-465.7267 1736.578,-460.7605 1735.5237,-467.6806"/>
 </g>
-<!-- Node34 -->
+<!-- Node35 -->
 <g id="node12" class="node">
-<title>Node34</title>
+<title>Node35</title>
 <g id="a_node12"><a xlink:href="lock_8cpp.html" target="_top" xlink:title="This file provides unit tests for the ArgoDSM locks. ">
 <polygon fill="#ffffff" stroke="#000000" points="1790,-.5 1790,-30.5 1951,-30.5 1951,-.5 1790,-.5"/>
 <text text-anchor="start" x="1798" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -43,15 +43,15 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node34 -->
+<!-- Node24&#45;&gt;Node35 -->
 <g id="edge33" class="edge">
-<title>Node23&#45;&gt;Node34</title>
+<title>Node24&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M1836.9556,-447.2808C1846.622,-416.108 1859.5,-366.2706 1859.5,-322 1859.5,-322 1859.5,-322 1859.5,-166 1859.5,-116.4855 1865.4957,-58.0508 1868.634,-30.8555"/>
 <polygon fill="#191970" stroke="#191970" points="1833.5274,-446.5112 1833.8238,-457.1018 1840.1965,-448.6379 1833.5274,-446.5112"/>
 </g>
-<!-- Node40 -->
+<!-- Node41 -->
 <g id="node18" class="node">
-<title>Node40</title>
+<title>Node41</title>
 <g id="a_node18"><a xlink:href="cohort__lock_8hpp.html" target="_top" xlink:title="This file provides a cohort lock for the ArgoDSM system. ">
 <polygon fill="#ffffff" stroke="#000000" points="1640,-145.5 1640,-186.5 1801,-186.5 1801,-145.5 1640,-145.5"/>
 <text text-anchor="start" x="1648" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -60,15 +60,15 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node40 -->
+<!-- Node24&#45;&gt;Node41 -->
 <g id="edge32" class="edge">
-<title>Node23&#45;&gt;Node40</title>
+<title>Node24&#45;&gt;Node41</title>
 <path fill="none" stroke="#191970" d="M1816.0526,-447.2493C1794.5528,-383.9667 1745.8461,-240.6037 1727.5886,-186.8645"/>
 <polygon fill="#191970" stroke="#191970" points="1812.8496,-448.7018 1819.3804,-457.0443 1819.4775,-446.4499 1812.8496,-448.7018"/>
 </g>
-<!-- Node43 -->
+<!-- Node44 -->
 <g id="node21" class="node">
-<title>Node43</title>
+<title>Node44</title>
 <g id="a_node21"><a xlink:href="singlenode_8cpp.html" target="_top" xlink:title="pseudo&#45;backend implemenation for a single node ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="1888,-379.5 1888,-420.5 2049,-420.5 2049,-379.5 1888,-379.5"/>
 <text text-anchor="start" x="1896" y="-408.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -77,15 +77,15 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node43 -->
+<!-- Node24&#45;&gt;Node44 -->
 <g id="edge31" class="edge">
-<title>Node23&#45;&gt;Node43</title>
+<title>Node24&#45;&gt;Node44</title>
 <path fill="none" stroke="#191970" d="M1873.1784,-452.3597C1891.9869,-442.0283 1913.3854,-430.2742 1931.1361,-420.5239"/>
 <polygon fill="#191970" stroke="#191970" points="1871.2603,-449.42 1864.1806,-457.3022 1874.6304,-455.5554 1871.2603,-449.42"/>
 </g>
-<!-- Node25 -->
+<!-- Node26 -->
 <g id="node3" class="node">
-<title>Node25</title>
+<title>Node26</title>
 <g id="a_node3"><a xlink:href="collective__allocator_8hpp.html" target="_top" xlink:title="This file provides the collective allocator for ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1234,-223.5 1234,-264.5 1395,-264.5 1395,-223.5 1234,-223.5"/>
 <text text-anchor="start" x="1242" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -94,15 +94,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node25 -->
+<!-- Node25&#45;&gt;Node26 -->
 <g id="edge2" class="edge">
-<title>Node24&#45;&gt;Node25</title>
+<title>Node25&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M1314.5,-374.4566C1314.5,-343.8085 1314.5,-293.0222 1314.5,-264.7036"/>
 <polygon fill="#191970" stroke="#191970" points="1311.0001,-374.758 1314.5,-384.758 1318.0001,-374.7581 1311.0001,-374.758"/>
 </g>
-<!-- Node42 -->
+<!-- Node43 -->
 <g id="node20" class="node">
-<title>Node42</title>
+<title>Node43</title>
 <g id="a_node20"><a xlink:href="dynamic__allocator_8hpp.html" target="_top" xlink:title="This file provides the dynamic allocator for ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1068,-301.5 1068,-342.5 1229,-342.5 1229,-301.5 1068,-301.5"/>
 <text text-anchor="start" x="1076" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -111,15 +111,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node42 -->
+<!-- Node25&#45;&gt;Node43 -->
 <g id="edge26" class="edge">
-<title>Node24&#45;&gt;Node42</title>
+<title>Node25&#45;&gt;Node43</title>
 <path fill="none" stroke="#191970" d="M1273.4038,-380.6898C1248.7636,-369.1118 1217.4442,-354.3955 1192.3317,-342.5956"/>
 <polygon fill="#191970" stroke="#191970" points="1271.9544,-383.8758 1282.4935,-384.9608 1274.9313,-377.5403 1271.9544,-383.8758"/>
 </g>
-<!-- Node26 -->
+<!-- Node27 -->
 <g id="node4" class="node">
-<title>Node26</title>
+<title>Node27</title>
 <g id="a_node4"><a xlink:href="src_2allocators_2allocators_8cpp.html" target="_top" xlink:title="This file provides the default allocators. ">
 <polygon fill="#ffffff" stroke="#000000" points="889,-151 889,-181 1050,-181 1050,-151 889,-151"/>
 <text text-anchor="start" x="897" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -127,15 +127,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
+<!-- Node26&#45;&gt;Node27 -->
 <g id="edge3" class="edge">
-<title>Node25&#45;&gt;Node26</title>
+<title>Node26&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M1223.7926,-224.0959C1174.8088,-213.2736 1113.3071,-199.5671 1058.5,-187 1050.144,-185.084 1041.3531,-183.0419 1032.6827,-181.0122"/>
 <polygon fill="#191970" stroke="#191970" points="1223.2127,-227.5521 1233.7321,-226.2903 1224.7218,-220.7167 1223.2127,-227.5521"/>
 </g>
-<!-- Node27 -->
+<!-- Node28 -->
 <g id="node5" class="node">
-<title>Node27</title>
+<title>Node28</title>
 <g id="a_node5"><a xlink:href="allocators_8hpp.html" target="_top" xlink:title="This file provides all C++ allocators for ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1068,-151 1068,-181 1229,-181 1229,-151 1068,-151"/>
 <text text-anchor="start" x="1076" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -143,15 +143,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
+<!-- Node26&#45;&gt;Node28 -->
 <g id="edge4" class="edge">
-<title>Node25&#45;&gt;Node27</title>
+<title>Node26&#45;&gt;Node28</title>
 <path fill="none" stroke="#191970" d="M1261.2776,-218.9919C1234.7305,-206.5179 1203.498,-191.8424 1180.6402,-181.102"/>
 <polygon fill="#191970" stroke="#191970" points="1259.9117,-222.2172 1270.4509,-223.3022 1262.8887,-215.8817 1259.9117,-222.2172"/>
 </g>
-<!-- Node29 -->
+<!-- Node30 -->
 <g id="node7" class="node">
-<title>Node29</title>
+<title>Node30</title>
 <g id="a_node7"><a xlink:href="argo_8cpp.html" target="_top" xlink:title="This file implements some of the basic ArgoDSM calls. ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-30.5 161,-30.5 161,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -159,15 +159,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node29 -->
+<!-- Node26&#45;&gt;Node30 -->
 <g id="edge17" class="edge">
-<title>Node25&#45;&gt;Node29</title>
+<title>Node26&#45;&gt;Node30</title>
 <path fill="none" stroke="#191970" d="M1299.8926,-214.2168C1286.8927,-191.1738 1265.5902,-160.6405 1237.5,-145 1185.3662,-115.9721 228.5917,-39.2902 169.5,-31 166.8596,-30.6296 164.1774,-30.24 161.4706,-29.8354"/>
 <polygon fill="#191970" stroke="#191970" points="1296.9486,-216.1304 1304.7891,-223.2562 1303.1036,-212.7962 1296.9486,-216.1304"/>
 </g>
-<!-- Node30 -->
+<!-- Node31 -->
 <g id="node8" class="node">
-<title>Node30</title>
+<title>Node31</title>
 <g id="a_node8"><a xlink:href="tests_2allocators_8cpp.html" target="_top" xlink:title="This file provides unit tests for the ArgoDSM allocators and memory pools. ">
 <polygon fill="#ffffff" stroke="#000000" points="1253,-.5 1253,-30.5 1414,-30.5 1414,-.5 1253,-.5"/>
 <text text-anchor="start" x="1261" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -175,15 +175,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node30 -->
+<!-- Node26&#45;&gt;Node31 -->
 <g id="edge21" class="edge">
-<title>Node25&#45;&gt;Node30</title>
+<title>Node26&#45;&gt;Node31</title>
 <path fill="none" stroke="#191970" d="M1317.0622,-213.1863C1321.187,-163.5804 1329.1488,-67.8285 1332.2348,-30.7159"/>
 <polygon fill="#191970" stroke="#191970" points="1313.5604,-213.0635 1316.2196,-223.3191 1320.5363,-213.6436 1313.5604,-213.0635"/>
 </g>
-<!-- Node31 -->
+<!-- Node32 -->
 <g id="node9" class="node">
-<title>Node31</title>
+<title>Node32</title>
 <g id="a_node9"><a xlink:href="api_8cpp.html" target="_top" xlink:title="This file provides unit tests for the ArgoDSM API functions. ">
 <polygon fill="#ffffff" stroke="#000000" points="1432,-.5 1432,-30.5 1593,-30.5 1593,-.5 1432,-.5"/>
 <text text-anchor="start" x="1440" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -191,21 +191,21 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node31 -->
+<!-- Node26&#45;&gt;Node32 -->
 <g id="edge22" class="edge">
-<title>Node25&#45;&gt;Node31</title>
+<title>Node26&#45;&gt;Node32</title>
 <path fill="none" stroke="#191970" d="M1339.0721,-215.6428C1381.3879,-166.8087 1466.6169,-68.451 1499.3151,-30.7159"/>
 <polygon fill="#191970" stroke="#191970" points="1336.324,-213.4696 1332.4204,-223.3191 1341.6142,-218.0537 1336.324,-213.4696"/>
 </g>
-<!-- Node25&#45;&gt;Node34 -->
+<!-- Node26&#45;&gt;Node35 -->
 <g id="edge23" class="edge">
-<title>Node25&#45;&gt;Node34</title>
+<title>Node26&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M1369.7954,-219.2446C1390.8484,-209.5382 1414.9497,-198.0846 1436.5,-187 1533.1241,-137.3008 1548.236,-106.3933 1649.5,-67 1675.9353,-56.7162 1742.5567,-41.7068 1795.7905,-30.5419"/>
 <polygon fill="#191970" stroke="#191970" points="1368.2973,-216.081 1360.6675,-223.432 1371.2161,-222.4435 1368.2973,-216.081"/>
 </g>
-<!-- Node35 -->
+<!-- Node36 -->
 <g id="node13" class="node">
-<title>Node35</title>
+<title>Node36</title>
 <g id="a_node13"><a xlink:href="omp_8cpp.html" target="_top" xlink:title="This file provides tests using OpenMP in ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1611,-.5 1611,-30.5 1772,-30.5 1772,-.5 1611,-.5"/>
 <text text-anchor="start" x="1619" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -213,15 +213,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node35 -->
+<!-- Node26&#45;&gt;Node36 -->
 <g id="edge24" class="edge">
-<title>Node25&#45;&gt;Node35</title>
+<title>Node26&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M1351.5212,-217.5524C1416.4388,-171.2732 1546.0736,-79.3264 1568.5,-67 1594.4685,-52.7267 1625.2185,-39.8517 1649.4763,-30.5451"/>
 <polygon fill="#191970" stroke="#191970" points="1349.2933,-214.8423 1343.1841,-223.4984 1353.3579,-220.5414 1349.2933,-214.8423"/>
 </g>
-<!-- Node36 -->
+<!-- Node37 -->
 <g id="node14" class="node">
-<title>Node36</title>
+<title>Node37</title>
 <g id="a_node14"><a xlink:href="prefetch_8cpp.html" target="_top" xlink:title="This file provides unit tests for the ArgoDSM prefetch mechanism. ">
 <polygon fill="#ffffff" stroke="#000000" points="1074,-.5 1074,-30.5 1235,-30.5 1235,-.5 1074,-.5"/>
 <text text-anchor="start" x="1082" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -229,21 +229,21 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node36 -->
+<!-- Node26&#45;&gt;Node37 -->
 <g id="edge25" class="edge">
-<title>Node25&#45;&gt;Node36</title>
+<title>Node26&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M1308.6723,-213.4381C1300.0871,-175.3759 1280.8518,-110.1191 1243.5,-67 1229.8245,-51.213 1210.0592,-39.0991 1192.627,-30.5984"/>
 <polygon fill="#191970" stroke="#191970" points="1305.2928,-214.3711 1310.8175,-223.4114 1312.1363,-212.899 1305.2928,-214.3711"/>
 </g>
-<!-- Node25&#45;&gt;Node40 -->
+<!-- Node26&#45;&gt;Node41 -->
 <g id="edge18" class="edge">
-<title>Node25&#45;&gt;Node40</title>
+<title>Node26&#45;&gt;Node41</title>
 <path fill="none" stroke="#191970" d="M1405.3848,-226.5394C1475.7615,-213.0187 1572.3314,-194.4659 1639.9548,-181.4742"/>
 <polygon fill="#191970" stroke="#191970" points="1404.358,-223.1726 1395.198,-228.4965 1405.6787,-230.0468 1404.358,-223.1726"/>
 </g>
-<!-- Node28 -->
+<!-- Node29 -->
 <g id="node6" class="node">
-<title>Node28</title>
+<title>Node29</title>
 <g id="a_node6"><a xlink:href="argo_8hpp.html" target="_top" xlink:title="This file provides the full C++ interface to ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="1074,-73 1074,-103 1235,-103 1235,-73 1074,-73"/>
 <text text-anchor="start" x="1082" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -251,33 +251,33 @@
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node28 -->
+<!-- Node28&#45;&gt;Node29 -->
 <g id="edge5" class="edge">
-<title>Node27&#45;&gt;Node28</title>
+<title>Node28&#45;&gt;Node29</title>
 <path fill="none" stroke="#191970" d="M1150.4394,-140.7875C1151.3909,-128.4187 1152.5057,-113.9264 1153.3262,-103.2592"/>
 <polygon fill="#191970" stroke="#191970" points="1146.9342,-140.7218 1149.6569,-150.9608 1153.9136,-141.2587 1146.9342,-140.7218"/>
 </g>
-<!-- Node28&#45;&gt;Node29 -->
+<!-- Node29&#45;&gt;Node30 -->
 <g id="edge6" class="edge">
-<title>Node28&#45;&gt;Node29</title>
+<title>Node29&#45;&gt;Node30</title>
 <path fill="none" stroke="#191970" d="M1084.1848,-71.0023C1075.9014,-69.4324 1067.5385,-68.0427 1059.5,-67 666.9099,-16.0768 563.1391,-73.053 169.5,-31 166.8488,-30.7168 164.1573,-30.4028 161.4424,-30.0634"/>
 <polygon fill="#191970" stroke="#191970" points="1083.7319,-74.4807 1094.2221,-72.9955 1085.0954,-67.6147 1083.7319,-74.4807"/>
 </g>
-<!-- Node28&#45;&gt;Node30 -->
+<!-- Node29&#45;&gt;Node31 -->
 <g id="edge7" class="edge">
-<title>Node28&#45;&gt;Node30</title>
+<title>Node29&#45;&gt;Node31</title>
 <path fill="none" stroke="#191970" d="M1200.9294,-69.1948C1230.6729,-57.1478 1268.7497,-41.7257 1296.4586,-30.5028"/>
 <polygon fill="#191970" stroke="#191970" points="1199.5436,-65.9798 1191.5889,-72.978 1202.1715,-72.4679 1199.5436,-65.9798"/>
 </g>
-<!-- Node28&#45;&gt;Node31 -->
+<!-- Node29&#45;&gt;Node32 -->
 <g id="edge8" class="edge">
-<title>Node28&#45;&gt;Node31</title>
+<title>Node29&#45;&gt;Node32</title>
 <path fill="none" stroke="#191970" d="M1238.6029,-70.968C1299.212,-58.6938 1380.2405,-42.2844 1438.4172,-30.5028"/>
 <polygon fill="#191970" stroke="#191970" points="1237.7841,-67.5627 1228.6778,-72.978 1239.1736,-74.4234 1237.7841,-67.5627"/>
 </g>
-<!-- Node32 -->
+<!-- Node33 -->
 <g id="node10" class="node">
-<title>Node32</title>
+<title>Node33</title>
 <g id="a_node10"><a xlink:href="backend_8cpp.html" target="_top" xlink:title="This file provides tests for the backends. ">
 <polygon fill="#ffffff" stroke="#000000" points="716,-.5 716,-30.5 877,-30.5 877,-.5 716,-.5"/>
 <text text-anchor="start" x="724" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -285,15 +285,15 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node32 -->
+<!-- Node29&#45;&gt;Node33 -->
 <g id="edge9" class="edge">
-<title>Node28&#45;&gt;Node32</title>
+<title>Node29&#45;&gt;Node33</title>
 <path fill="none" stroke="#191970" d="M1077.4021,-70.7929C1071.3485,-69.492 1065.3263,-68.2142 1059.5,-67 998.0098,-54.1852 928.2345,-40.5643 876.0122,-30.5512"/>
 <polygon fill="#191970" stroke="#191970" points="1077.0768,-74.3034 1087.5908,-72.9968 1078.5568,-67.4616 1077.0768,-74.3034"/>
 </g>
-<!-- Node33 -->
+<!-- Node34 -->
 <g id="node11" class="node">
-<title>Node33</title>
+<title>Node34</title>
 <g id="a_node11"><a xlink:href="barrier_8cpp.html" target="_top" xlink:title="This file provides tests for the barrier synchronization. ">
 <polygon fill="#ffffff" stroke="#000000" points="895,-.5 895,-30.5 1056,-30.5 1056,-.5 895,-.5"/>
 <text text-anchor="start" x="903" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -301,33 +301,33 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node33 -->
+<!-- Node29&#45;&gt;Node34 -->
 <g id="edge10" class="edge">
-<title>Node28&#45;&gt;Node33</title>
+<title>Node29&#45;&gt;Node34</title>
 <path fill="none" stroke="#191970" d="M1108.0706,-69.1948C1078.3271,-57.1478 1040.2503,-41.7257 1012.5414,-30.5028"/>
 <polygon fill="#191970" stroke="#191970" points="1106.8285,-72.4679 1117.4111,-72.978 1109.4564,-65.9798 1106.8285,-72.4679"/>
 </g>
-<!-- Node28&#45;&gt;Node34 -->
+<!-- Node29&#45;&gt;Node35 -->
 <g id="edge11" class="edge">
-<title>Node28&#45;&gt;Node34</title>
+<title>Node29&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M1245.4647,-82.0739C1367.6835,-73.5769 1591.5241,-56.1353 1781.5,-31 1784.1432,-30.6503 1786.8279,-30.2787 1789.5368,-29.8896"/>
 <polygon fill="#191970" stroke="#191970" points="1245.136,-78.5882 1235.4011,-82.7693 1245.6186,-85.5715 1245.136,-78.5882"/>
 </g>
-<!-- Node28&#45;&gt;Node35 -->
+<!-- Node29&#45;&gt;Node36 -->
 <g id="edge12" class="edge">
-<title>Node28&#45;&gt;Node35</title>
+<title>Node29&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M1245.1443,-77.7036C1335.7608,-67.1196 1479.0104,-49.5992 1602.5,-31 1605.2916,-30.5795 1608.1307,-30.1416 1610.9967,-29.6907"/>
 <polygon fill="#191970" stroke="#191970" points="1244.7069,-74.2308 1235.179,-78.8644 1245.5169,-81.1838 1244.7069,-74.2308"/>
 </g>
-<!-- Node28&#45;&gt;Node36 -->
+<!-- Node29&#45;&gt;Node37 -->
 <g id="edge13" class="edge">
-<title>Node28&#45;&gt;Node36</title>
+<title>Node29&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M1154.5,-62.8409C1154.5,-52.0601 1154.5,-39.8309 1154.5,-30.5028"/>
 <polygon fill="#191970" stroke="#191970" points="1151.0001,-62.9779 1154.5,-72.978 1158.0001,-62.978 1151.0001,-62.9779"/>
 </g>
-<!-- Node37 -->
+<!-- Node38 -->
 <g id="node15" class="node">
-<title>Node37</title>
+<title>Node38</title>
 <g id="a_node15"><a xlink:href="stlallocation_8cpp.html" target="_top" xlink:title="This file provides tests using C++ interfaces in ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="179,-.5 179,-30.5 340,-30.5 340,-.5 179,-.5"/>
 <text text-anchor="start" x="187" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -335,15 +335,15 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node37 -->
+<!-- Node29&#45;&gt;Node38 -->
 <g id="edge14" class="edge">
-<title>Node28&#45;&gt;Node37</title>
+<title>Node29&#45;&gt;Node38</title>
 <path fill="none" stroke="#191970" d="M1083.806,-71.0129C1075.645,-69.4569 1067.4141,-68.0675 1059.5,-67 745.9347,-24.706 662.9397,-66.2088 348.5,-31 345.8503,-30.7033 343.16,-30.3777 340.4463,-30.0282"/>
 <polygon fill="#191970" stroke="#191970" points="1083.2088,-74.4626 1093.6999,-72.9831 1084.576,-67.5974 1083.2088,-74.4626"/>
 </g>
-<!-- Node38 -->
+<!-- Node39 -->
 <g id="node16" class="node">
-<title>Node38</title>
+<title>Node39</title>
 <g id="a_node16"><a xlink:href="trivial_8cpp.html" target="_top" xlink:title="This file provides unit tests for trivial sanity checks when using ArgoDSM. ">
 <polygon fill="#ffffff" stroke="#000000" points="358,-.5 358,-30.5 519,-30.5 519,-.5 358,-.5"/>
 <text text-anchor="start" x="366" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -351,15 +351,15 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node38 -->
+<!-- Node29&#45;&gt;Node39 -->
 <g id="edge15" class="edge">
-<title>Node28&#45;&gt;Node38</title>
+<title>Node29&#45;&gt;Node39</title>
 <path fill="none" stroke="#191970" d="M1082.9723,-70.9894C1075.0824,-69.4713 1067.1415,-68.0968 1059.5,-67 824.9189,-33.3297 762.781,-59.3693 527.5,-31 524.8529,-30.6808 522.1649,-30.3357 519.4531,-29.9694"/>
 <polygon fill="#191970" stroke="#191970" points="1082.42,-74.4482 1092.9124,-72.979 1083.7939,-67.5844 1082.42,-74.4482"/>
 </g>
-<!-- Node39 -->
+<!-- Node40 -->
 <g id="node17" class="node">
-<title>Node39</title>
+<title>Node40</title>
 <g id="a_node17"><a xlink:href="uninitialized_8cpp.html" target="_top" xlink:title="This file provides unit tests for accessing ArgoDSM memory in various ways. ">
 <polygon fill="#ffffff" stroke="#000000" points="537,-.5 537,-30.5 698,-30.5 698,-.5 537,-.5"/>
 <text text-anchor="start" x="545" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -367,21 +367,21 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node39 -->
+<!-- Node29&#45;&gt;Node40 -->
 <g id="edge16" class="edge">
-<title>Node28&#45;&gt;Node39</title>
+<title>Node29&#45;&gt;Node40</title>
 <path fill="none" stroke="#191970" d="M1081.3391,-70.9373C1073.9834,-69.4895 1066.6084,-68.1442 1059.5,-67 903.8014,-41.9385 862.7244,-52.5424 706.5,-31 703.8587,-30.6358 701.1758,-30.2516 698.4683,-29.8517"/>
 <polygon fill="#191970" stroke="#191970" points="1080.8343,-74.4062 1091.3308,-72.9659 1082.2271,-67.5462 1080.8343,-74.4062"/>
 </g>
-<!-- Node40&#45;&gt;Node34 -->
+<!-- Node41&#45;&gt;Node35 -->
 <g id="edge20" class="edge">
-<title>Node40&#45;&gt;Node34</title>
+<title>Node41&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M1682.8106,-138.3889C1674.19,-130.0078 1666.1904,-120.0531 1661.5,-109 1654.2082,-91.8165 1649.9875,-81.6937 1661.5,-67 1669.7828,-56.4285 1734.6631,-41.4909 1789.9676,-30.4238"/>
 <polygon fill="#191970" stroke="#191970" points="1680.7181,-141.216 1690.4786,-145.3371 1685.4184,-136.0288 1680.7181,-141.216"/>
 </g>
-<!-- Node41 -->
+<!-- Node42 -->
 <g id="node19" class="node">
-<title>Node41</title>
+<title>Node42</title>
 <g id="a_node19"><a xlink:href="cohort__lock_8cpp_source.html" target="_top" xlink:title="/home/atmerhannah/argodsm\l/src/synchronization/cohort\l_lock.cpp">
 <polygon fill="#ffffff" stroke="#000000" points="1670,-67.5 1670,-108.5 1831,-108.5 1831,-67.5 1670,-67.5"/>
 <text text-anchor="start" x="1678" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/home/atmerhannah/argodsm</text>
@@ -390,33 +390,33 @@
 </a>
 </g>
 </g>
-<!-- Node40&#45;&gt;Node41 -->
+<!-- Node41&#45;&gt;Node42 -->
 <g id="edge19" class="edge">
-<title>Node40&#45;&gt;Node41</title>
+<title>Node41&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M1732.1708,-135.6559C1735.6427,-126.629 1739.3652,-116.9505 1742.5424,-108.6898"/>
 <polygon fill="#191970" stroke="#191970" points="1728.8626,-134.5075 1728.5394,-145.0974 1735.396,-137.0204 1728.8626,-134.5075"/>
 </g>
-<!-- Node42&#45;&gt;Node25 -->
+<!-- Node43&#45;&gt;Node26 -->
 <g id="edge27" class="edge">
-<title>Node42&#45;&gt;Node25</title>
+<title>Node43&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M1201.8715,-296.9218C1224.144,-286.4564 1249.693,-274.4515 1270.821,-264.5239"/>
 <polygon fill="#191970" stroke="#191970" points="1200.1113,-293.8817 1192.5491,-301.3022 1203.0883,-300.2172 1200.1113,-293.8817"/>
 </g>
-<!-- Node42&#45;&gt;Node26 -->
+<!-- Node43&#45;&gt;Node27 -->
 <g id="edge28" class="edge">
-<title>Node42&#45;&gt;Node26</title>
+<title>Node43&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M1117.0448,-294.5866C1079.2022,-261.6064 1017.0125,-207.4076 986.9075,-181.1708"/>
 <polygon fill="#191970" stroke="#191970" points="1114.8918,-297.3528 1124.7302,-301.2844 1119.4909,-292.0757 1114.8918,-297.3528"/>
 </g>
-<!-- Node42&#45;&gt;Node27 -->
+<!-- Node43&#45;&gt;Node28 -->
 <g id="edge29" class="edge">
-<title>Node42&#45;&gt;Node27</title>
+<title>Node43&#45;&gt;Node28</title>
 <path fill="none" stroke="#191970" d="M1148.5,-291.2053C1148.5,-258.0093 1148.5,-206.5293 1148.5,-181.1708"/>
 <polygon fill="#191970" stroke="#191970" points="1145.0001,-291.2844 1148.5,-301.2844 1152.0001,-291.2844 1145.0001,-291.2844"/>
 </g>
-<!-- Node42&#45;&gt;Node29 -->
+<!-- Node43&#45;&gt;Node30 -->
 <g id="edge30" class="edge">
-<title>Node42&#45;&gt;Node29</title>
+<title>Node43&#45;&gt;Node30</title>
 <path fill="none" stroke="#191970" d="M1067.0642,-298.6292C857.7991,-238.5732 305.5871,-80.0966 132.8893,-30.535"/>
 <polygon fill="#191970" stroke="#191970" points="1066.1896,-302.0194 1076.7671,-301.4137 1068.1206,-295.291 1066.1896,-302.0194"/>
 </g>

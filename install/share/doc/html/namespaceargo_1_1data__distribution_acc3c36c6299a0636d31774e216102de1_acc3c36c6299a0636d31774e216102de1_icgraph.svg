@@ -19,7 +19,7 @@
 <!-- Node7 -->
 <g id="node2" class="node">
 <title>Node7</title>
-<g id="a_node2"><a xlink:href="swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
+<g id="a_node2"><a xlink:href="swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" target="_top" target="_top" xlink:title="Initializes ArgoDSM runtime. ">
 <polygon fill="#ffffff" stroke="#000000" points="163,-6 163,-25 249,-25 249,-6 163,-6"/>
 <text text-anchor="middle" x="206" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_initialize</text>
 </a>
@@ -34,7 +34,7 @@
 <!-- Node8 -->
 <g id="node3" class="node">
 <title>Node8</title>
-<g id="a_node3"><a xlink:href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" target="_top" xlink:title="initialize backend ">
+<g id="a_node3"><a xlink:href="backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" target="_top" target="_top" xlink:title="initialize backend ">
 <polygon fill="#ffffff" stroke="#000000" points="285,-6 285,-25 392,-25 392,-6 285,-6"/>
 <text text-anchor="middle" x="338.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::backend::init</text>
 </a>

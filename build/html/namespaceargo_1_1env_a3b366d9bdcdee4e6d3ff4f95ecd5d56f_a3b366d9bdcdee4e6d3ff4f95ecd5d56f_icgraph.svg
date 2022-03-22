@@ -18,7 +18,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="namespaceargo_a31330d8b35bd7f9ef9880eec82339c54.html#a31330d8b35bd7f9ef9880eec82339c54" target="_top" xlink:title="initialize ArgoDSM system ">
+<g id="a_node2"><a xlink:href="namespaceargo_a31330d8b35bd7f9ef9880eec82339c54.html#a31330d8b35bd7f9ef9880eec82339c54" target="_top" target="_top" xlink:title="initialize ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="119,-19.5 119,-38.5 179,-38.5 179,-19.5 119,-19.5"/>
 <text text-anchor="middle" x="149" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo::init</text>
 </a>
@@ -33,7 +33,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="The main function that runs the tests. ">
+<g id="a_node3"><a xlink:href="tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" target="_top" xlink:title="The main function that runs the tests. ">
 <polygon fill="#ffffff" stroke="#000000" points="224,-38.5 224,-57.5 265,-57.5 265,-38.5 224,-38.5"/>
 <text text-anchor="middle" x="244.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">main</text>
 </a>
@@ -48,7 +48,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="argo_8h_aa84680ad78c3598c30a482ff71ec6bbc.html#aa84680ad78c3598c30a482ff71ec6bbc" target="_top" xlink:title="initialize ArgoDSM system ">
+<g id="a_node4"><a xlink:href="argo_8h_aa84680ad78c3598c30a482ff71ec6bbc.html#aa84680ad78c3598c30a482ff71ec6bbc" target="_top" target="_top" xlink:title="initialize ArgoDSM system ">
 <polygon fill="#ffffff" stroke="#000000" points="215,-.5 215,-19.5 274,-19.5 274,-.5 215,-.5"/>
 <text text-anchor="middle" x="244.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">argo_init</text>
 </a>

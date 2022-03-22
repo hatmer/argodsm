@@ -1,10 +1,10 @@
-Start testing: Jan 22 14:20 UTC
+Start testing: Mar 17 17:49 UTC
 ----------------------------------------------------------
 1/10 Testing: trivialTests-mpi
 1/10 Test: trivialTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/trivialTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"trivialTests-mpi" start time: Jan 22 14:20 UTC
+"trivialTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -40,7 +40,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"trivialTests-mpi" end time: Jan 22 14:20 UTC
+"trivialTests-mpi" end time: Mar 17 17:49 UTC
 "trivialTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -48,7 +48,7 @@ Test Failed.
 2/10 Test: allocatorsTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/allocatorsTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"allocatorsTests-mpi" start time: Jan 22 14:20 UTC
+"allocatorsTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -84,7 +84,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"allocatorsTests-mpi" end time: Jan 22 14:20 UTC
+"allocatorsTests-mpi" end time: Mar 17 17:49 UTC
 "allocatorsTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -92,7 +92,7 @@ Test Failed.
 3/10 Test: prefetchTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/prefetchTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"prefetchTests-mpi" start time: Jan 22 14:20 UTC
+"prefetchTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -128,7 +128,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"prefetchTests-mpi" end time: Jan 22 14:20 UTC
+"prefetchTests-mpi" end time: Mar 17 17:49 UTC
 "prefetchTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -136,7 +136,7 @@ Test Failed.
 4/10 Test: apiTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/apiTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"apiTests-mpi" start time: Jan 22 14:20 UTC
+"apiTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -172,7 +172,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"apiTests-mpi" end time: Jan 22 14:20 UTC
+"apiTests-mpi" end time: Mar 17 17:49 UTC
 "apiTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -180,7 +180,7 @@ Test Failed.
 5/10 Test: ompTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/ompTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"ompTests-mpi" start time: Jan 22 14:20 UTC
+"ompTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -216,7 +216,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"ompTests-mpi" end time: Jan 22 14:20 UTC
+"ompTests-mpi" end time: Mar 17 17:49 UTC
 "ompTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -224,7 +224,7 @@ Test Failed.
 6/10 Test: cppSTLTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/cppSTLTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"cppSTLTests-mpi" start time: Jan 22 14:20 UTC
+"cppSTLTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -260,7 +260,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"cppSTLTests-mpi" end time: Jan 22 14:20 UTC
+"cppSTLTests-mpi" end time: Mar 17 17:49 UTC
 "cppSTLTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -268,7 +268,7 @@ Test Failed.
 7/10 Test: barrierTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/barrierTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"barrierTests-mpi" start time: Jan 22 14:20 UTC
+"barrierTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -304,7 +304,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"barrierTests-mpi" end time: Jan 22 14:20 UTC
+"barrierTests-mpi" end time: Mar 17 17:49 UTC
 "barrierTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -312,7 +312,7 @@ Test Failed.
 8/10 Test: uninitializedTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/uninitializedTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"uninitializedTests-mpi" start time: Jan 22 14:20 UTC
+"uninitializedTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -348,7 +348,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"uninitializedTests-mpi" end time: Jan 22 14:20 UTC
+"uninitializedTests-mpi" end time: Mar 17 17:49 UTC
 "uninitializedTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -356,7 +356,7 @@ Test Failed.
 9/10 Test: lockTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/lockTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"lockTests-mpi" start time: Jan 22 14:20 UTC
+"lockTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -392,7 +392,7 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"lockTests-mpi" end time: Jan 22 14:20 UTC
+"lockTests-mpi" end time: Mar 17 17:49 UTC
 "lockTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -400,7 +400,7 @@ Test Failed.
 10/10 Test: backendTests-mpi
 Command: "/home/atmerhannah/openmpi/bin/mpirun" "-n" "2" "/home/atmerhannah/argodsm/build/bin/mpi/backendTests"
 Directory: /home/atmerhannah/argodsm/build/tests
-"backendTests-mpi" start time: Jan 22 14:20 UTC
+"backendTests-mpi" start time: Mar 17 17:49 UTC
 Output:
 ----------------------------------------------------------
 --------------------------------------------------------------------------
@@ -436,8 +436,8 @@ launch.
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"backendTests-mpi" end time: Jan 22 14:20 UTC
+"backendTests-mpi" end time: Mar 17 17:49 UTC
 "backendTests-mpi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 22 14:20 UTC
+End testing: Mar 17 17:49 UTC

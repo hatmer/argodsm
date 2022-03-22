@@ -1,5 +1,5 @@
 <map id="argo::signal::signal_handler::install_argo_handler" name="argo::signal::signal_handler::install_argo_handler">
-<area shape="rect" id="node2" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="230,5,345,32"/>
-<area shape="rect" id="node4" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="216,56,359,83"/>
-<area shape="rect" id="node3" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="407,5,549,32"/>
+<area shape="rect" id="node2" href="$swdsm_8h_a31ba60e8ddccfa922da8d7e6a10f7b1d.html#a31ba60e8ddccfa922da8d7e6a10f7b1d" title="Initializes ArgoDSM runtime. " alt="" coords="233,5,348,32"/>
+<area shape="rect" id="node4" href="$singlenode_8cpp_aa85919231c2adb5cad84c6707cb19f1c.html#aa85919231c2adb5cad84c6707cb19f1c" title="a dummy signal handler function " alt="" coords="216,56,365,83"/>
+<area shape="rect" id="node3" href="$backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="initialize backend " alt="" coords="413,5,556,32"/>
 </map>
