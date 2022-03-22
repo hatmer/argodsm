@@ -21,7 +21,7 @@
 #define ITER 10
 
 /** @brief ArgoDSM memory size */
-constexpr std::size_t size = 1<<30;
+constexpr std::size_t size = 1<<20;
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size/8;
 
@@ -35,6 +35,7 @@ int amount = 100000;
 /**
  * @brief Class for the gtests fixture tests. Will reset the allocators to a clean state for every test
  */
+
 class ompTest : public testing::Test {
 	protected:
 		ompTest()  {
@@ -51,6 +52,7 @@ class ompTest : public testing::Test {
 /**
  * @brief Unittest that checks that data written 1 OpenMP thread per node by all threads after an ArgoDSM barrier
  */
+
 TEST_F(ompTest, WriteAndRead) {
 	int i,j,n;
 	int *arr = argo::conew_array<int>(amount);
@@ -66,6 +68,7 @@ TEST_F(ompTest, WriteAndRead) {
 	if(argo_node_id() == (argo_number_of_nodes()-1)){ // Last node always iterates to the end of the array
 		end = amount;
 	}
+  printf("barrier 1\n");
 	argo::barrier();
 
 	for(n=0; n<ITER; n++){ //Run ITER times
@@ -76,12 +79,14 @@ TEST_F(ompTest, WriteAndRead) {
 			for(j=start; j<end; j++){   
 				arr[j]=(i+42); //Each entry written
 			}
+      printf("barrier 2\n");
 			argo::barrier();
 
 #pragma omp parallel for
 			for(j=0; j<amount; j++){
 				EXPECT_EQ(arr[j],(i+42)); //Each thread checks for correctness
 			}
+      printf("barrier 3\n");
 			argo::barrier();
 		}
 	}

@@ -32,6 +32,7 @@ namespace argo {
 		if(requested_argo_size == 0) {
 			requested_argo_size = env::memory_size();
 		}
+    requested_argo_size = 1000000;
 		using mp = mem::global_memory_pool<>;
 		/* add some space for internal use, see issue #22 */
 		requested_argo_size += mp::reserved;
@@ -40,6 +41,7 @@ namespace argo {
 		if(requested_cache_size == 0) {
 			requested_cache_size = env::cache_size();
 		}
+    requested_cache_size = 1000000 / 8;
 
 		std::size_t requested_argo_policy = env::allocation_policy();
 		if(!(requested_argo_policy <= 4ul)) {
