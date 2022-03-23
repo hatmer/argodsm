@@ -1,4 +1,0 @@
-<map id="argo::locallock::ticket_lock::unlock" name="argo::locallock::ticket_lock::unlock">
-<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1cohort__lock_ac937f13d00780ca9ff8f4dd826c6c12b.html#ac937f13d00780ca9ff8f4dd826c6c12b" title="Release the lock. " alt="" coords="216,5,391,47"/>
-<area shape="rect" id="node3" href="$cohort__lock_8h_aecc3694b56dfe7472a345995d7559e89.html#aecc3694b56dfe7472a345995d7559e89" title="unlock a cohort lock " alt="" coords="439,13,615,39"/>
-</map>

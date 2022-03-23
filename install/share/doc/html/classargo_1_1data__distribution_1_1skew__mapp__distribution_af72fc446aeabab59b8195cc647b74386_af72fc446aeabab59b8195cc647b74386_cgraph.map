@@ -1,4 +1,0 @@
-<map id="argo::data_distribution::skew_mapp_distribution::peek_local_offset" name="argo::data_distribution::skew_mapp_distribution::peek_local_offset">
-<area shape="rect" id="node2" href="$classargo_1_1data__distribution_1_1skew__mapp__distribution_aa92e600a1e5813de3e0da1f016b7edd7.html#aa92e600a1e5813de3e0da1f016b7edd7" title="compute the offset of ptr in the backing store on ptr&#39;s homenode " alt="" coords="243,5,432,61"/>
-<area shape="rect" id="node3" href="$namespaceargo_1_1env_a30775a9aa41b956df7474a2c0cc317aa.html#a30775a9aa41b956df7474a2c0cc317aa" title="get the allocation block size requested by environment variable " alt="" coords="480,13,635,54"/>
-</map>

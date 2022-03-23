@@ -1,6 +1,0 @@
-<map id="argo::barrier" name="argo::barrier">
-<area shape="rect" id="node2" href="$tests_2allocators_8cpp_ae126220d4ebd940b8dcc827b3c74ceda.html#ae126220d4ebd940b8dcc827b3c74ceda" title="Unittest that checks that node 0 allocating the whole requested memory space dynamically &#45; also check..." alt="" coords="193,5,261,32"/>
-<area shape="rect" id="node3" href="$singlenode_8cpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="argo::backend::init" alt="" coords="156,56,299,83"/>
-<area shape="rect" id="node4" href="$synchronization_8h_a8807b352403d7158771b83cbbe48ad0f.html#a8807b352403d7158771b83cbbe48ad0f" title="a barrier for threads " alt="" coords="177,107,278,133"/>
-<area shape="rect" id="node5" href="$barrier_8cpp_a03ef2b2b4275df192876f1fc8943aadf.html#a03ef2b2b4275df192876f1fc8943aadf" title="Unittest that checks that the barrier call works with multiple threads. " alt="" coords="193,157,262,184"/>
-</map>

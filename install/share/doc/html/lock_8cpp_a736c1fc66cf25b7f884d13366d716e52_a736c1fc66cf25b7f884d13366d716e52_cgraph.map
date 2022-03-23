@@ -1,8 +1,0 @@
-<map id="TEST_F" name="TEST_F">
-<area shape="rect" id="node2" href="$namespaceargo_a10bae1e1e60ff583384b937201a87c29.html#a10bae1e1e60ff583384b937201a87c29" title="a barrier for threads " alt="" coords="157,5,260,32"/>
-<area shape="rect" id="node3" href="$namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" title="Number of ArgoDSM nodes being run. " alt="" coords="121,56,296,83"/>
-<area shape="rect" id="node4" href="$namespaceargo_a09ca0ec2df9dbed721fb14b26cfa39a3.html#a09ca0ec2df9dbed721fb14b26cfa39a3" title="template function to delete objects that were allocated using collective_new " alt="" coords="147,107,270,133"/>
-<area shape="rect" id="node5" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="348,81,459,108"/>
-<area shape="rect" id="node6" href="$src_2allocators_2allocators_8cpp_a215edf4fe9276398650302b518c52baf.html#a215edf4fe9276398650302b518c52baf" title="basic free function for collective allocations, for C interface " alt="" coords="344,132,463,159"/>
-<area shape="rect" id="node7" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="511,125,689,166"/>
-</map>

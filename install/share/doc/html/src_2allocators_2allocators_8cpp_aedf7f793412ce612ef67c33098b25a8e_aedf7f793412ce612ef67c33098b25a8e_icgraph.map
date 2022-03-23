@@ -1,6 +1,0 @@
-<map id="dynamic_free" name="dynamic_free">
-<area shape="rect" id="node2" href="$tests_2allocators_8cpp_a13fc720238a04e385587d7b2cef0f3bc.html#a13fc720238a04e385587d7b2cef0f3bc" title="Test if it is possible to delete a null pointer with no errors. " alt="" coords="353,5,421,32"/>
-<area shape="rect" id="node3" href="$namespaceargo_a084a7639e719e866e4f0e88af71f6dff.html#a084a7639e719e866e4f0e88af71f6dff" title="template function to delete objects that were allocated using dynamic_new " alt="" coords="181,31,288,57"/>
-<area shape="rect" id="node4" href="$namespaceargo_aeb7666a0539b817876610d8eaaf38566.html#aeb7666a0539b817876610d8eaaf38566" title="Delete a globally allocated array of object. " alt="" coords="164,81,305,108"/>
-<area shape="rect" id="node5" href="$tests_2allocators_8cpp_a0571f7229f019db2f46d8f56bebd01d0.html#a0571f7229f019db2f46d8f56bebd01d0" title="mixes dynamic and collective allocation and stores dynamic arrays in a collective arrays to communica..." alt="" coords="353,81,421,108"/>
-</map>

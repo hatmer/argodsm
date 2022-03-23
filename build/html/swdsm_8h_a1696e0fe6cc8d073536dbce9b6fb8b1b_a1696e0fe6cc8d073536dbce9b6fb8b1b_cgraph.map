@@ -1,7 +1,0 @@
-<map id="_is_cached" name="_is_cached">
-<area shape="rect" id="node2" href="$swdsm_8cpp_ad56e0108259917bf97090212b3927f55.html#ad56e0108259917bf97090212b3927f55" title="align an offset into a memory region to the beginning of its size block " alt="" coords="147,5,277,32"/>
-<area shape="rect" id="node3" href="$swdsm_8cpp_a4c0ee0be20a4d5b19eef1a568e6ce084.html#a4c0ee0be20a4d5b19eef1a568e6ce084" title="Gives homenode for a given address. " alt="" coords="147,56,277,83"/>
-<area shape="rect" id="node5" href="$swdsm_8cpp_acf216cf340937a920846c9a5c1bf3b0b.html#acf216cf340937a920846c9a5c1bf3b0b" title="Gets cacheindex for a given address. " alt="" coords="153,107,271,133"/>
-<area shape="rect" id="node6" href="$swdsm_8cpp_af770e3f703653ddb0967b85d88881ab7.html#af770e3f703653ddb0967b85d88881ab7" title="Gives the ArgoDSM node id for the local process. " alt="" coords="183,157,241,184"/>
-<area shape="rect" id="node4" href="$classargo_1_1data__distribution_1_1global__ptr_a3e2cdd4d323ef91174615e27ab94e342.html#a3e2cdd4d323ef91174615e27ab94e342" title="return the home node of the value pointed to, or a default value if the page has not yet been first&#45;t..." alt="" coords="325,49,500,90"/>
-</map>

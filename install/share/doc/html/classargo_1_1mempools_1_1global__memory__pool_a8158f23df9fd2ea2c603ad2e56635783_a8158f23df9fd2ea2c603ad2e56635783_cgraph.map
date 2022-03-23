@@ -1,5 +1,0 @@
-<map id="argo::mempools::global_memory_pool::global_memory_pool" name="argo::mempools::global_memory_pool::global_memory_pool">
-<area shape="rect" id="node2" href="$namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" title="Number of ArgoDSM nodes being run. " alt="" coords="317,5,492,32"/>
-<area shape="rect" id="node3" href="$classargo_1_1data__distribution_1_1base__distribution_a4b275eeffdafd81ecbd739ea03942666.html#a4b275eeffdafd81ecbd739ea03942666" title="set runtime parameters for global memory space " alt="" coords="319,56,491,112"/>
-<area shape="rect" id="node4" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="349,136,460,163"/>
-</map>

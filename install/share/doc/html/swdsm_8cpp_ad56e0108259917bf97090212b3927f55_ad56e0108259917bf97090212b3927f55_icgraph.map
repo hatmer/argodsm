@@ -1,8 +1,0 @@
-<map id="align_backwards" name="align_backwards">
-<area shape="rect" id="node2" href="$swdsm_8h_adb24c11067d42b9bc8515a78a524e2c7.html#adb24c11067d42b9bc8515a78a524e2c7" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="198,5,269,32"/>
-<area shape="rect" id="node5" href="$swdsm_8h_aa5da42b70088b546b0f16d0a8031cfd1.html#aa5da42b70088b546b0f16d0a8031cfd1" title="Gets the offset of an address on the local nodes part of the global memory. " alt="" coords="184,80,283,107"/>
-<area shape="rect" id="node6" href="$swdsm_8h_a93e3c7288ce47ac8b4ec8ff9f8a82435.html#a93e3c7288ce47ac8b4ec8ff9f8a82435" title="Check whether a page is either cached on the node or locally backed. " alt="" coords="187,131,280,157"/>
-<area shape="rect" id="node3" href="$swdsm_8h_a31ba60e8ddccfa922da8d7e6a10f7b1d.html#a31ba60e8ddccfa922da8d7e6a10f7b1d" title="Initializes ArgoDSM runtime. " alt="" coords="367,5,481,32"/>
-<area shape="rect" id="node4" href="$backend_8hpp_aab3cabb3e1c0b9696b339416b684f78c.html#aab3cabb3e1c0b9696b339416b684f78c" title="initialize backend " alt="" coords="565,5,708,32"/>
-<area shape="rect" id="node7" href="$backend_8hpp_a8189df2ded0e8e6b64477a53f80d67e8.html#a8189df2ded0e8e6b64477a53f80d67e8" title="Check if a an address is cached or node local. " alt="" coords="331,131,517,157"/>
-</map>

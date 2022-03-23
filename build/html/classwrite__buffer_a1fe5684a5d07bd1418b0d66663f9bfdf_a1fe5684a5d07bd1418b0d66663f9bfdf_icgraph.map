@@ -1,5 +1,0 @@
-<map id="write_buffer::erase" name="write_buffer::erase">
-<area shape="rect" id="node2" href="$backend_8hpp_a0fb29a8253f0d9aefc999d93414b1758.html#a0fb29a8253f0d9aefc999d93414b1758" title="backend internal type erased function for selective acquire " alt="" coords="197,29,385,71"/>
-<area shape="rect" id="node3" href="$backend_8hpp_ac3350bde3c8baf64753e515336fad3be.html#ac3350bde3c8baf64753e515336fad3be" title="backend internal type erased function for selective release " alt="" coords="197,119,385,160"/>
-<area shape="rect" id="node4" href="$swdsm_8h_aa5da42b70088b546b0f16d0a8031cfd1.html#aa5da42b70088b546b0f16d0a8031cfd1" title="Gets the offset of an address on the local nodes part of the global memory. " alt="" coords="242,209,341,235"/>
-</map>

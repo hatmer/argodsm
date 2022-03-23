@@ -1,6 +1,0 @@
-<map id="peek_offset" name="peek_offset">
-<area shape="rect" id="node2" href="$swdsm_8cpp_a97adb774a1a5a7a3505416a171c570e9.html#a97adb774a1a5a7a3505416a171c570e9" title="load into cache helper function " alt="" coords="152,5,288,32"/>
-<area shape="rect" id="node3" href="$swdsm_8h_a8b00f264b792522b179fbc9c818187bd.html#a8b00f264b792522b179fbc9c818187bd" title="Catches memory accesses to memory not yet cached in ArgoDSM. Launches remote requests for memory not ..." alt="" coords="336,5,407,32"/>
-<area shape="rect" id="node4" href="$swdsm_8h_a10dca85d339ce630cf42dca685b3f6d9.html#a10dca85d339ce630cf42dca685b3f6d9" title="Initializes ArgoDSM runtime. " alt="" coords="455,5,569,32"/>
-<area shape="rect" id="node5" href="$backend_8hpp_af0d80a03a17a374c10d9635ddf81e261.html#af0d80a03a17a374c10d9635ddf81e261" title="initialize backend " alt="" coords="617,5,760,32"/>
-</map>

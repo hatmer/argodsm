@@ -1,5 +1,0 @@
-<map id="dynamic_alloc" name="dynamic_alloc">
-<area shape="rect" id="node2" href="$tests_2allocators_8cpp_a100f23c9297b2b8356f61ededc2431a5.html#a100f23c9297b2b8356f61ededc2431a5" title="Unittest that checks that allocating 0 bytes dynamically by all nodes is allowed. ..." alt="" coords="199,5,267,32"/>
-<area shape="rect" id="node3" href="$namespaceargo_abf8f4f896d56dcc711d50e395ff02bf6.html#abf8f4f896d56dcc711d50e395ff02bf6" title="template function to construct new objects " alt="" coords="186,56,279,83"/>
-<area shape="rect" id="node4" href="$namespaceargo_a9fef671adb114cd54a04a846d5a860dd.html#a9fef671adb114cd54a04a846d5a860dd" title="Construct a new array of objects in the global memory. " alt="" coords="169,107,296,133"/>
-</map>

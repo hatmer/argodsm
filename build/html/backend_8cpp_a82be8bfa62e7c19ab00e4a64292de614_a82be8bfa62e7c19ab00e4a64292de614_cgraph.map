@@ -1,9 +1,0 @@
-<map id="TEST_F" name="TEST_F">
-<area shape="rect" id="node2" href="$namespaceargo_a79c9492f3fd441bfa6261dffbc0f02f4.html#a79c9492f3fd441bfa6261dffbc0f02f4" title="Number of ArgoDSM nodes being run. " alt="" coords="121,5,296,32"/>
-<area shape="rect" id="node3" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="388,67,499,93"/>
-<area shape="rect" id="node4" href="$namespaceargo_a10bae1e1e60ff583384b937201a87c29.html#a10bae1e1e60ff583384b937201a87c29" title="a barrier for threads " alt="" coords="157,107,260,133"/>
-<area shape="rect" id="node5" href="$namespaceargo_aa7e8ddf5784dd37c965cfd43cd65a330.html#aa7e8ddf5784dd37c965cfd43cd65a330" title="Delete a globally collectively allocated array of objects. " alt="" coords="131,157,287,184"/>
-<area shape="rect" id="node6" href="$classargo_1_1allocators_1_1generic__allocator_a6a7fe288a35b74a248c341d6f67c800c.html#a6a7fe288a35b74a248c341d6f67c800c" title="How much space has been allocated for the given chunk. " alt="" coords="344,139,543,181"/>
-<area shape="rect" id="node7" href="$src_2allocators_2allocators_8cpp_a215edf4fe9276398650302b518c52baf.html#a215edf4fe9276398650302b518c52baf" title="basic free function for collective allocations, for C interface " alt="" coords="384,205,503,232"/>
-<area shape="rect" id="node8" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="591,198,769,239"/>
-</map>

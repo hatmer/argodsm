@@ -56,7 +56,7 @@ namespace argo {
 		}
 
 		/* note: the backend must currently initialize before the mempool can be set */
-		backend::init(requested_argo_size, requested_cache_size);
+		backend::init(requested_argo_size, requested_cache_size, env::replication_degree());
 		default_global_mempool = new mp();
 		argo_reset();
 	}

@@ -1,6 +1,0 @@
-<map id="argo::globallock::cohort_lock::~cohort_lock" name="argo::globallock::cohort_lock::~cohort_lock">
-<area shape="rect" id="node2" href="$namespaceargo_a09ca0ec2df9dbed721fb14b26cfa39a3.html#a09ca0ec2df9dbed721fb14b26cfa39a3" title="template function to delete objects that were allocated using collective_new " alt="" coords="228,31,351,57"/>
-<area shape="rect" id="node3" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="403,5,513,32"/>
-<area shape="rect" id="node4" href="$src_2allocators_2allocators_8cpp_a215edf4fe9276398650302b518c52baf.html#a215edf4fe9276398650302b518c52baf" title="basic free function for collective allocations, for C interface " alt="" coords="399,56,517,83"/>
-<area shape="rect" id="node5" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="565,49,744,90"/>
-</map>

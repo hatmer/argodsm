@@ -1,6 +1,0 @@
-<map id="argo::codelete_array" name="argo::codelete_array">
-<area shape="rect" id="node2" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="253,5,364,32"/>
-<area shape="rect" id="node3" href="$classargo_1_1allocators_1_1generic__allocator_a6a7fe288a35b74a248c341d6f67c800c.html#a6a7fe288a35b74a248c341d6f67c800c" title="How much space has been allocated for the given chunk. " alt="" coords="209,57,408,98"/>
-<area shape="rect" id="node4" href="$src_2allocators_2allocators_8cpp_a215edf4fe9276398650302b518c52baf.html#a215edf4fe9276398650302b518c52baf" title="basic free function for collective allocations, for C interface " alt="" coords="249,123,368,149"/>
-<area shape="rect" id="node5" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="456,115,635,157"/>
-</map>

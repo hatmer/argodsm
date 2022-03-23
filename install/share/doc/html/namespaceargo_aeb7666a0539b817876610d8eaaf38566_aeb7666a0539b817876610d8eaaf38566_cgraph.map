@@ -1,5 +1,0 @@
-<map id="argo::delete_array" name="argo::delete_array">
-<area shape="rect" id="node2" href="$classargo_1_1allocators_1_1generic__allocator_a6a7fe288a35b74a248c341d6f67c800c.html#a6a7fe288a35b74a248c341d6f67c800c" title="How much space has been allocated for the given chunk. " alt="" coords="195,5,393,47"/>
-<area shape="rect" id="node3" href="$src_2allocators_2allocators_8cpp_aedf7f793412ce612ef67c33098b25a8e.html#aedf7f793412ce612ef67c33098b25a8e" title="basic free function for dynamic allocations, for C interface " alt="" coords="239,71,349,98"/>
-<area shape="rect" id="node4" href="$classargo_1_1allocators_1_1generic__allocator_ab98a25e383864eecd7d602f95c49c420.html#ab98a25e383864eecd7d602f95c49c420" title="free an allocated pointer " alt="" coords="441,64,620,105"/>
-</map>

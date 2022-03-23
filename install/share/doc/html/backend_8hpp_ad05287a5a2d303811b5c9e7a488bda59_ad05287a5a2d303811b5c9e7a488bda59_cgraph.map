@@ -1,6 +1,0 @@
-<map id="argo::backend::atomic::_load" name="argo::backend::atomic::_load">
-<area shape="rect" id="node2" href="$mpi_8cpp_a42bc863264a399b805b95e0fc53a9fed.html#a42bc863264a399b805b95e0fc53a9fed" title="Returns an MPI integer type that exactly matches in size the argument given. " alt="" coords="247,5,363,32"/>
-<area shape="rect" id="node3" href="$classargo_1_1data__distribution_1_1global__ptr_ac7d651586337d08cda18ef26ffcd34a0.html#ac7d651586337d08cda18ef26ffcd34a0" title="return the home node of the value pointed to " alt="" coords="220,57,389,98"/>
-<area shape="rect" id="node4" href="$namespaceargo_a2b6b342c320b2a608d317a328fc46d83.html#a2b6b342c320b2a608d317a328fc46d83" title="Size of memory which is the portion of memory owned by this node. " alt="" coords="239,123,370,149"/>
-<area shape="rect" id="node5" href="$classargo_1_1data__distribution_1_1global__ptr_ad8c21c408fa2b926cfd9acfd87e8e4e6.html#ad8c21c408fa2b926cfd9acfd87e8e4e6" title="return the offset on the home node&#39;s local memory share " alt="" coords="220,174,389,215"/>
-</map>

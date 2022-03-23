@@ -1,7 +1,0 @@
-<map id="argo::mempools::global_memory_pool::reset" name="argo::mempools::global_memory_pool::reset">
-<area shape="rect" id="node2" href="$argo_8h_a5a8515fc3191ad0f3398d8ac1441b57a.html#a5a8515fc3191ad0f3398d8ac1441b57a" title="reset ArgoDSM system " alt="" coords="229,56,320,83"/>
-<area shape="rect" id="node3" href="$namespaceargo_a31330d8b35bd7f9ef9880eec82339c54.html#a31330d8b35bd7f9ef9880eec82339c54" title="initialize ArgoDSM system " alt="" coords="368,56,448,83"/>
-<area shape="rect" id="node4" href="$tests_2allocators_8cpp_a3c04138a5bfe5d72780bb7e82a18e627.html#a3c04138a5bfe5d72780bb7e82a18e627" title="The main function that runs the tests. " alt="" coords="543,5,598,32"/>
-<area shape="rect" id="node5" href="$argo_8h_aa84680ad78c3598c30a482ff71ec6bbc.html#aa84680ad78c3598c30a482ff71ec6bbc" title="initialize ArgoDSM system " alt="" coords="531,56,610,83"/>
-<area shape="rect" id="node6" href="$singlenode_8cpp_aa85919231c2adb5cad84c6707cb19f1c.html#aa85919231c2adb5cad84c6707cb19f1c" title="a dummy signal handler function " alt="" coords="496,107,645,133"/>
-</map>

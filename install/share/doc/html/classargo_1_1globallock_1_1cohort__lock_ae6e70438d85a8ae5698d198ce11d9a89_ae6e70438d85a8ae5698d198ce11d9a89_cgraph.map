@@ -1,8 +1,0 @@
-<map id="argo::globallock::cohort_lock::lock" name="argo::globallock::cohort_lock::lock">
-<area shape="rect" id="node2" href="$classargo_1_1globallock_1_1cohort__lock_a72d2407df0f6b78fceaf17b1a3f6bfce.html#a72d2407df0f6b78fceaf17b1a3f6bfce" title="Return the NUMA node in which the calling thread is being run. " alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$classargo_1_1locallock_1_1mcs__lock_ab9dea14c529f5aa40bd13f4a250f82b8.html#ab9dea14c529f5aa40bd13f4a250f82b8" title="Acquire the MCS lock. " alt="" coords="239,71,391,112"/>
-<area shape="rect" id="node4" href="$classargo_1_1locallock_1_1ticket__lock_a7baa6d6cc449a11a569233d2de7a33bd.html#a7baa6d6cc449a11a569233d2de7a33bd" title="take the lock by fetching your ticket and wait untill out_counter matches your ticket ..." alt="" coords="234,136,397,177"/>
-<area shape="rect" id="node5" href="$classargo_1_1globallock_1_1global__tas__lock_ae1a2cc75c9371ed191ac68f4e72f227e.html#ae1a2cc75c9371ed191ac68f4e72f227e" title="take the lock " alt="" coords="228,201,403,243"/>
-<area shape="rect" id="node6" href="$classargo_1_1globallock_1_1global__tas__lock_a89bbe556d8a271dd64d65b421993da00.html#a89bbe556d8a271dd64d65b421993da00" title="try to lock " alt="" coords="451,201,625,243"/>
-<area shape="rect" id="node7" href="$namespaceargo_a2deaaacde085d381cbb01f24318965b4.html#a2deaaacde085d381cbb01f24318965b4" title="A unique ArgoDSM node identifier. Counting starts from 0. " alt="" coords="673,209,784,235"/>
-</map>
