@@ -104,6 +104,10 @@ std::size_t size_of_chunk;
 static const unsigned int pagesize = 4096;
 /** @brief  Magic value for invalid cacheindices */
 std::uintptr_t GLOBAL_NULL;
+
+/** @brief  Points to start of replicated data */
+char* replicatedData;
+
 /** @brief  Statistics */
 argo_statistics stats;
 
@@ -838,6 +842,10 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	cacheData = static_cast<char*>(vm::allocate_mappable(pagesize, cachesize*pagesize));
 	cacheControl = static_cast<control_data*>(vm::allocate_mappable(pagesize, cacheControlSize));
 
+  if (replication_degree > 1) {
+    replicatedData = static_cast<char*>(vm::allocate_mappable(pagesize, size_of_chunk*replication_degree)); 
+  }
+
 	touchedcache = (argo_byte *)malloc(cachesize);
 	if(touchedcache == NULL){
 		printf("malloc error out of memory\n");
@@ -904,19 +912,13 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 		MPI_Win_create(global_offsets_tbl, offsets_tbl_size_bytes, sizeof(std::uintptr_t),
 									 MPI_INFO_NULL, MPI_COMM_WORLD, &offsets_tbl_window);
 	}
-  printf("checkpoint 3\n");
 	memset(pagecopy, 0, cachesize*pagesize);
-  printf("a\n");
 	memset(touchedcache, 0, cachesize);
-  printf("b: %lu, %lu, %lu\n", argo_size, sizeof(argo_byte), size_of_chunk*sizeof(argo_byte));
 	memset(globalData, 0, size_of_chunk*sizeof(argo_byte));
-  printf("c\n");
 	memset(cacheData, 0, cachesize*pagesize);
-  printf("d\n");
 	memset(globalSharers, 0, gwritersize);
-  printf("e\n");
 	memset(cacheControl, 0, cachesize*sizeof(control_data));
-  printf("checkpoint 4\n");
+  memset(replicatedData, 0, size_of_chunk*replication_degree*sizeof(argo_byte));
 
 	if (dd::is_first_touch_policy()) {
 		memset(global_owners_dir, 0, owners_dir_size_bytes);
