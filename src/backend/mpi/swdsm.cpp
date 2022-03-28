@@ -81,8 +81,8 @@ int rank;
 argo::node_id_t workrank;
 /** @brief tracking which windows are used for reading and writing global address space*/
 char * barwindowsused;
-/** @brief number of copies of data */
-std::size_t replication_degree;
+/** @brief number of extra copies of data */
+std::size_t replicated_copies;
 /** @brief Semaphore protecting infiniband accesses*/
 /** @todo replace with a (qd?)lock */
 sem_t ibsem;
@@ -766,7 +766,7 @@ std::size_t align_forwards(std::size_t offset, std::size_t size){
 
 void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree){
   printf("argo_initialize: replication degree is %lu\n", replication_degree);
-  replication_degree = replication_degree;
+  replicated_copies = replication_degree-1;
 	initmpi();
   printf("mpi init okay\n");
 
@@ -847,10 +847,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	cacheData = static_cast<char*>(vm::allocate_mappable(pagesize, cachesize*pagesize));
 	cacheControl = static_cast<control_data*>(vm::allocate_mappable(pagesize, cacheControlSize));
 
-  if (replication_degree > 1) {
-    replicatedData = static_cast<char*>(vm::allocate_mappable(pagesize, size_of_chunk*replication_degree)); 
-  }
-
 	touchedcache = (argo_byte *)malloc(cachesize);
 	if(touchedcache == NULL){
 		printf("malloc error out of memory\n");
@@ -901,13 +897,10 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	sem_init(&ibsem,0,1);
 
 	globalDataWindow = static_cast<MPI_Win*>(malloc(numtasks*sizeof(MPI_Win)));
-  replicatedDataWindow = static_cast<MPI_Win*>(malloc(numtasks*sizeof(MPI_Win)));
 
 	for(argo::node_id_t i = 0; i < numtasks; i++){
  		MPI_Win_create(globalData, size_of_chunk*sizeof(argo_byte), 1,
 									 MPI_INFO_NULL, MPI_COMM_WORLD, &globalDataWindow[i]);
-    MPI_Win_create(replicatedData, size_of_chunk*sizeof(argo_byte)*replication_degree, 1,
-                   MPI_INFO_NULL, MPI_COMM_WORLD, &replicatedDataWindow[i]);
 	}
 
 	MPI_Win_create(globalSharers, gwritersize, sizeof(std::uint64_t),
@@ -919,13 +912,23 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 		MPI_Win_create(global_offsets_tbl, offsets_tbl_size_bytes, sizeof(std::uintptr_t),
 									 MPI_INFO_NULL, MPI_COMM_WORLD, &offsets_tbl_window);
 	}
+
+  if (replicated_copies >= 1) {
+    replicatedData = static_cast<char*>(vm::allocate_mappable(pagesize, size_of_chunk*replicated_copies));
+    replicatedDataWindow = static_cast<MPI_Win*>(malloc(numtasks*sizeof(MPI_Win)));
+    for(argo::node_id_t i = 0; i < numtasks; i++){
+			MPI_Win_create(replicatedData, size_of_chunk*sizeof(argo_byte)*replicated_copies, 1,
+                   MPI_INFO_NULL, MPI_COMM_WORLD, &replicatedDataWindow[i]);
+		}
+		memset(replicatedData, 0, size_of_chunk*replicated_copies*sizeof(argo_byte));    
+  }
+
 	memset(pagecopy, 0, cachesize*pagesize);
 	memset(touchedcache, 0, cachesize);
 	memset(globalData, 0, size_of_chunk*sizeof(argo_byte));
 	memset(cacheData, 0, cachesize*pagesize);
 	memset(globalSharers, 0, gwritersize);
 	memset(cacheControl, 0, cachesize*sizeof(control_data));
-  memset(replicatedData, 0, size_of_chunk*replication_degree*sizeof(argo_byte));
 
 	if (dd::is_first_touch_policy()) {
 		memset(global_owners_dir, 0, owners_dir_size_bytes);

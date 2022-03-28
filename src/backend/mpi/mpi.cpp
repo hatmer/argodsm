@@ -61,11 +61,15 @@ extern std::uintptr_t *global_offsets_tbl;
 /**
  * @brief number of copies of data
  */
-extern std::size_t replication_degree;
+extern std::size_t replicated_copies;
 /**
  * @brief size of data in primary and replicated chunks
  */
 extern std::size_t size_of_chunk;
+/**
+ * @brief number of MPI processes (Argo nodes)
+ */
+extern int numtasks;
 
 /**
  * @todo should be changed to qd-locking (but need to be replaced in the other files as well)
@@ -240,8 +244,8 @@ namespace argo {
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Put(desired, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
         // Replicate changes. No lock needed because lock holder is only possible writer and MPI_Put is thread-safe
-        for (long unsigned int i = 1; i <= replication_degree; i++) {
-          MPI_Put(desired, 1, t_type, obj.node()+i, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
+        for (long unsigned int i = 1; i <= replicated_copies; i++) {
+          //MPI_Put(desired, 1, t_type, (obj.node()+(int)i) % numtasks , obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
         }
 				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
