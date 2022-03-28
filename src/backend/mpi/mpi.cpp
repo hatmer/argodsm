@@ -238,14 +238,19 @@ namespace argo {
 			}
 
 			void _store(global_ptr<void> obj, void* desired, std::size_t size) {
+        int replica;
 				sem_wait(&ibsem);
 				MPI_Datatype t_type = fitting_mpi_int(size);
 				// Perform the store operation
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Put(desired, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
-        // Replicate changes. No lock needed because lock holder is only possible writer and MPI_Put is thread-safe
+        // Replicate changes
         for (long unsigned int i = 1; i <= replicated_copies; i++) {
-          //MPI_Put(desired, 1, t_type, (obj.node()+(int)i) % numtasks , obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
+          printf("writing copy of data to node %d\n", ((int)i + obj.node()) % numtasks);
+          replica = ((int)i + obj.node()) % numtasks;
+          MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
+          MPI_Put(desired, 1, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
+          MPI_Win_unlock(replica, replicatedDataWindow[0]);
         }
 				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
