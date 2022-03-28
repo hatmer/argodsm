@@ -29,6 +29,11 @@ extern MPI_Comm workcomm;
 extern MPI_Win  *globalDataWindow;
 
 /**
+ * @brief data window for replication
+ */
+extern MPI_Win *replicatedDataWindow;
+
+/**
  * @brief MPI window for the first-touch data distribution
  * @see swdsm.cpp
  * @see first_touch_distribution.hpp
@@ -52,6 +57,15 @@ extern std::uintptr_t *global_owners_dir;
  * @see first_touch_distribution.hpp
  */
 extern std::uintptr_t *global_offsets_tbl;
+
+/**
+ * @brief number of copies of data
+ */
+extern std::size_t replication_degree;
+/**
+ * @brief size of data in primary and replicated chunks
+ */
+extern std::size_t size_of_chunk;
 
 /**
  * @todo should be changed to qd-locking (but need to be replaced in the other files as well)
@@ -225,6 +239,10 @@ namespace argo {
 				// Perform the store operation
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Put(desired, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
+        // Replicate changes. No lock needed because lock holder is only possible writer and MPI_Put is thread-safe
+        for (long unsigned int i = 1; i <= replication_degree; i++) {
+          MPI_Put(desired, 1, t_type, obj.node()+i, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
+        }
 				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
 				sem_post(&ibsem);

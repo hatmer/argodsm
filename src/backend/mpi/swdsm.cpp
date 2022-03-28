@@ -67,6 +67,8 @@ MPI_Comm workcomm;
 MPI_Win sharerWindow;
 /** @brief MPI windows for reading and writing data in global address space */
 MPI_Win *globalDataWindow;
+/** @brief MPI windows for reading and writing replicated data */
+MPI_Win *replicatedDataWindow;
 /** @brief MPI data structure for sending cache control data*/
 MPI_Datatype mpi_control_data;
 /** @brief MPI data structure for a block containing an ArgoDSM cacheline of pages */
@@ -79,6 +81,8 @@ int rank;
 argo::node_id_t workrank;
 /** @brief tracking which windows are used for reading and writing global address space*/
 char * barwindowsused;
+/** @brief number of copies of data */
+std::size_t replication_degree;
 /** @brief Semaphore protecting infiniband accesses*/
 /** @todo replace with a (qd?)lock */
 sem_t ibsem;
@@ -762,6 +766,7 @@ std::size_t align_forwards(std::size_t offset, std::size_t size){
 
 void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree){
   printf("argo_initialize: replication degree is %lu\n", replication_degree);
+  replication_degree = replication_degree;
 	initmpi();
   printf("mpi init okay\n");
 
@@ -896,11 +901,13 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	sem_init(&ibsem,0,1);
 
 	globalDataWindow = static_cast<MPI_Win*>(malloc(numtasks*sizeof(MPI_Win)));
-  printf("checkpoint 2\n");
+  replicatedDataWindow = static_cast<MPI_Win*>(malloc(numtasks*sizeof(MPI_Win)));
 
 	for(argo::node_id_t i = 0; i < numtasks; i++){
  		MPI_Win_create(globalData, size_of_chunk*sizeof(argo_byte), 1,
 									 MPI_INFO_NULL, MPI_COMM_WORLD, &globalDataWindow[i]);
+    MPI_Win_create(replicatedData, size_of_chunk*sizeof(argo_byte)*replication_degree, 1,
+                   MPI_INFO_NULL, MPI_COMM_WORLD, &replicatedDataWindow[i]);
 	}
 
 	MPI_Win_create(globalSharers, gwritersize, sizeof(std::uint64_t),
