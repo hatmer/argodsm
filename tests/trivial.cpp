@@ -13,6 +13,8 @@ constexpr std::size_t size = 1<<20;
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size;
 
+unsigned long int replication_degree = 2;
+
 namespace mem = argo::mempools;
 
 /**
@@ -30,7 +32,7 @@ TEST(trivialTest, alwaysPassl) {
  * @return 0 if success
  */
 int main(int argc, char **argv) {
-	argo::init(size, cache_size);
+	argo::init(size, cache_size, replication_degree);
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 	argo::finalize();

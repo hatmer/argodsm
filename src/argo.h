@@ -22,8 +22,11 @@
  *                   value is specified as 0, then the value in environment
  *                   variable @ref ARGO_CACHE_SIZE is used instead.
  *                   If @ref ARGO_CACHE_SIZE is unset, then a default is used.
+ * @param replication_degree The total number of copies of the data that will 
+ *                  exist on the system, e.g. replication_degree=2 means one 
+ *                  extra copy of the data will exist
  */
-void argo_init(size_t argo_size, size_t cache_size);
+void argo_init(size_t argo_size, size_t cache_size, size_t replication_degree);
 
 /**
  * @brief shut down ArgoDSM system

@@ -51,8 +51,11 @@ namespace argo {
 	 *                   value is omitted (or specified as 0), then the value in
 	 *                   environment variable @ref ARGO_CACHE_SIZE is used instead.
 	 *                   If @ref ARGO_CACHE_SIZE is unset, then a default is used.
+   * @param replication_degree The total number of copies of the data that will 
+   *                  exist on the system, e.g. replication_degree=2 means one 
+   *                  extra copy of the data will exist
 	 */
-	void init(std::size_t argo_size = 0, std::size_t cache_size = 0);
+	void init(std::size_t argo_size = 0, std::size_t cache_size = 0, std::size_t replication_degree=1);
 
 	/**
 	 * @brief shut down ArgoDSM system
