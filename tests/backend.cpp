@@ -27,6 +27,9 @@ using global_intptr = typename argo::data_distribution::global_ptr<int*>;
 constexpr std::size_t size = 1<<24; // 16MB
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size;
+/** @brief Total copies of data */
+constexpr std::size_t replication_degree = 2;
+
 
 /** @brief Time to wait before assuming a deadlock has occured */
 constexpr std::chrono::minutes deadlock_threshold{1}; // Choosen for no reason
@@ -572,7 +575,7 @@ TEST_F(backendTest, writeBufferLoad) {
  * @return 0 if success
  */
 int main(int argc, char **argv) {
-	argo::init(size, cache_size);
+	argo::init(size, cache_size, replication_degree);
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 	argo::finalize();

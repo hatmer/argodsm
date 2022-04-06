@@ -965,6 +965,11 @@ void argo_finalize(){
 	for(i = 0; i < numtasks; i++){
 		MPI_Win_free(&globalDataWindow[i]);
 	}
+  if (replicated_copies >= 1) {
+    for (i = 0; i < numtasks; i++){
+      MPI_Win_free(&replicatedDataWindow[i]);
+    }
+  }
 	MPI_Win_free(&sharerWindow);
 	if (dd::is_first_touch_policy()) {
 		MPI_Win_free(&owners_dir_window);
