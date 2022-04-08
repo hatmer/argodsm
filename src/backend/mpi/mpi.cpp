@@ -60,6 +60,7 @@ extern std::uintptr_t *global_offsets_tbl;
 
 /**
  * @brief number of copies of data
+ *   e.g. replication_degree = 2 -> replicated_copies = 1 
  */
 extern std::size_t replicated_copies;
 /**
@@ -246,8 +247,8 @@ namespace argo {
 				MPI_Put(desired, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
         // Replicate changes
         for (long unsigned int i = 1; i <= replicated_copies; i++) {
-          printf("writing copy of data to node %d\n", ((int)i + obj.node()) % numtasks);
           replica = ((int)i + obj.node()) % numtasks;
+          printf("writing copy of data to node %d\n", replica);
           MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
           MPI_Put(desired, 1, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
           MPI_Win_unlock(replica, replicatedDataWindow[0]);
@@ -285,12 +286,30 @@ namespace argo {
 
 			void _load(global_ptr<void> obj, std::size_t size,
 					void* output_buffer) {
+        int replica;
+        int err;
 				sem_wait(&ibsem);
 				MPI_Datatype t_type = fitting_mpi_int(size);
 				// Perform the store operation
-				MPI_Win_lock(MPI_LOCK_SHARED, obj.node(), 0, globalDataWindow[0]);
-				MPI_Get(output_buffer, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
-				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
+				err = MPI_Win_lock(MPI_LOCK_SHARED, obj.node(), 0, globalDataWindow[0]);
+        
+        // Failover in case of node failure
+        if (err != 0) {
+          for (long unsigned int i = 1; i <= replicated_copies; i++) {
+            replica = ((int)i + obj.node()) % numtasks;
+            printf("attempting to get copy of data from node %d\n", replica);
+
+            err = MPI_Win_lock(MPI_LOCK_SHARED, replica, 0, replicatedDataWindow[0]);
+            if (err == 0) { // locked a replica without error
+              MPI_Get(output_buffer, 1, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
+              MPI_Win_unlock(replica, replicatedDataWindow[0]);
+              break;
+            }
+          }
+        } else {
+				  MPI_Get(output_buffer, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
+				  MPI_Win_unlock(obj.node(), globalDataWindow[0]);
+        }
 				// Cleanup
 				sem_post(&ibsem);
 			}
