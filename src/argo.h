@@ -26,7 +26,7 @@
  *                  exist on the system, e.g. replication_degree=2 means one 
  *                  extra copy of the data will exist
  */
-void argo_init(size_t argo_size, size_t cache_size, size_t replication_degree);
+void argo_init(size_t argo_size, size_t cache_size, size_t replication_degree=1);
 
 /**
  * @brief shut down ArgoDSM system

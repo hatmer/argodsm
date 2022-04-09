@@ -76,8 +76,9 @@ void singlenode_handler(int sig, siginfo_t*, void*) {
 }
 namespace argo {
 	namespace backend {
-
-		void init(std::size_t argo_size, std::size_t cache_size){
+    void init(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree) {
+      if (replication_degree > 1)
+        printf("Unnecessary data replication degree %lu requested in singlenode", replication_degree);
 			/** @todo the cache_size parameter is not needed
 			 *        and should not be part of the backend interface */
 			(void)(cache_size);
