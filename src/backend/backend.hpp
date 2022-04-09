@@ -53,6 +53,8 @@ namespace argo {
 		 */
 		void init(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree);
 
+    void init(std::size_t argo_size, std::size_t cache_size);
+
 		/**
 		 * @brief get ArgoDSM node ID
 		 * @return local ArgoDSM node ID

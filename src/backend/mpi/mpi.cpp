@@ -178,6 +178,9 @@ namespace argo {
 		void init(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree){
 			argo_initialize(argo_size, cache_size, replication_degree);
 		}
+    void init(std::size_t argo_size, std::size_t cache_size){
+      argo_initialize(argo_size, cache_size, 1);
+    }
 
 		node_id_t node_id() {
 			return argo_get_nid();
