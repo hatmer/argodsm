@@ -18,7 +18,7 @@
 #include "gtest/gtest.h"
 
 /** @brief ArgoDSM memory size */
-constexpr std::size_t size = 1<<20;
+constexpr std::size_t size = 1<<30;
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size/8;
 
