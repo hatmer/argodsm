@@ -284,8 +284,7 @@ namespace argo {
 				MPI_Win_unlock(rank, offsets_tbl_window);
 			}
 
-			void _load(global_ptr<void> obj, std::size_t size,
-					void* output_buffer) {
+			void _load(global_ptr<void> obj, std::size_t size, void* output_buffer) {
         int replica;
         int err;
 				sem_wait(&ibsem);
@@ -303,15 +302,17 @@ namespace argo {
             if (err == 0) { // locked a replica without error
               MPI_Get(output_buffer, 1, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), 1, t_type, replicatedDataWindow[0]);
               MPI_Win_unlock(replica, replicatedDataWindow[0]);
-              break;
+              sem_post(&ibsem);
+              return;
             }
           }
+          // TODO raise fatal error here, all replicas are down
         } else {
 				  MPI_Get(output_buffer, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
 				  MPI_Win_unlock(obj.node(), globalDataWindow[0]);
+				  // Cleanup
+				  sem_post(&ibsem);
         }
-				// Cleanup
-				sem_post(&ibsem);
 			}
 
 			void _load_public_owners_dir(void* output_buffer,
