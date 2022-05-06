@@ -409,7 +409,7 @@ TEST_F(backendTest, selectiveSpin) {
  * @brief Test selective coherence on multiple pages
  */
 TEST_F(backendTest, selectiveArray) {
-	const std::size_t array_size = 2097152/100;
+	const std::size_t array_size = 2097152;
 	unsigned int* flag(argo::conew_<unsigned>(0));
 	int* array = argo::conew_array<int>(array_size);
 	std::chrono::system_clock::time_point max_time =
@@ -527,7 +527,7 @@ TEST_F(backendTest, selectiveUnaligned) {
  * @brief Test write buffer under load with random access patterns
  */
 TEST_F(backendTest, writeBufferLoad) {
-	const std::size_t array_size = 40000; // Just under max size 16Mb
+	const std::size_t array_size = 4000000; // Just under max size 16Mb
 	const std::size_t num_writes = array_size/20; // Not too many random writes
 	int* array = argo::conew_array<int>(array_size);
 

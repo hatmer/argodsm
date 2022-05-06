@@ -764,16 +764,14 @@ std::size_t align_forwards(std::size_t offset, std::size_t size){
 }
 
 void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree){
-  printf("argo_initialize: replication degree is %lu\n", replication_degree);
+  //printf("argo_initialize: replication degree is %lu\n", replication_degree);
   replicated_copies = replication_degree-1;
 	initmpi();
-  printf("mpi init okay\n");
 
 	/** Standardise the ArgoDSM memory space */
 	argo_size = std::max(argo_size, static_cast<std::size_t>(pagesize*numtasks));
 	argo_size = align_forwards(argo_size, pagesize*CACHELINE*numtasks*dd::policy_padding());
 
-  printf("argo sizes set\n");
 	startAddr = vm::start_address();
 #ifdef ARGO_PRINT_STATISTICS
 	printf("maximum virtual memory: %ld GiB\n", vm::size() >> 30);
@@ -783,8 +781,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	for(std::size_t i = 1; i <= NUM_THREADS; i++){
 		pthread_barrier_init(&threadbarrier[i],NULL,i);
 	}
-
-  printf("pthread barriers inited\n");
 
 	/** Get the number of pages to load from the env module */
 	load_size = env::load_size();
@@ -818,8 +814,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	MPI_Group_incl(startgroup,numtasks,workranks,&workgroup);
 	MPI_Comm_create(MPI_COMM_WORLD,workgroup,&workcomm);
 	MPI_Group_rank(workgroup,&workrank);
-
-  printf("workgroups created\n");
 
 	//Allocate local memory for each node,
 	size_of_all = argo_size; //total distr. global memory
@@ -855,7 +849,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	pagecopy = static_cast<char*>(vm::allocate_mappable(pagesize, cachesize*pagesize));
 	globalSharers = static_cast<std::uint64_t*>(vm::allocate_mappable(pagesize, gwritersize));
 
-  printf("allocated metadata structures\n");
 	if (dd::is_first_touch_policy()) {
 		global_owners_dir = static_cast<std::uintptr_t*>(vm::allocate_mappable(pagesize, owners_dir_size_bytes));
 		global_offsets_tbl = static_cast<std::uintptr_t*>(vm::allocate_mappable(pagesize, offsets_tbl_size_bytes));
@@ -883,7 +876,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	tmpcache=globalSharers;
 	vm::map_memory(tmpcache, gwritersize, current_offset, PROT_READ|PROT_WRITE);
 
-  printf("checkpoint 1\n");
 	if (dd::is_first_touch_policy()) {
 		current_offset += gwritersize;
 		tmpcache=global_owners_dir;
@@ -933,7 +925,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 		memset(global_owners_dir, 0, owners_dir_size_bytes);
 		memset(global_offsets_tbl, 0, offsets_tbl_size_bytes);
 	}
-  printf("checkpoint 5\n");
 	for(std::size_t i = 0; i < cachesize; i++){
 		cacheControl[i].tag = GLOBAL_NULL;
 		cacheControl[i].state = INVALID;
@@ -941,7 +932,6 @@ void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t 
 	}
 
 	argo_reset_coherence(1);
-  printf("argo_intialize completed\n");
 }
 
 void argo_finalize(){

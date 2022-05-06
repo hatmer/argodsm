@@ -19,13 +19,13 @@ namespace {
 	 * @brief default requested memory size (if environment variable is unset)
 	 * @see @ref ARGO_MEMORY_SIZE
 	 */
-	const std::size_t default_memory_size = 8ul*(1ul<<20); // default: 8GB // TODO change back
+	const std::size_t default_memory_size = 8ul*(1ul<<30); // default: 8GB
 
 	/**
 	 * @brief default requested cache size (if environment variable is unset)
 	 * @see @ref ARGO_CACHE_SIZE
 	 */
-	const std::size_t default_cache_size = 1ul<<20; // default: 1GB
+	const std::size_t default_cache_size = 1ul<<30; // default: 1GB
 
 	/**
 	 * @brief default requested write buffer size (if environment variable is unset)

@@ -11,7 +11,7 @@
 /** @brief ArgoDSM memory size */
 constexpr std::size_t size = 1<<20;
 /** @brief ArgoDSM cache size */
-constexpr std::size_t cache_size = size/8;
+constexpr std::size_t cache_size = size;
 
 unsigned long int replication_degree = 2;
 

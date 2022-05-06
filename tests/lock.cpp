@@ -262,7 +262,7 @@ TEST_F(LockTest,StressCohortLock) {
  * @return 0 if success
  */
 int main(int argc, char **argv) {
-	argo::init(size, cache_size);
+	argo::init(size, cache_size,2);
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 	argo::finalize();
