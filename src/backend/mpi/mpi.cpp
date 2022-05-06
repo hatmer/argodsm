@@ -233,7 +233,16 @@ namespace argo {
 				// Perform the exchange operation
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Fetch_and_op(desired, output_buffer, t_type, obj.node(), obj.offset(), MPI_REPLACE, globalDataWindow[0]);
-				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
+        int replica;
+        // Write to replicas
+        for (long unsigned int i = 1; i <= replicated_copies; i++) {
+          replica = ((int)i + obj.node()) % numtasks; 
+          printf("replicating atomic op to node %d\n", replica);
+          MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
+          MPI_Fetch_and_op(desired, output_buffer, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), MPI_REPLACE, replicatedDataWindow[0]);
+          MPI_Win_unlock(replica, replicatedDataWindow[0]);
+        }
+        MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
 				sem_post(&ibsem);
 			}
@@ -350,6 +359,17 @@ namespace argo {
 				// Perform the store operation
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Compare_and_swap(desired, expected, output_buffer, t_type, obj.node(), obj.offset(), globalDataWindow[0]);
+
+        int replica;
+        // Write to replicas
+        for (long unsigned int i = 1; i <= replicated_copies; i++) {
+          replica = ((int)i + obj.node()) % numtasks; 
+          printf("replicating atomic op to node %d\n", replica);
+          MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
+          MPI_Compare_and_swap(desired, expected, output_buffer, t_type, replica,obj.offset()+(size_of_chunk*(i-1)) , replicatedDataWindow[0]);
+          MPI_Win_unlock(replica, replicatedDataWindow[0]);
+        }   
+
 				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
 				sem_post(&ibsem);
@@ -392,6 +412,17 @@ namespace argo {
 				// Perform the exchange operation
 				MPI_Win_lock(MPI_LOCK_EXCLUSIVE, obj.node(), 0, globalDataWindow[0]);
 				MPI_Fetch_and_op(value, output_buffer, t_type, obj.node(), obj.offset(), MPI_SUM, globalDataWindow[0]);
+
+        int replica;
+        // Write to replicas
+        for (long unsigned int i = 1; i <= replicated_copies; i++) {
+          replica = ((int)i + obj.node()) % numtasks;
+          printf("replicating atomic op to node %d\n", replica);
+          MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
+          MPI_Fetch_and_op(value, output_buffer, t_type, replica, obj.offset()+(size_of_chunk*(i-1)), MPI_SUM, replicatedDataWindow[0]);
+          MPI_Win_unlock(replica, replicatedDataWindow[0]);                         
+        }
+
 				MPI_Win_unlock(obj.node(), globalDataWindow[0]);
 				// Cleanup
 				sem_post(&ibsem);

@@ -732,7 +732,6 @@ void initmpi(){
 		MPI_Abort(MPI_COMM_WORLD, ret);
 		exit(EXIT_FAILURE);
 	}
-
 	MPI_Comm_size(MPI_COMM_WORLD,&numtasks);
 	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
 	init_mpi_struct();
