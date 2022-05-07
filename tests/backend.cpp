@@ -28,7 +28,7 @@ constexpr std::size_t size = 1<<24; // 16MB
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size;
 /** @brief Total copies of data */
-constexpr std::size_t replication_degree = 2;
+constexpr std::size_t replication_degree = 1;
 
 
 /** @brief Time to wait before assuming a deadlock has occured */
