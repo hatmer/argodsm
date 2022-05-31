@@ -256,7 +256,6 @@ namespace argo {
         int replica;
         for (long unsigned int slot = 1; slot <= replicated_copies; slot++) {
           replica = ((int)slot + obj.node()) % numtasks;
-          printf("replicated store to %d\n", replica);
           MPI_Win_lock(MPI_LOCK_EXCLUSIVE, replica, 0, replicatedDataWindow[0]);
           MPI_Put(desired, 1, t_type, replica, obj.offset()+(size_of_chunk*(slot-1)), 1, t_type, replicatedDataWindow[0]);
           MPI_Win_unlock(replica, replicatedDataWindow[0]);
@@ -298,11 +297,9 @@ namespace argo {
 				MPI_Datatype t_type = fitting_mpi_int(size);
 				// Perform the store operation
 				err = MPI_Win_lock(MPI_LOCK_SHARED, obj.node(), 0, globalDataWindow[0]);
-        
         // Failover in case of node failure
-        int replica;
         if (err != 0) {
-          printf("doing failover\n");
+          int replica;
           for (long unsigned int slot = 1; slot <= replicated_copies; slot++) {
             replica = ((int)slot + obj.node()) % numtasks;
 
@@ -314,7 +311,8 @@ namespace argo {
               return;
             }
           }
-          // TODO raise fatal error here, all replicas are down
+          // raise error since all replicas are down
+          raise(err);
         } else {
 				  MPI_Get(output_buffer, 1, t_type, obj.node(), obj.offset(), 1, t_type, globalDataWindow[0]);
 				  MPI_Win_unlock(obj.node(), globalDataWindow[0]);

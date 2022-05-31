@@ -18,7 +18,7 @@
 #include "gtest/gtest.h"
 
 /** @brief ArgoDSM memory size */
-constexpr std::size_t size = 1<<20;
+constexpr std::size_t size = 1<<30;
 /** @brief ArgoDSM cache size */
 constexpr std::size_t cache_size = size/8;
 
@@ -481,7 +481,7 @@ TEST_F(AllocatorTest, NewInitialization) {
  * @return 0 if success
  */
 int main(int argc, char **argv) {
-	argo::init(size, cache_size, 1);
+	argo::init(size, cache_size, 2);
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 	argo::finalize();

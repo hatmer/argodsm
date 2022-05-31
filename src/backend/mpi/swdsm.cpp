@@ -764,7 +764,10 @@ std::size_t align_forwards(std::size_t offset, std::size_t size){
 }
 
 void argo_initialize(std::size_t argo_size, std::size_t cache_size, std::size_t replication_degree){
-  //printf("argo_initialize: replication degree is %lu\n", replication_degree);
+  if (replication_degree > 1) {
+    MPI_Win_set_errhandler(*globalDataWindow, MPI_ERRORS_RETURN);
+    MPI_Win_set_errhandler(*replicatedDataWindow, MPI_ERRORS_RETURN);
+  }
   replicated_copies = replication_degree-1;
 	initmpi();
 
