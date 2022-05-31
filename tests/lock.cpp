@@ -32,6 +32,8 @@ constexpr int nThreads = 16;
 /** @brief number of itereations to run for some of the tests */
 constexpr int iter = 10000;
 
+unsigned long int replication_degree = 1;
+
 /**
  * @brief Class for the gtests fixture tests. Will reset the allocators to a clean state for every test
  */
@@ -125,12 +127,10 @@ TEST_F(LockTest,TAS_lock_custom_barrier) {
 		*counter = 0;
 	}
 	argo::barrier();
-
 	/* All nodes increment the counter */
 	ASSERT_NO_THROW(global_tas_lock->lock());
 	(*counter)++;
 	ASSERT_NO_THROW(global_tas_lock->unlock());
-
 	/* Poll for completion / all nodes incremented the counter */
 	do{
 		ASSERT_NO_THROW(global_tas_lock->lock());
@@ -142,7 +142,6 @@ TEST_F(LockTest,TAS_lock_custom_barrier) {
 			return;
 		}
 	}while(tmp != argo::number_of_nodes());
-
 	ASSERT_EQ(*counter,argo::number_of_nodes());
 	argo::codelete_(counter);
 }
@@ -262,7 +261,7 @@ TEST_F(LockTest,StressCohortLock) {
  * @return 0 if success
  */
 int main(int argc, char **argv) {
-	argo::init(size, cache_size,2);
+	argo::init(size, cache_size, replication_degree);
 	::testing::InitGoogleTest(&argc, argv);
 	auto res = RUN_ALL_TESTS();
 	argo::finalize();
